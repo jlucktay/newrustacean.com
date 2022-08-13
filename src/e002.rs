@@ -30,7 +30,7 @@
 //!
 //!   - `rustfmt` -- a tool for formatting Rust code
 //!       + [repo][1]
-//!       + ["rustfmt-ing Rust`][2]
+//!       + ["rustfmt-ing Rust"][2]
 //!       + [Reddit discussion][3]
 //!   - RFC for incremental compilation
 //!       + [Text of the RFC][4]
@@ -54,7 +54,7 @@
 //!       + App.net: [@chriskrycho](https://alpha.app.net/chriskrycho)
 
 /// This struct is simple but useful to see how borrowing and moving work.
-#[derive(Debug)]
+#[derive(Clone, Copy, Debug)]
 pub struct Circle {
     /// X position of the circle's origin.
     pub x: f64,
@@ -141,17 +141,14 @@ pub fn move_circle(moved_circle: Circle) {
 /// how they interact with the idea of ownership.
 impl Circle {
     /// Creates a `Circle` instance centered on the "origin" (x = 0, y = 0).
-    fn origin(r: f64) -> Circle {
-        Circle {
-            x: 0.0,
-            y: 0.0,
-            r: r,
-        }
+    const fn origin(r: f64) -> Self {
+        Self { x: 0.0, y: 0.0, r }
     }
 
     /// Creates a `Circle` instance centered on specified x, y values.
-    pub fn new(x: f64, y: f64, r: f64) -> Circle {
-        Circle { x: x, y: y, r: r }
+    #[must_use]
+    pub const fn new(x: f64, y: f64, r: f64) -> Self {
+        Self { x, y, r }
     }
 
     /// Returns the value of `Circle.x`, borrowing an immutable reference to
@@ -164,6 +161,7 @@ impl Circle {
     /// ```
     ///
     /// ---the compiler would not allow it.
+    #[must_use]
     pub fn x_by_ref(&self) -> f64 {
         println!("Taking a reference.");
         // The reference is immutable.
@@ -175,7 +173,7 @@ impl Circle {
     /// would want to use a mutable rather than immutable reference).
     pub fn x_by_mut_ref(&mut self) -> f64 {
         println!("Taking a mutable reference.");
-        self.x = self.x + 1.0;
+        self.x += 1.0;
         self.x
     }
 
@@ -186,12 +184,14 @@ impl Circle {
     ///
     /// Note that the item is taken as immutable, so attempting to change the
     /// internals will still fail. **Ownership is orthogonal to immutability.**
+    #[must_use]
     pub fn by_take(self) -> f64 {
         println!("Taking ownership, not just borrowing a reference. INTENSE.");
         self.x
     }
 
     /// Returns the value of `Circle.x`, taking ownership of a mutable circle.
+    #[must_use]
     pub fn by_take_mut(mut self) -> f64 {
         println!("Taking ownership *and* mutating all the things.");
         self.x += 14.0;

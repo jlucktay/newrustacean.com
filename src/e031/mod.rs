@@ -291,7 +291,7 @@ use std::fmt::{Display, Error, Formatter};
 
 use libc::{c_char, c_float, c_int};
 
-#[doc(include = "../docs/e031-script.md")]
+#[doc = include_str!("../../docs/e031-script.md")]
 pub struct Script;
 
 /// The simplest possible example of exposing Rust functions via a C FFI.

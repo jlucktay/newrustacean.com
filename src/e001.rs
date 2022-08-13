@@ -106,10 +106,11 @@ impl TVShow {
     /// ```ignore
     /// let a_struct = TVShow::new("The Answer", 42, "Joss Whedon");
     /// ```
-    pub fn new(theme: &str, year: i32, director: &str) -> TVShow {
-        TVShow {
+    #[must_use]
+    pub fn new(theme: &str, year: i32, director: &str) -> Self {
+        Self {
             theme: theme.to_string(),
-            year: year,
+            year,
             director: director.to_string(),
         }
     }

@@ -6,7 +6,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e007.mp3
 //!
-//! <audio style="width: 100%" title="Testify" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e007.mp3" />
+//! <audio style="width: 100%" title="Testify" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e007.mp3"></audio>
 //!
 //! Notes
 //! -----
@@ -26,7 +26,7 @@
 //! have been in previous episodes.) In particular, the `test` module here is
 //! excluded because of the use of the `#[cfg(test)]` attribute marker on it.
 //!
-//! [reading the source]: /src/show_notes/e007.rs.html
+//! [reading the source]: ../../src/show_notes/e007.rs.html
 //!
 //! Because we are using the feature-gated benchmarking functionality, the
 //! show notes "library" can now only be compiled with the Rust nightly (as of
@@ -37,27 +37,23 @@
 //! to be not in this module, but at the module (`lib.rs`) which defines the
 //! library/crate; in this case, `show_notes/lib.rs`.
 //!
-//!
 //! Links
 //! -----
 //!
 //! - Rust Book:
 //!     + [Testing][links-1]
-//!     + [Attributes][links-2]
-//!     + [Benchmark tests][links-3]
-//! - Rust reference: [Attributes][links-4]
-//! - [Diesel (Rust ORM)][links-5]
-//!     + [31: Oxidizing an ORM][links-6]
-//!     + [32: Bug for Bug Compatibility][links-7]
+//!     + [Benchmark tests][links-2]
+//! - Rust reference: [Attributes][links-3]
+//! - [Diesel (Rust ORM)][links-4]
+//!     + [31: Oxidizing an ORM][links-5]
+//!     + [32: Bug for Bug Compatibility][links-6]
 //!
-//! [links-1]: https://doc.rust-lang.org/book/testing.html
-//! [links-2]: https://doc.rust-lang.org/book/attributes.html
-//! [links-3]: https://doc.rust-lang.org/book/benchmark-tests.html
-//! [links-4]: https://doc.rust-lang.org/reference.html#attributes
-//! [links-5]: https://github.com/sgrif/diesel
-//! [links-6]: http://bikeshed.fm/31
-//! [links-7]: http://bikeshed.fm/32
-//!
+//! [links-1]: https://doc.rust-lang.org/book/ch11-00-testing.html
+//! [links-2]: https://doc.rust-lang.org/book/benchmark-tests.html
+//! [links-3]: https://doc.rust-lang.org/reference/attributes.html
+//! [links-4]: https://github.com/diesel-rs/diesel
+//! [links-5]: http://bikeshed.fm/31
+//! [links-6]: http://bikeshed.fm/32
 //!
 //! Sponsors
 //! --------
@@ -71,7 +67,7 @@
 //!   - [William Roe][sponsors-7]
 //!
 //! [sponsors-2]: https://twitter.com/derekmorr
-//! [sponsors-7]: http://willroe.me
+//! [sponsors-7]: https://willroe.me
 //!
 //! ### Become a sponsor
 //!
@@ -79,7 +75,6 @@
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
-//!
 //!
 //! Follow
 //! ------
@@ -93,6 +88,7 @@
 //!       + App.net: [@chriskrycho](https://alpha.app.net/chriskrycho)
 
 /// A trivial function for a trivial test. See the [source](/src/show_notes/e007.rs.html)!
+#[must_use]
 pub fn add(a: f64, b: f64) -> f64 {
     a + b
 }
@@ -105,7 +101,7 @@ pub fn add(a: f64, b: f64) -> f64 {
 /// general, you should put it in the `test` module, see below.
 #[test]
 fn test_add() {
-    assert_eq!(add(2.0, 2.0), 4.0);
+    assert!((add(2.0, 2.0) - 4.0).abs() < f64::EPSILON);
 }
 
 /// A test module!
@@ -136,7 +132,7 @@ mod tests {
     #[test]
     #[should_panic]
     fn test_add_badly() {
-        assert_eq!(add(2.0, 2.0), 5.0);
+        assert!((add(2.0, 2.0) - 5.0).abs() < f64::EPSILON);
     }
 
     /// A yet more sophisticated example: `#[should_panic]` with `expected`.
@@ -149,7 +145,7 @@ mod tests {
     /// The `#[should_panic]` annotation has an `expected` attribute.
     #[test]
     #[should_panic(expected = "Crazed monkeys!")]
-    fn test_will_panic() {
+    const fn test_will_panic() {
         panic!("Crazed monkeys!");
     }
 
@@ -169,7 +165,7 @@ mod tests {
     /// show that (1) `support_function()` doesn't end up in the compiled
     /// library, which you can check by inspecting the binary; and (2) that it
     /// is available for use with the benchmarker below.
-    fn support_function(ns: u32) -> Duration {
+    const fn support_function(ns: u32) -> Duration {
         Duration::new(0, ns)
     }
 

@@ -6,7 +6,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e000.mp3
 //!
-//! <audio style="width: 100%" title="Hello, world!" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e000.mp3" />
+//! <audio style="width: 100%" title="Hello, world!" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e000.mp3"></audio>
 //!
 //! Today's show is pretty meta. You can skip it if you just want to start with
 //! something more technical, but I thought listeners might want to know a
@@ -24,7 +24,7 @@
 //!   - in the [GitHub repository] for the show
 //!   - in the show notes attached to each episode
 //!
-//! [GitHub repository]: //github.com/chriskrycho/newrustacean.com
+//! [GitHub repository]: https://github.com/chriskrycho/newrustacean.com
 //!
 //! Hopefully, the result will be a pretty helpful bunch of side content along
 //! with the audio of the podcast itself.

@@ -6,7 +6,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e004.mp3
 //!
-//! <audio style="width: 100%" title="Functionalized" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e004.mp3" />
+//! <audio style="width: 100%" title="Functionalized" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e004.mp3"></audio>
 //!
 //! # Notes
 //!
@@ -14,6 +14,7 @@
 //! functions, methods, and closures.
 //!
 //! ## Closures
+//!
 //!   - [An explanation (in Ruby) by Martin Fowler][notes-1]
 //!   - [Rust book][notes-2]
 //!   - [Rust by Example][notes-3]
@@ -27,7 +28,7 @@
 //!
 //! [notes-1]: http://martinfowler.com/bliki/Lambda.html
 //! [notes-2]: https://doc.rust-lang.org/book/closures.html
-//! [notes-3]: http://rustbyexample.com/fn/closures.html
+//! [notes-3]: https://doc.rust-lang.org/rust-by-example/fn/closures.html
 //! [notes-4]: http://programmers.stackexchange.com/questions/40454/what-is-a-closure
 //! [notes-5]: http://stackoverflow.com/questions/36636/what-is-a-closure
 //!
@@ -86,8 +87,8 @@ mod struct_container {
         /// necessarily public; you may not be able to construct a given
         /// `struct` *correctly* if it has hidden types, especially computed
         /// properties, which should be initialized during its construction.
-        pub fn new() -> MethodDemonstrator {
-            MethodDemonstrator {
+        pub fn new() -> Self {
+            Self {
                 an_int: 0,
                 a_string: "Nothin' into nothing, divide the nothin'...".to_string(),
                 a_tuple: (2.0, "Twice 1.0".to_string()),
@@ -173,12 +174,14 @@ where
 /// Both normal functions and closures can be passed as arguments to functions
 /// which accept functions as arguments, as long as their type definition
 /// matches the requirements of the destination function.
+///
+/// # Panics
 pub fn demonstrate_function_arguments() {
     /// Implements the signature required for `apply_function_to_i64`.
     ///
     /// Note that this is a nested function definition! It is unavailable
     /// outside the `demonstrate_function_arguments` body.
-    fn double(n: i64) -> i64 {
+    const fn double(n: i64) -> i64 {
         n * 2
     }
 
@@ -204,10 +207,13 @@ pub fn demonstrate_function_arguments() {
 /// implementation details. While that's not as strictly necessary in Rust as it
 /// is in e.g. JavaScript, it still has a great deal of utility, especially in
 /// more functional programming styles.
+///
+/// # Panics
+#[allow(clippy::items_after_statements)]
 pub fn demonstrate_closure_environment() {
     /// Returns a closure which has access to the internal contents of this
     /// function even after it goes out of scope.
-    fn get_a_closure() -> Box<Fn(f64) -> f64> {
+    fn get_a_closure() -> Box<dyn Fn(f64) -> f64> {
         let x = 14.0;
 
         // Now we define a closure. I'll explain the bits with `move` and
@@ -221,7 +227,7 @@ pub fn demonstrate_closure_environment() {
     // the value of `x` defined doesn't exist (try `println!("{:}", x);` if you
     // want to verify this), the closure still has access to it.
     let the_closure = get_a_closure();
-    assert_eq!(the_closure(2.0), 28.0);
+    assert!((the_closure(2.0) - 28.0).abs() < f64::EPSILON);
 
     /// Calls whatever function you hand it with the value 14.0
     fn takes_a_closure_with_14<F>(f: F) -> f64
@@ -235,7 +241,7 @@ pub fn demonstrate_closure_environment() {
     // items handed to it by the function which calls it, because the `y` term
     // is available in its surrounding scope.
     let y = 3.0;
-    assert_eq!(takes_a_closure_with_14(|n| n * y), 42.0);
+    assert!((takes_a_closure_with_14(|n| n * y) - 42.0).abs() < f64::EPSILON);
 }
 
 #[test]

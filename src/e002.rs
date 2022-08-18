@@ -7,7 +7,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e002.mp3
 //!
-//! <audio style="width: 100%" title="Something borrowed, something... moved?" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e002.mp3" />
+//! <audio style="width: 100%" title="Something borrowed, something... moved?" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e002.mp3"></audio>
 //!
 //! # Notes
 //!
@@ -24,7 +24,7 @@
 //! As usual, you'll want to have the [`src`] open to see what I'm doing with
 //! the components documented below.
 //!
-//! [`src`]: /src/show_notes/e002.rs.html
+//! [`src`]: ../../src/show_notes/e002.rs.html
 //!
 //! # Links
 //!

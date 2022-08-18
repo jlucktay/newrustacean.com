@@ -1,15 +1,13 @@
-Just like something else
-========================
+# Just like something else
 
-Intro (15s)
------
+## Intro (15s)
+
 Hello, I'm Chris Krycho, and this is the New Rustacean podcast---a 15--20 minute
 show about learning the Rust programming language. This is *Episode 8: Just like
 something else*.
 
+## News (1m 30s -> 1m 45s)
 
-News (1m 30s -> 1m 45s)
-----
 Before we jump in, I apologize for the delay between episodes. Unfortunately,
 I've been sick! I was just getting over one cold, and then got another---and
 both seriously impacted my voice. But I'm back, and excited to be recording
@@ -32,9 +30,8 @@ same challenges that Rust has been.
 
 Now, let's talk about generics and traits!
 
+## Overview (2m 30s -> 4m 15s)
 
-Overview (2m 30s -> 4m 15s)
---------
 One of the most important lessons you learn writing software is "don't repeat
 yourself". Experience---often painful experience---shows that when you have the
 same code in more than one place, things will go wrong when you change it. And
@@ -64,9 +61,8 @@ We need a way to write functions---and other things, like types!---which can
 work more *generically*. And if you've used a language newer than C or Fortran,
 you probably have an idea of where we're headed.
 
+## Generics (6m 45s -> 11m)
 
-Generics (6m 45s -> 11m)
---------
 There are two basic ways of tackling this problem. In modern languages,
 including C++, Java, C♯, Swift, Python, Ruby, JavaScript, and so on, we have
 either *generics* or *duck typing*. (We might also talk about *interfaces*, but
@@ -151,9 +147,8 @@ generic over *all* types. (If you have an example, let me know!) Even a function
 which just prints a type's value isn't, strictly speaking, generic over all
 types. So how do we deal with this?
 
+## Traits (5m 45s -> 16m 45s)
 
-Traits (5m 45s -> 16m 45s)
-------
 In any case, Rust gives us a way to address our need for boundaries on just how
 generic a function or type actually is: we call them `trait`s. And as it turns
 out, `traits` are also the Rustic way to share behavior between different types.
@@ -212,10 +207,10 @@ chain. And while inheritance is powerful, and there are good reasons to include
 it in your programming language---the Rust team is actively exploring how
 inheritance might fit in the language---composition is *more* powerful.
 
-1.  It gives us the benefits of mixins: we can define default implementations,
-    which types can override if necessary.
-2.  It gives us the benefits of interfaces: we can define the behavior which
-    conforming types must implement, while not being bound by inheritance.
+1. It gives us the benefits of mixins: we can define default implementations,
+  which types can override if necessary.
+2. It gives us the benefits of interfaces: we can define the behavior which
+  conforming types must implement, while not being bound by inheritance.
 
 Add in strong type guarantees, and this is fantastic. It gives us the ability to
 specify common patterns of behavior, and the same language machinery lets us
@@ -226,9 +221,8 @@ type which can be nicely printed---we can just specify that in the function
 signature: add a colon after the name of the generic and the trait name, like
 "T: Display", and you're off to the races.
 
+## Closing (1m 30s -> 18m 15s)
 
-Closing (1m 30s -> 18m 15s)
--------
 That should give you a taste of the power of generics and traits. Next time,
 we'll move from this high-level discussion of traits to a discussion of what it
 looks like to use them in practice in Rust. We'll look at the different kinds of
@@ -236,14 +230,15 @@ traits Rust offers, how we might combine them, and what some of the current
 limitations are.
 
 ### Sponsors
+
 Thanks to Chris Palmer for sponsoring the show this month! See the list of other
 sponsors in the show notes.
 
 If you'd like to sponsor the show yourself, you can set up recurring donations
 at Patreon.com/newrustacean, or one-off donations at Venmo, Dwolla, or cash.me.
 
-
 ### Follow/support
+
 You can find show notes with detailed code samples illustrating these ideas, as
 well as links to things mentioned on the show, at NewRustacean.com. You can also
 follow the show on Twitter or App.net @newrustacean, or follow me there

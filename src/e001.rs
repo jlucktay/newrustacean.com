@@ -7,15 +7,16 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e001.mp3
 //!
-//! <audio style="width: 100%" title="Document all the things!" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e001.mp3" />
+//! <audio style="width: 100%" title="Document all the things!" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e001.mp3"></audio>
 //!
 //! # Notes
+//!
 //! This is a mostly-empty module, and it is intended as such. Why? Well,
 //! because *almost* all the sample code exists in these comments, which serve
 //! as the show notes. If you listen to the episode or take a look at the
 //! [source files][src], you'll see how it works!
 //!
-//! [src]: /src/show_notes/e001.rs.html
+//! [src]: ../../src/show_notes/e001.rs.html
 //!
 //! The components below are included *solely* so you can see how the
 //! docstrings work with each kind of thing. Make sure to click on the names of
@@ -85,7 +86,7 @@
 /// It's worth taking a look at the [source] for this: you can see how private
 /// and public fields are handled differently in the documentation.
 ///
-/// [source]: /src/show_notes/e001.rs.html
+/// [source]: ../../src/show_notes/e001.rs.html#89-96
 pub struct TVShow {
     /// Here is a string telling us what the theme song was.
     pub theme: String,

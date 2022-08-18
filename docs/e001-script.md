@@ -1,4 +1,4 @@
-# e01: Document All The Things
+# e001: Document All The Things!
 
 ## Intro
 

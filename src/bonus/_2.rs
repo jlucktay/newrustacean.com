@@ -6,7 +6,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/2.mp3
 //!
-//! <audio style="width: 100%" title="Legacy code" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/2.mp3" />
+//! <audio style="width: 100%" title="Legacy code" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/2.mp3"></audio>
 //!
 //! Software developers spend a large part of our careers dealing with legacy
 //! code. But what is the *best* way to deal with legacy code? When should you
@@ -24,7 +24,7 @@
 //!   - [William Roe][sponsors-7]
 //!
 //! [sponsors-2]: https://twitter.com/derekmorr
-//! [sponsors-7]: http://willroe.me
+//! [sponsors-7]: https://willroe.me
 //!
 //! ## Become a sponsor
 //!

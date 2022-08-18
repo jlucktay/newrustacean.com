@@ -7,7 +7,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e005.mp3
 //!
-//! <audio style="width: 100%" title="Allocate it where?" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e005.mp3" />
+//! <audio style="width: 100%" title="Allocate it where?" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e005.mp3"></audio>
 //!
 //! # Notes
 //!
@@ -39,7 +39,7 @@
 //!
 //! Thanks to Steve and Chad for their helpful feedback!
 //!
-//! [notes-1]: /src/show_notes/e005.rs.html
+//! [notes-1]: ../../src/show_notes/e005.rs.html
 //! [notes-2]: https://users.rust-lang.org/t/new-rustacean-podcast-e005-allocate-it-where-2015-11-08/3153/13?u=chriskrycho
 //! [notes-3]: https://github.com/chriskrycho/newrustacean.com/issues/7
 //!
@@ -88,11 +88,11 @@
 /// heap-allocated. If we tried to return just a `Fn` type, we'd end up in a
 /// tangled mess of lifetime and ownership (whether with a regular function, as
 /// here, or a closure as in `doubler_closure_factory`).
-pub fn doubler_factory() -> Box<Fn(i32) -> i32> {
+pub fn doubler_factory() -> Box<dyn Fn(i32) -> i32> {
     /// The doubler function we will return.
-    fn double(n: i32) -> i32 {
+    const fn double(n: i32) -> i32 {
         n * 2
-    };
+    }
     Box::new(double)
 }
 
@@ -105,7 +105,8 @@ pub fn doubler_factory() -> Box<Fn(i32) -> i32> {
 /// the discussion in [e004][e004] for details
 ///
 /// [e004]: /show_notes/e004/
-pub fn doubler_closure_factory() -> Box<Fn(i32) -> i32> {
+#[must_use]
+pub fn doubler_closure_factory() -> Box<dyn Fn(i32) -> i32> {
     // We could also write this as `Box::new(|n| n * 2)`, of course.
     let doubler = |n| n * 2;
     Box::new(doubler)

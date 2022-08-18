@@ -7,7 +7,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e003.mp3
 //!
-//! <audio style="width: 100%" title="No. more. nulls." controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e003.mp3" />
+//! <audio style="width: 100%" title="No. more. nulls." controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e003.mp3"></audio>
 //!
 //! # Notes
 //!
@@ -22,6 +22,7 @@
 //!     to provide meaningful returns from functions safely.
 //!
 //! ## Order
+//!
 //! There is a specific order to the examples below, and it is *not* the
 //! automatically-alphabetized order rendered by `rustdoc`. Instead, you should
 //! work through in the sequence they appear in the [source]:
@@ -34,14 +35,14 @@
 //!  6. [`get_a_result`]
 //!  7. [`demonstrate_result`]
 //!
-//! [source]: /src/show_notes/e003.rs.html
-//! [`RelatedishThings`]: /show_notes/e003/enum.RelatedishThings.html
-//! [`demonstrate_basic_enumeration`]: /show_notes/e003/fn.demonstrate_basic_enumeration.html
-//! [`demonstrate_match`]: /show_notes/e003/fn.demonstrate_match.html
-//! [`get_an_option`]: /show_notes/e003/fn.get_an_option.html
-//! [`demonstrate_option`]: /show_notes/e003/fn.demonstrate_option.html
-//! [`get_a_result`]: /show_notes/e003/fn.get_a_result.html
-//! [`demonstrate_result`]: /show_notes/e003/fn.demonstrate_result.html
+//! [source]: ../../src/show_notes/e003.rs.html
+//! [`RelatedishThings`]: enum.RelatedishThings.html
+//! [`demonstrate_basic_enumeration`]: fn.demonstrate_basic_enumeration.html
+//! [`demonstrate_match`]: fn.demonstrate_match.html
+//! [`get_an_option`]: fn.get_an_option.html
+//! [`demonstrate_option`]: fn.demonstrate_option.html
+//! [`get_a_result`]: fn.get_a_result.html
+//! [`demonstrate_result`]: fn.demonstrate_result.html
 //!
 //! ## Links
 //!
@@ -94,8 +95,8 @@ pub struct PreexistingStruct {
 /// One enormous benefit of `enum` types is that, when they are the return value
 /// of a function (as in the examples below), they *must* be handled.
 ///
-/// [1]:http://rustbyexample.com/
-/// [2]: http://rustbyexample.com/custom_types/enum.html
+/// [1]: https://doc.rust-lang.org/rust-by-example/
+/// [2]: https://doc.rust-lang.org/rust-by-example/custom_types/enum.html
 #[derive(Debug)]
 pub enum RelatedishThings {
     /// This doesn't have a value other than being RelatedishThings::Unit.
@@ -113,7 +114,7 @@ pub enum RelatedishThings {
 }
 
 /// Shows how returning a `RelatedishThings::Unit` instance works.
-fn get_unit() -> RelatedishThings {
+const fn get_unit() -> RelatedishThings {
     RelatedishThings::Unit
 }
 
@@ -123,7 +124,7 @@ fn get_name() -> RelatedishThings {
 }
 
 /// Shows how returning a `RelatedishThings::SomeValue` instance works.
-fn get_value() -> RelatedishThings {
+const fn get_value() -> RelatedishThings {
     RelatedishThings::SomeValue(42)
 }
 
@@ -174,14 +175,14 @@ pub fn demonstrate_basic_enumeration() {
 ///     sole component of the match arm.
 ///   - You can destructure complex types into their components. You can ignore
 ///     components of complex types with `_` as well.
-#[cfg_attr(feature = "clippy", allow(approx_constant))]
+#[allow(clippy::items_after_statements)]
 pub fn demonstrate_match() {
     // You can match on numbers...
     let answer = 42;
     let question = match answer {
         // That includes individual numbers or ranges.
         0 => "What do you get when you divide by this? PROBLEMS.",
-        1...41 => "This is all pretty normal, right?",
+        1..=41 => "This is all pretty normal, right?",
         42 => "Life, the universe, and everything, eh? (Canadian version)",
         // What about catching *everything else*? Use `_`.
         _ => "I've got nothing useful to say here.",
@@ -192,9 +193,9 @@ pub fn demonstrate_match() {
     // or letters...
     let character = 'C';
     match character {
-        'A'...'B' => println!("Nope, not those letters."),
+        'A'..='B' => println!("Nope, not those letters."),
         'C' => println!("Why, yes, my name *does* start with a 'C'"),
-        'D'...'z' => println!("None of those either."),
+        'D'..='z' => println!("None of those either."),
         _ => println!("That's not even a letter!"),
     }
 
@@ -216,8 +217,9 @@ pub fn demonstrate_match() {
 }
 
 /// Shows how this is used in a more meaningful context, with a standard type.
-#[cfg_attr(feature = "clippy", allow(approx_constant))]
-pub fn get_an_option(get_it: bool) -> Option<f64> {
+#[allow(clippy::approx_constant)]
+#[must_use]
+pub const fn get_an_option(get_it: bool) -> Option<f64> {
     if get_it {
         // Returns an `Option` enum in the `Some` type.
         Some(3.141)
@@ -229,6 +231,8 @@ pub fn get_an_option(get_it: bool) -> Option<f64> {
 }
 
 /// Shows how an option type works in practice.
+///
+/// # Panics
 pub fn demonstrate_option() {
     // Just demonstrate how it gets printed.
     let some = get_an_option(true);
@@ -239,6 +243,7 @@ pub fn demonstrate_option() {
     // would expect from seeing how enums work in general) not a plain value;
     // it's wrapped in `Some`! However, we can unwrap it to get at the actual
     // value:
+    #[allow(clippy::unwrap_used)]
     let some_value = some.unwrap();
     println!("{:?}", some_value);
 }
@@ -250,7 +255,9 @@ pub fn demonstrate_option() {
 /// in/out arguments so that you can get a normal/error-indicating return code.
 /// Instead, you just return a `Result`, and then `match` on that value to
 /// handle it.
-#[cfg_attr(feature = "clippy", allow(approx_constant))]
+///
+/// # Errors
+#[allow(clippy::approx_constant)]
 pub fn get_a_result(succeeds: bool) -> Result<f64, String> {
     if succeeds {
         Ok(2.718_281_828)

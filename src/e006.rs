@@ -6,18 +6,19 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e006.mp3
 //!
-//! <audio style="width: 100%" title="Modularize this!" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e006.mp3" />
+//! <audio style="width: 100%" title="Modularize this!" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e006.mp3"></audio>
 //!
 //! # Notes
 //!
 //! Today, we are talking about modules, packages, and APIs in Rust. Taking a
 //! bit of a breather after some pretty hard material the last few weeks.
 //!
-//! For reference, the [Rust book][notes-1] section on [Crates and
-//! Modules][notes-2] will be very helpful.
+//! For reference, the [Rust book][notes-1] section on [Crates][notes-2] and
+//! [Modules][notes-3] will be very helpful.
 //!
-//! [notes-1]: http://doc.rust-lang.org/book/
-//! [notes-2]: http://doc.rust-lang.org/book/crates-and-modules.html
+//! [notes-1]: https://doc.rust-lang.org/book/
+//! [notes-2]: https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html
+//! [notes-3]: https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html
 //!
 //! ## Corrigenda
 //!
@@ -153,7 +154,7 @@ pub fn use_modules_internal() {
 // > declarations declare linkage dependencies.
 pub mod demonstrate_namespacing {
     /// We can `use` other module's contents.
-    use crate::e006::public_internal_module::*;
+    use crate::e006::public_internal_module::a_public_module_fn;
 
     /// We can also alias other modules. Note that though we don't use this
     /// until `demonstrate_aliased_calls()`, we have to put any `use` statements
@@ -175,7 +176,6 @@ pub mod demonstrate_namespacing {
         println!("At `demonstrate_namespacing::demonstrate_aliased_calls`.");
         im::a_public_module_fn();
     }
-
 }
 
 /// Demonstrates that modules can be `use`d within functions.

@@ -1,4 +1,4 @@
-# e00: Hello, world
+# e000: Hello, world!
 
 "Hello! I'm Chris Krycho, and this is the New Rustacean podcast---a 15--20
 minute show about learning the Rust programming language."

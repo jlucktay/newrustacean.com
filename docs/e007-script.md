@@ -1,14 +1,12 @@
-Testify
-=======
+# Testify
 
-Intro (15s)
------
+## Intro (15s)
+
 Hello, I'm Chris Krycho, and this is the New Rustacean podcast---a 15--20 minute
 show about learning the Rust programming language. This is *Episode 7: Testify*.
 
+## News (2m)
 
-News (2m)
-----
 The big news as I release this is that Rust 1.5 came out last week. From the
 perspective of other languages, that seems a little crazy: since I started this
 podcast, we've had two point releases, 1.4 and 1.5, and 1.3 came out shortly
@@ -36,15 +34,14 @@ easy-to-use Rust toolkit for dealing with SQL, while also providing the great
 type safety guarantees that make Rust so attractive You can listen to Sean talk
 about it a bit on episodes 31 and 32 of The Bike Shed.
 
+## Overview (4m)
 
-Overview (4m)
---------
 Onward! Time to talk about tests! Why? Because tests help us know whether our
 code is broken. A good test suite gives you two good things:
 
  1. It tells you whether your code does what you think it should presently.
  2. It lets you make changes and tell whether your code *still* does what you
-    think it should.
+  think it should.
 
 Importantly, to the extent that you've written a good set of tests, it can do
 those things far more rigorously than you can by repeating a set of tests
@@ -92,9 +89,7 @@ in Ruby or Python or JavaScript, but you still need them. The compiler doesn't
 guarantee anything about your algorithm; all it does is tell you whether you
 handled your types correctly.
 
-
-Tests in Rust (11m)
--------------
+## Tests in Rust (11m)
 
 ### Overview (0.5m)
 
@@ -108,54 +103,54 @@ In order to talk about testing, however, we first need to talk about a set of
 flags we will be using around the modules and functions we will use for testing:
 *attributes*.
 
-  - Attributes are special flags set to tell the compiler to do something with a
-    given definition---whether of a module, a `struct` or `enum`, or a function.
-  - They are currently defined by the compiler, and *only* the compiler, in
-    stable Rust. You can define them yourself using compiler plugins, but
-    compiler plugins are an unstable feature: the Rust core team has not decided
-    on the best way to handle them going forward.
+- Attributes are special flags set to tell the compiler to do something with a
+  given definition---whether of a module, a `struct` or `enum`, or a function.
+- They are currently defined by the compiler, and *only* the compiler, in
+  stable Rust. You can define them yourself using compiler plugins, but
+  compiler plugins are an unstable feature: the Rust core team has not decided
+  on the best way to handle them going forward.
 
 What are attributes used for? Lots of things!
 
-  - As we will discuss in a minute, they can be used to specify tests.
-  - `#[derive]` can be used with relatively straightforward data types to create
-    default debug and display formats, so that you don't have to define the
-    formatting for most structs, for example.
-  - `#[cfg()]` can be used to specify configuration for modules used by
-    **cargo** as well as by **rustc** and **rustdoc**.
-  - `#[feature()]` is used to turn off or on specific features, useful when
-    dealing with nightly Rust builds, where some features may be available in
-    master but disabled by default because they aren't ready for release.
-  - As both of these last two imply, some attributes can take *arguments* which
-    further specify their behavior.
+- As we will discuss in a minute, they can be used to specify tests.
+- `#[derive]` can be used with relatively straightforward data types to create
+  default debug and display formats, so that you don't have to define the
+  formatting for most structs, for example.
+- `#[cfg()]` can be used to specify configuration for modules used by
+  **cargo** as well as by **rustc** and **rustdoc**.
+- `#[feature()]` is used to turn off or on specific features, useful when
+  dealing with nightly Rust builds, where some features may be available in
+  master but disabled by default because they aren't ready for release.
+- As both of these last two imply, some attributes can take *arguments* which
+  further specify their behavior.
 
 You get the idea; there is a lot more we can say about attributes in the future,
 and we will, but that's enough to get started for talking about tests.
 
 ### Test functions (3m)
 
-  - Functions marked with `#[test]` are treated in a unique way: when running
-    **cargo test** on the command line, **cargo** executes each function marked
-    with the attribute, and indicates whether the test returned successfully.
-  - These functions are never compiled into your release code. This is great: it
-    means you can write your tests right next to the code they check, without
-    impacting the size of the executable you distribute.
-  - Within tests, you can also use a set of dedicated macros like `assert` and
-    `assert_eq` to indicate how you expect something to behave.
-  - If the result of some function call *should* be broken, that is, it should
-    "panic", you can set the `#[should_panic]` attribute on the test! Also, you
-    can supply an argument to `#[should_panic]` to account for specific *kinds*
-    of failures in a test.
-  - You can also set an `#[ignore]` to tell **cargo** to ignore certain tests by
-    default. You can then override that by passing an extra argument to
-    **cargo**---handy if you have certain tests which take a long time to run,
-    for example, and only want to run them occasionally.
-  - The best practice is to wrap tests in a module private to the containing
-    module, and set the `#[cfg(test)]` on the module. This lets you write
-    support functions within that module which are excluded from normal builds
-    just like functions marked with `#[test]`.
-  - (By convention, we call that module `test`, but it *must* be marked with the
-    `#[cfg(test)]`.)
+- Functions marked with `#[test]` are treated in a unique way: when running
+  **cargo test** on the command line, **cargo** executes each function marked
+  with the attribute, and indicates whether the test returned successfully.
+- These functions are never compiled into your release code. This is great: it
+  means you can write your tests right next to the code they check, without
+  impacting the size of the executable you distribute.
+- Within tests, you can also use a set of dedicated macros like `assert` and
+  `assert_eq` to indicate how you expect something to behave.
+- If the result of some function call *should* be broken, that is, it should
+  "panic", you can set the `#[should_panic]` attribute on the test! Also, you
+  can supply an argument to `#[should_panic]` to account for specific *kinds*
+  of failures in a test.
+- You can also set an `#[ignore]` to tell **cargo** to ignore certain tests by
+  default. You can then override that by passing an extra argument to
+  **cargo**---handy if you have certain tests which take a long time to run,
+  for example, and only want to run them occasionally.
+- The best practice is to wrap tests in a module private to the containing
+  module, and set the `#[cfg(test)]` on the module. This lets you write
+  support functions within that module which are excluded from normal builds
+  just like functions marked with `#[test]`.
+- (By convention, we call that module `test`, but it *must* be marked with the
+  `#[cfg(test)]`.)
 
 So that's how you *write* these kinds of tests. What would you use them for?
 Well, this is where you would put unit tests. Within the `test` module, you can
@@ -244,22 +239,23 @@ the `Bencher` instance  with a closure taking the functionality you want to
 benchmark. Then when you run **cargo bench**, you will get benchmark results for
 that particular functionality. Handy!
 
-Closing (1m)
--------
+## Closing (1m)
+
 Next time, we'll take an introductory look at Rust's generic types and its
 `traits`, which are the foundation of really expressive programming Rust. I say
 "introductory" because I expect a full discussion of those concepts first of all
 to take more than one week and secondly to be a bit beyond me yet!
 
 ### Sponsors
+
 Thanks to Chris Palmer for sponsoring the show this month! See the list of other
 sponsors in the show notes.
 
 If you'd like to sponsor the show yourself, you can set up recurring donations
 at Patreon.com/newrustacean, or one-off donations at Venmo, Dwolla, or cash.me.
 
-
 ### Follow/support
+
 You can find show notes with detailed code samples illustrating these ideas, as
 well as links to things mentioned on the show, at NewRustacean.com. You can also
 follow the show on Twitter or App.net @newrustacean, or follow me there

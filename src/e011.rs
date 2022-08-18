@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e011.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
@@ -34,7 +33,6 @@
 //! nonsense. In a stricter and stronger type system, memory addresses and
 //! normal numbers shouldn't be addable!
 //!
-//!
 //! Links
 //! -----
 //!
@@ -49,7 +47,6 @@
 //! [l3]: http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf
 //! [l4]: https://jadpole.github.io/rust/type-system
 //! [l5]: http://cglab.ca/~abeinges/blah/rust-reuse-and-recycle/
-//!
 //!
 //! Sponsors
 //! --------
@@ -78,7 +75,6 @@
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
-//!
 //!
 //! Contact
 //! -------

@@ -8,7 +8,7 @@
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/14.mp3
 //! [script]: https://newrustacean.com/show_notes/bonus/_14/struct.script
 //!
-//! <audio style="width: 100%" title="Bonus 14: How the Sausage Gets Made" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/14.mp3">
+//! <audio style="width: 100%" title="Bonus 14: How the Sausage Gets Made" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/14.mp3"></audio>
 //!
 //! Show Notes
 //! ----------
@@ -254,7 +254,6 @@
 //! - [Cash.me](https://cash.me/$chriskrycho)
 //! - [Flattr](https://flattr.com/profile/chriskrycho)
 //! - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

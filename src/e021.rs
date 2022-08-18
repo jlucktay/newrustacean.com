@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e021.mp3">
 //! </audio>
 //!
-//!
 //! Links and Notes
 //! ---------------
 //!
@@ -22,7 +21,6 @@
 //! [`Deref`]: https://doc.rust-lang.org/stable/std/ops/trait.Deref.html
 //! [`Iterator`]: https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html
 //! [`std::io::Result`]: https://doc.rust-lang.org/stable/std/io/type.Result.html
-//!
 //!
 //! Sponsors
 //! --------
@@ -113,7 +111,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

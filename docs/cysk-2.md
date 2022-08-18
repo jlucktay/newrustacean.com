@@ -42,7 +42,7 @@ In short, `clap` is a *fantastic* utility library for building command line tool
 
 ### Sponsors
 
-Thanks to 
+Thanks to
 
 - Chris Palmer
 - Christopher Giffard

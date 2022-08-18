@@ -7,8 +7,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/6.mp3
 //!
-//! <audio style="width: 100%" title="It doesn't have to be sexy" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/6.mp3" />
-//!
+//! <audio style="width: 100%" title="It doesn't have to be sexy" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/6.mp3"></audio>
 //!
 //! Notes
 //! -----
@@ -18,7 +17,6 @@
 //! itself. We need to celebrate other libraries, and even the small ones, just
 //! as much (and maybe more) than changes to the language. We need to dig in and
 //! work on building the *whole* ecosystem. (The good news is, we are!)
-//!
 //!
 //! Links
 //! -----
@@ -44,7 +42,6 @@
 //! [`alexa-rs`]: https://github.com/neil-lobracco/alexa-rs
 //! [`gilrs`]: https://gitlab.com/Arvamer/gilrs
 //! [ShaderCat]: http://www.shadercat.com
-//!
 //!
 //! Sponsors
 //! --------
@@ -94,7 +91,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

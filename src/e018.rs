@@ -10,7 +10,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e018.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
@@ -18,7 +17,6 @@
 //! well-worth understanding. Together, they give you tools for dealing with
 //! everything from `HashMap` and friends to conversions involving smart pointer
 //! types to easily using `String` and `str` or `Vec` and slice together.
-//!
 //!
 //! Links
 //! -----
@@ -48,7 +46,6 @@
 //! [e009]: https://www.newrustacean.com/show_notes/e009/
 //! [e017]: https://www.newrustacean.com/show_notes/e017/
 //! [interview 2]: https://www.newrustacean.com/show_notes/interview/_2/index.html
-//!
 //!
 //! Sponsors
 //! --------
@@ -106,7 +103,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

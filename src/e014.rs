@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e014.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
@@ -28,7 +27,6 @@
 //! *stack*-allocated. Thanks to Nev for the correction!
 //!
 //! [data segment]: https://en.wikipedia.org/wiki/Data_segment
-//!
 //!
 //! Links
 //! -----
@@ -89,7 +87,6 @@
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

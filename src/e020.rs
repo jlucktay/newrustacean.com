@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e020.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
@@ -21,7 +20,6 @@
 //! and we group by *responsibility*. In today's episode, I talk through that
 //! philosophy (and give some comparisons to other languages), and then look at
 //! what it looks like in practice!
-//!
 //!
 //! Links
 //! -----
@@ -33,10 +31,8 @@
 //! [Learning Rust Modules]: http://walkercoderanger.com/blog/2015/08/learning-rust-modules/
 //! [lightning]: https://github.com/chriskrycho/lightning-rs/commit/fac341d1c1b4872d62ec05253ee33f056e67d6ce
 //!
-//!
 //! Sponsors
 //! --------
-//!
 //!
 //!   - Aleksey Pirogov
 //!   - Andreas Fischer
@@ -106,7 +102,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

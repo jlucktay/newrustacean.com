@@ -7,8 +7,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/cysk_3.mp3
 //!
-//! <audio style="width: 100%" title="Rust language service" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/cysk_3.mp3" />
-//!
+//! <audio style="width: 100%" title="Rust language service" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/cysk_3.mp3"></audio>
 //!
 //! Notes
 //! -----
@@ -18,7 +17,6 @@
 //! of functionality between every editor – from Vim to VS Code and everything
 //! in between. In today's episode, I give some background on it and talk about
 //! how you can start using it today!
-//!
 //!
 //! Links
 //! -----
@@ -116,7 +114,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

@@ -67,7 +67,7 @@ Today's episode was brought to you specifically by Christopher Giffard. One of t
 
 ### Sponsors
 
-Thanks to 
+Thanks to
 
 - Chris Palmer
 - Dan Abrams

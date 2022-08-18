@@ -101,7 +101,7 @@ Thanks so much to everyone who sponsors the show. This month’s $10-or-more spo
 
 You can sponsor the show at <patreon.com/newrustacean>, or send a one-off at any of a number of other services listed at the website. Even more importantly, please let others know about the show – by telling them about it at a meetup, sharing it around in whatever media you use, or reviewing or recommending it in your podcast directory of choice.
 
-You can find the notes for *this* episode at <newrustacean.com/show_notes/news/rust_1_27/>. The website also has scripts and code samples for most of the teaching episodes and transcripts for many of the interviews. 
+You can find the notes for *this* episode at <newrustacean.com/show_notes/news/rust_1_27/>. The website also has scripts and code samples for most of the teaching episodes and transcripts for many of the interviews.
 
 The show is on Twitter @newrustacean, or you can follow me there @chriskrycho. Tweet me with news, topic ideas, etc! You can also respond in the threads on the Rust user forums, Reddit, or Hacker News, or—and this will always be my favorite—just send me an email at hello@newrustacean.com.
 

@@ -12,7 +12,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/diesel_1_0/part_2.mp3">
 //! </audio>
 //!
-//!
 //! ## Show notes
 //!
 //! - [Macros 2.0]
@@ -30,7 +29,6 @@
 //! - [blanket implementations], [specialization], [coherence], and [the
 //!   lattice rule]
 //!
-//!
 //! [Macros 2.0]: https://github.com/nrc/rfcs/blob/7dcb7374aee3281c261510ca5af53399a3df60f5/text/0000-macros.md
 //! [126: Speaking of Compilers...]: http://bikeshed.fm/126
 //! [135: A Series of Unfortunate Examples]: http://bikeshed.fm/135
@@ -41,7 +39,6 @@
 //! [specialization]: https://github.com/rust-lang/rfcs/blob/master/text/1210-impl-specialization.md
 //! [coherence]: https://aturon.github.io/blog/2017/02/06/specialization-and-coherence/
 //! [lattice rule]: https://rust-lang.github.io/rfcs/1210-impl-specialization.html#alternative-specialization-designs
-//!
 //!
 //! Sponsors
 //! --------
@@ -163,7 +160,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

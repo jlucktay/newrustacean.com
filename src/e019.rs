@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e019.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
@@ -20,7 +19,6 @@
 //! is low enough that the ergonomic tradeoffs are worth it? Well, perhaps
 //! unsurprisingly, it does! The `Copy` and `Clone` traits, plus the `Cow` type,
 //! give us everything we need!
-//!
 //!
 //! Links
 //! -----
@@ -80,7 +78,6 @@
 //!
 //!     - [e009: Composing a Rustic tune][e009]
 //!
-//!
 //! [underhanded.rs]: https://underhanded.rs/
 //! [`std::marker::Copy`]: https://doc.rust-lang.org/stable/std/marker/trait.Copy.html
 //! [copy-book]: https://doc.rust-lang.org/book/ownership.html#copy-types
@@ -99,10 +96,8 @@
 //! [e008]: https://www.newrustacean.com/show_notes/e008/
 //! [e009]: https://www.newrustacean.com/show_notes/e009/
 //!
-//!
 //! Sponsors
 //! --------
-//!
 //!
 //!   - Aleksey Pirogov
 //!   - Andreas Fischer
@@ -163,7 +158,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

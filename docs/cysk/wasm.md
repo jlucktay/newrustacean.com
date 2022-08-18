@@ -20,7 +20,7 @@ WebAssembly can be run in all modern web browsers, and it can actually be implem
 
 But let’s step back and unpack that description a little bit.
 
-- wasm is a *binary instruction format*. This is basically the same as other kinds of assembly languages, which are *instruction formats* as well. It’s a binary format for speed reasons: no parse-the-string-into-the-actual-instructions step required. However, there *is* a human-readable format, which is handy for understanding the output of your compiled code. 
+- wasm is a *binary instruction format*. This is basically the same as other kinds of assembly languages, which are *instruction formats* as well. It’s a binary format for speed reasons: no parse-the-string-into-the-actual-instructions step required. However, there *is* a human-readable format, which is handy for understanding the output of your compiled code.
 
 - wasm is designed for a *stack-based virtual machine*. There are a variety of kinds of virtual machines in the world, and most of them you’re like to be familiar with (Java, C♯, Python, Ruby, JavaScript, etc.) have both a stack and a heap, along with garbage collection. The wasm virtual machine model does *not* have a heap, and it does *not* have garbage collection. This has a lot of implications for the programming model, which, again, I’m not going to dig into today. It’s enough for now to know that the constraints exist so you can have them in mind if or when you start actually implementing things in wasm!
 

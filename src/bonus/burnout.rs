@@ -9,7 +9,7 @@
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/burnout.mp3
 //! [script]: https://newrustacean.com/show_notes/bonus/burnout/struct.script
 //!
-//! <audio style="width: 100%" title="Bonus: Burnout" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/burnout.mp3">
+//! <audio style="width: 100%" title="Bonus: Burnout" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/burnout.mp3"></audio>
 //!
 //! Show Notes
 //! ----------
@@ -20,7 +20,6 @@
 //! [blog]: https://www.chriskrycho.com/burnout
 //! [rss]: http://www.chriskrycho.com/feeds/burnout.xml
 //! [mayo]: https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642
-//!
 //!
 //! Sponsors
 //! --------
@@ -175,7 +174,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

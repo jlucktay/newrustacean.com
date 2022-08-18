@@ -30,7 +30,7 @@
 
 **Chris:** Yeah. What kind of side projects have you been able to do?
 
-**Anthony:** Um, when I get around to strapping a Raspberry Pi to a balloon and sending it up to the stratosphere to take some photos, that’ll be in Rust. 
+**Anthony:** Um, when I get around to strapping a Raspberry Pi to a balloon and sending it up to the stratosphere to take some photos, that’ll be in Rust.
 
 **Chris:** That’s awesome.
 

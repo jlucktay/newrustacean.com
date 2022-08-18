@@ -12,7 +12,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/diesel_1_0/part_1.mp3">
 //! </audio>
 //!
-//!
 //! ## Show notes
 //!
 //! - [Sean's previous appearance on the show][sean-1]
@@ -34,7 +33,6 @@
 //!     - [monomorphization]
 //! - [Custom derive and procedural macros]
 //!
-//!
 //! [sean-1]: https://www.newrustacean.com/show_notes/interview/_1/index.html
 //! [IRC]: https://en.wikipedia.org/wiki/Internet_Relay_Chat
 //! [Slack]: https://slack.com
@@ -51,7 +49,6 @@
 //! [Sean's RustConf talk]: https://www.youtube.com/watch?v=wxPehGkoNOw
 //! [monomorphization]: http://cglab.ca/~abeinges/blah/rust-reuse-and-recycle/#monomorphization
 //! [Custom derive and procedural macros]: https://doc.rust-lang.org/book/first-edition/procedural-macros.html
-//!
 //!
 //! Sponsors
 //! --------
@@ -171,7 +168,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

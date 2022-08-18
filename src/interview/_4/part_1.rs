@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/4/part_1.mp3">
 //! </audio>
 //!
-//!
 //! Show Notes
 //! ----------
 //!
@@ -43,7 +42,6 @@
 //! [Pascal]: https://en.wikipedia.org/wiki/Pascal_(programming_language)
 //! [Ultima]: https://en.wikipedia.org/wiki/Ultima_%28series%29
 //!
-//!
 //! After the transition to working on Rust full-time:
 //!
 //!   - Improving the error messages—
@@ -59,7 +57,6 @@
 //! ["Shape of Errors to Come"]: https://blog.rust-lang.org/2016/08/10/Shape-of-errors-to-come.html
 //! [Elm]: http://elm-lang.org
 //! [error list issue]: https://github.com/rust-lang/rust/issues/35233
-//!
 //!
 //! Sponsors
 //! --------
@@ -139,7 +136,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

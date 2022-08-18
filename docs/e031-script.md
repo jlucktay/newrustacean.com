@@ -116,7 +116,7 @@ In this mode, we can start by declaring a `Point` on the C side and initializing
 ```rust
 #[no_mangle]
 pub external fn point_translate(point: *mut Point, by_x: c_float, by_y: c_float) {
-     
+
 }
 ```
 

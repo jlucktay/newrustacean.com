@@ -10,7 +10,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e010.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
@@ -71,7 +70,6 @@
 //! [l18]: http://www.ncameron.org/blog/macro-plans-syntax/
 //! [l19]: http://www.ncameron.org/blog/procedural-macros-framework/
 //!
-//!
 //! Sponsors
 //! --------
 //!
@@ -94,7 +92,6 @@
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
-//!
 //!
 //! Follow
 //! ------

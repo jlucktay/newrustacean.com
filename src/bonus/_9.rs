@@ -7,8 +7,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/9.mp3
 //!
-//! <audio style="width: 100%" title="Bonus 9: Open source is just normal people" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/9.mp3">
-//!
+//! <audio style="width: 100%" title="Bonus 9: Open source is just normal people" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/9.mp3"></audio>
 //!
 //! Links and Notes
 //! ---------------
@@ -20,7 +19,6 @@
 //! [ember-cli-typescript]: https://github.com/typed-ember/ember-cli-typescript
 //! [bike shed]: http://bikeshed.fm/118
 //! [Interview 1]: https://www.newrustacean.com/show_notes/interview/_1/index.html
-//!
 //!
 //! Sponsors
 //! --------
@@ -118,7 +116,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

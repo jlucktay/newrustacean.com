@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e015.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
@@ -70,7 +69,6 @@
 //! [`std::rc`]: https://doc.rust-lang.org/std/rc/index.html
 //! [`stc::sync::Arc`]: https://doc.rust-lang.org/std/sync/struct.Arc.html
 //!
-//!
 //! Sponsors
 //! --------
 //!
@@ -111,7 +109,6 @@
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
 //!
-//!
 //! Contact
 //! -------
 //!
@@ -121,7 +118,6 @@
 //!   - Chris Krycho
 //!     + GitHub: [chriskrycho](https://github.com/chriskrycho)
 //!     + Twitter: [@chriskrycho](https://www.twitter.com/chriskrycho)
-//!
 //!
 //! Examples
 //! --------

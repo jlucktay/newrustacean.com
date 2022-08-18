@@ -6,8 +6,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/news/rust_1_23.mp3
 //!
-//! <audio style="width: 100%" title="News: Rust 1.20" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/news/rust_1_23.mp3" />
-//!
+//! <audio style="width: 100%" title="News: Rust 1.20" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/news/rust_1_23.mp3"></audio>
 //!
 //! ## Show notes
 //!
@@ -55,7 +54,6 @@
 //! ["rust and the case for webassembly in 2018"]: https://mgattozzi.com/rust-wasm
 //! ["new year’s rust: a call for community blogposts"]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
 //! [my other podcast, winning slowly]: http://www.winningslowly.org "Winning Slowly"
-//!
 //!
 //! Sponsors
 //! --------
@@ -171,7 +169,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

@@ -11,14 +11,12 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/2/part_2.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
 //! Chris chats with Raph Levien about what inspired him to build a text editor,
 //! as well as about where the rough edges in the Rust development story are
 //! today, and how we might improve them going forward.
-//!
 //!
 //! Links
 //! -----
@@ -45,7 +43,6 @@
 //! [Creating Ember JS - Part I]: http://www.codenewbie.org/podcast/creating-emberjs-part-i
 //! [Creating Ember JS - Part II]: http://www.codenewbie.org/podcast/creating-emberjs-part-ii
 //! [rust-swift-xi]: http://www.chriskrycho.com/2016/rust-and-swift-xi.html
-//!
 //!
 //! Sponsors
 //! --------
@@ -90,7 +87,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

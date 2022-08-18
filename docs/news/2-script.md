@@ -28,7 +28,7 @@ Here are a few of the biggest things to hit the language itself since May. (I me
 - Rust also got some **new and improved error output**. That comes in two parts: the introduction of a JSON-based output for smart text editors and IDEs to use, and a nicer error message format for users. The new JSON error format for editors means they can simply define how to handle the JSON payload instead of having to parse information out of a plain-text error.
 
     The new error format for users makes it far, *far* easier to understand your errors. For one, as the announcement blog post noted, it puts your code front and center, making it obvious where the errors actually are. The old format included that info, but often buried it in a wall of other text. That other text is still there, but it's arranged differently, so that the code which doesn't work is more obvious. I've appreciated this a *lot* in the last week as I've been hammering away at Lightning.
-    
+
 - One of the big hopes for MIR landing was that we'd get **incrememental compilation**, which should speed up the develop-and-compile-and-test cycle dramatically. That feature hasn't *quite* landed on stable Rust yet, but it's coming! It's been in-development-and-available-on-nightly mode for several months now, and if you take a look at the GitHub milestone where work is being tracked, it's getting awfully close to landing the first phase on stable.
 
 - One of the other hopes for MIR is that it will enable better optimizations. There aren't a ton of these yet, but they're trickling in and they're adding up. A bunch of these landed in 1.13 and 1.14 in particular, so if you're interested in the details, you should take a look at those blog posts and release notes, which I've linked in the show notes. (The same is true for the bits I mentioned above, too, of course.)
@@ -108,7 +108,7 @@ So that gives you a pretty good idea of where Rust has been in the latter half o
 
 ### Sponsors
 
-Thanks to 
+Thanks to
 
 - Chris Palmer
 - Matt Rudder

@@ -108,7 +108,7 @@ And this is *fine* – when we want to use it in the context we laid about above
 		.map(distance_from(&origin))
 		.collect();
 ```
- 
+
 That’s much clearer to read (at least to me). Unfortunately, though, writing out the signature for that function has been a pretty complicated thing, historically. For one thing, you had to wrap that up behind a heap allocated pointer, like: `Box<Fn(Point) -> f32>`, and it’s actually *really* hard to write this type and get the lifetimes all lining up correctly if you want to use references instead of moving all the `Point` instances:
 
 ```rust,ignore
@@ -282,7 +282,7 @@ Thanks to everyone who sponsors the show! This month’s $10-or-more sponsors in
 
 You can sponsor the show at <https://patreon.com/newrustacean>, or send a one-off at any of a number of other services listed at the website. Even more importantly, please let others know about the show – by telling them about it at a meetup, sharing it around in whatever media you use, or reviewing or recommending it in your podcast directory of choice.
 
-You can find the notes for *this* episode at <newrustacean.com/show_notes/e025/>. The website also has scripts and code samples for most of the teaching episodes and transcripts for many of the interviews. 
+You can find the notes for *this* episode at <newrustacean.com/show_notes/e025/>. The website also has scripts and code samples for most of the teaching episodes and transcripts for many of the interviews.
 
 The show is on Twitter @newrustacean, or you can follow me there @chriskrycho. Tweet me with news, topic ideas, etc! You can also respond in the threads on the Rust user forums, Reddit, or Hacker News, or—and this will always be my favorite—just send me an email at hello@newrustacean.com.
 

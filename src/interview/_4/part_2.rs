@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/4/part_2.mp3">
 //! </audio>
 //!
-//!
 //! Show Notes
 //! ----------
 //!
@@ -65,7 +64,6 @@
 //! [Improved match ergonomics around references]: https://github.com/rust-lang/rust-roadmap/issues/24
 //! [const generics]: https://internals.rust-lang.org/t/lang-team-minutes-const-generics/5090
 //! [RFC #1931]: https://github.com/rust-lang/rfcs/pull/1931
-//!
 //!
 //! Sponsors
 //! --------
@@ -145,7 +143,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

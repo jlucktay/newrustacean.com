@@ -14,7 +14,7 @@ B: I don’t really remember...it’s kind of hazy in my mind when I first found
 
 C: That’s awesome. So what is currently exciting and what kinds of things are you looking forward to in Rust?
 
-B: Currently exciting? I am excited that we have maintained stability for two years now, and trying to expand on the platform that we created with 1.0. I’m excited for compiler speed improvements. I think it’s kind of one of the bigger things, like the worrying things in industry, where it’s like, “Well, you’re better than C+ + broadly, but it’s not like a very high bar to clear.” So, other than that, I think mostly my concern is - so, before 1.0, saying as someone who was kind of like around for a long time, we had this vision of several things that Rust still hasn’t quite gotten around to having that stable, so, like, ASM being one of those things, and a few things, like Infiltrate (sp?), coming soon, hopefully, Conts Generics (sp?), coming soon, and maybe the box syntax placement new (sp?), and once those are in, it’ll feel like the language we had envisioned seven years ago - seven years ago as of next year, or whatever - is finally here, and come to pass. 
+B: Currently exciting? I am excited that we have maintained stability for two years now, and trying to expand on the platform that we created with 1.0. I’m excited for compiler speed improvements. I think it’s kind of one of the bigger things, like the worrying things in industry, where it’s like, “Well, you’re better than C+ + broadly, but it’s not like a very high bar to clear.” So, other than that, I think mostly my concern is - so, before 1.0, saying as someone who was kind of like around for a long time, we had this vision of several things that Rust still hasn’t quite gotten around to having that stable, so, like, ASM being one of those things, and a few things, like Infiltrate (sp?), coming soon, hopefully, Conts Generics (sp?), coming soon, and maybe the box syntax placement new (sp?), and once those are in, it’ll feel like the language we had envisioned seven years ago - seven years ago as of next year, or whatever - is finally here, and come to pass.
 
 C: It has arrived!
 
@@ -22,7 +22,7 @@ B: It’s arrived! It’s finally here! Congratulations!
 
 C: Awesome. What are pain points that you run into regularly?
 
-B: Pain points. Well, one thing that they mentioned today here at Rust Belt Rust, in a keynote, was the match ergonomics thing, where I’m always like, star over here, ref over here, should there be an ampersand over here, should we be using pattern matching, should I like (unintelligible - something about a match statement)? That kind of thing. That’s actually going to be lovely. I love that. I’m looking forward to also question mark in main. 
+B: Pain points. Well, one thing that they mentioned today here at Rust Belt Rust, in a keynote, was the match ergonomics thing, where I’m always like, star over here, ref over here, should there be an ampersand over here, should we be using pattern matching, should I like (unintelligible - something about a match statement)? That kind of thing. That’s actually going to be lovely. I love that. I’m looking forward to also question mark in main.
 
 C: Yes.
 

@@ -17,7 +17,7 @@ Over the past several episodes, we've been working through some of the different
 - In episode 13, we looked at lifetimes---what they are, how to write them, and when you need to write them.
 - In episode 14, we zoomed in on the details of managing strings specifically.
 - In episode 15, we looked at *smart pointers*---especially `Box` and the `Rc`, `Arc`, and their corresponding `Weak` types.
-- In episode 16, we followed up by looking at how we can use the different *cell* types to 
+- In episode 16, we followed up by looking at how we can use the different *cell* types to
 - In episode 17, we took a step back and just talked about the general syntax and semantics of referencing and dereferencing and the corresponding operators.
 - In episode 18, we talked about the `Borrow`, `AsRef`, and `Deref` traits.
 
@@ -67,7 +67,7 @@ So that's `Copy`. But of course, I brought up marker traits for a reason: namely
 
 But this raises an important question: *how* does the Rust compiler perform the copies? After all, if you want to copy the values for anything but extremely simple value types, you have to know *how* to copy them. For example, if there are references involved, making a true duplicate involves following all those references and creating copies of the values behind those references, and then creating new references to those new copies. You may have heard this described as "deep copying" in contexts like JavaScript.
 
-The `Clone` trait is the trait which tells Rust how to perform those copies, and so all `Copy` types must also be `Clone` types. Put another way: `Clone` is a supertrait for `Copy`. 
+The `Clone` trait is the trait which tells Rust how to perform those copies, and so all `Copy` types must also be `Clone` types. Put another way: `Clone` is a supertrait for `Copy`.
 
 But `Clone` is also much more generally useful. After all, there are plenty of places you want to `clone()` something while retaining normal move semantics instead of switching over to copy semantics. When dealing with `String`s, for example, it would be extremely expensive to make them `Copy` types: that would mean you *always* made a full copy of a `String` any time you assigned it. That would destroy a lot of the performance wins we all appreciate in Rust. But you do need a way to specify how to get a copy of a `String` when you actually *need* a copy. And of course, it's extremely valuable for there to be *one* way to do that, consistent across a variety of types (even if the implementation details differ on a per-type basis). *That's* where `Clone` comes in.
 
@@ -97,7 +97,7 @@ So that wraps up our journey through single-threaded memory management at a high
 
 ### Sponsors
 
-Thanks again---as always!---to 
+Thanks again---as always!---to
 
 - Chris Palmer
 - Christopher Giffard

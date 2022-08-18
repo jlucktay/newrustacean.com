@@ -11,14 +11,12 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/1/part_2.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
 //! Chris chats with Sean Griffin about the tradeoffs between mental overhead
 //! and type safety, the expressiveness of different type systems, and some of
 //! the places where Rust currently falls down.
-//!
 //!
 //! ### Corrigenda
 //!
@@ -36,7 +34,6 @@
 //! more capable than Java's.
 //!
 //! [c1]: https://msdn.microsoft.com/library/bb919210(v=vs.90).aspx
-//!
 //!
 //! Links
 //! -----
@@ -56,7 +53,6 @@
 //! [l4]: https://github.com/rust-lang/rfcs/pull/1210
 //! [l5]: https://github.com/rust-lang/rust/issues/31844
 //! [l6]: https://github.com/sgrif/diesel
-//!
 //!
 //! Sponsors
 //! --------
@@ -82,7 +78,6 @@
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
-//!
 //!
 //! Follow
 //! ------

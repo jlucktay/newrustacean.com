@@ -48,7 +48,7 @@ So there are a few thoughts on ways you can give back. There are *lots* more, of
 
 ## Sponsors
 
-Thanks to 
+Thanks to
 
 - Chris Palmer
 - Christopher Giffard

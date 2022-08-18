@@ -8,7 +8,7 @@
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e027.mp3
 //! [script]: https://newrustacean.com/show_notes/e027/struct.script
 //!
-//! <audio style="width: 100%" title="News: Rust 1.29 and 1.30" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e027.mp3">
+//! <audio style="width: 100%" title="News: Rust 1.29 and 1.30" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e027.mp3"></audio>
 //!
 //! Show Notes
 //! ----------
@@ -52,7 +52,6 @@
 //! [book]: https://doc.rust-lang.org/book/2018-edition/ch19-01-unsafe-rust.html
 //! [nomicon]: https://doc.rust-lang.org/nomicon/README.html
 //! [opengl]: http://nercury.github.io/rust/opengl/tutorial/2018/02/08/opengl-in-rust-from-scratch-00-setup.html
-//!
 //!
 //! ### Examples
 //!
@@ -264,7 +263,6 @@
 //! - [Cash.me](https://cash.me/$chriskrycho)
 //! - [Flattr](https://flattr.com/profile/chriskrycho)
 //! - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

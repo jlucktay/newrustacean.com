@@ -10,7 +10,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/irr/lee_baillie.mp3">
 //! </audio>
 //!
-//!
 //! Show Notes
 //! ----------
 //!
@@ -34,7 +33,6 @@
 //! [Sinatra]: http://sinatrarb.com
 //! [Helix]: http://usehelix.com
 //! [the Slackbot framework]: https://github.com/tildeio/slackathon
-//!
 //!
 //! Sponsors
 //! --------
@@ -149,7 +147,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

@@ -2,7 +2,7 @@
 
 Hello, I’m Chris Krycho and this is New Rustacean: a show about the Rust programming language and the people who use it. This is Episode 28: Meet My Associates.
 
-## Sponsor: 
+## Sponsor:
 
 First up, I'm really happy to have Manning back sponsoring the show this episode! They're here with a discount on some *video content* they’ve put together. Even better because that video content is by Carol Nichols || Goulding and Jake Goulding—we talked about this content just a few episodes back! I’ve been saying for years that we need more video content: it’s a huge way people learn. Manning’s Rust in Motion is one of the first major video courses for Rust I know of. You can get it for 40% off at [deals.manning.com/new-rustacean](http://bit.ly/2OXnlEb) – there’s a link in the show notes. That link actually gives you 40% off of *anything* at Manning, including their book *Rust in Action*, which is in early access preview. Thanks so much to Manning for sponsoring the show and building some great video content with Carol and Jake!
 
@@ -64,7 +64,7 @@ The canonical standard library example you've used over and over again (though q
 ```rs
 pub trait Iterator {
     type Item;
-    
+
     // and then the various associated functions
 }
 ```

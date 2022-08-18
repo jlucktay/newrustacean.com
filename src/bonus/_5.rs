@@ -7,8 +7,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/5.mp3
 //!
-//! <audio style="width: 100%" title="Better than open source contributions" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/5.mp3" />
-//!
+//! <audio style="width: 100%" title="Better than open source contributions" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/5.mp3"></audio>
 //!
 //! Notes
 //! -----
@@ -18,7 +17,6 @@
 //! Companies should not demand open-source contributions from their employees,
 //! and beyond that, should learn to recognize that *profit* is not the most
 //! valuable thing in the world. People are.
-//!
 //!
 //! Links
 //! -----
@@ -72,7 +70,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

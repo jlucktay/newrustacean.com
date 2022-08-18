@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e016.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
@@ -31,7 +30,6 @@
 //!
 //! [src]: /src/show_notes/e016.rs.html
 //!
-//!
 //! ### A comment on the code samples
 //!
 //! Note that in several cases below we use `&[]` to borrow a reference to a
@@ -45,7 +43,6 @@
 //! dereference to slices). We'll talk about this more in a future episode!
 //!
 //! [`Deref`]: https://doc.rust-lang.org/1.10.0/std/ops/trait.Deref.html
-//!
 //!
 //! Links
 //! -----
@@ -87,7 +84,6 @@
 //! [`std::cell`]: https://doc.rust-lang.org/std/cell/index.html
 //! [`Cell<T>`]: https://doc.rust-lang.org/std/cell/struct.Cell.html
 //! [`RefCell<T>`]: https://doc.rust-lang.org/std/cell/struct.RefCell.html
-//!
 //!
 //! Sponsors
 //! --------
@@ -133,7 +129,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

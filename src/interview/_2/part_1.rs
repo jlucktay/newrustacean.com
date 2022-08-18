@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/2/part_1.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
@@ -19,7 +18,6 @@
 //! what attracted him to Rust, and how he's using Rust to build the Xi Editor,
 //! a project which aims to be the fastest text editor out there, with native
 //! user interfaces and a Rust text engine.
-//!
 //!
 //! Links
 //! -----
@@ -98,7 +96,6 @@
 //! [Rayon docs]: http://nikomatsakis.github.io/rayon/rayon/
 //! [Unix philosophy]: https://en.wikipedia.org/wiki/Unix_philosophy
 //!
-//!
 //! Sponsors
 //! --------
 //!
@@ -138,7 +135,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

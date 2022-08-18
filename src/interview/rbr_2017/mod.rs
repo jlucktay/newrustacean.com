@@ -1,6 +1,5 @@
 //! Micro-interviews from Rust Belt Rust 2017
 //!
-//!
 //! Sponsors
 //! --------
 //!
@@ -110,7 +109,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

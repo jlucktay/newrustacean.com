@@ -51,7 +51,7 @@ If you're enjoying New Rustacean, please help others find it – by telling them
 
 The show is on Twitter @newrustacean, or you can follow me there @chriskrycho. Tweet me with news, topic ideas, etc! You can also respond in the threads on the Rust user forums, Reddit, or Hacker News, or—and this will always be my favorite—just send me an email at hello@newrustacean.com.
 
----- 
+----
 
 Okay, so let’s talk about burnout.
 
@@ -68,7 +68,7 @@ Okay, so let’s talk about burnout.
 		- Have your sleep habits or appetite changed?
 		- Are you troubled by unexplained headaches, backaches or other physical complaints?
 
-		Mayo calls it:  
+		Mayo calls it:
 
 		> a special type of job stress
 

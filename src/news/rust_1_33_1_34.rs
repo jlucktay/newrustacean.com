@@ -8,7 +8,7 @@
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/news/rust_1_33_1_34.mp3
 //! [script]: https://newrustacean.com/show_notes/news/rust_1_33_1_34/struct.script
 //!
-//! <audio style="width: 100%" title="News: Rust 1.33 and 1.34" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/news/rust_1_33_1_34.mp3">
+//! <audio style="width: 100%" title="News: Rust 1.33 and 1.34" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/news/rust_1_33_1_34.mp3"></audio>
 //!
 //! Show Notes
 //! ----------
@@ -249,7 +249,6 @@
 //! - [Cash.me](https://cash.me/$chriskrycho)
 //! - [Flattr](https://flattr.com/profile/chriskrycho)
 //! - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

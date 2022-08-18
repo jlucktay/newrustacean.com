@@ -10,14 +10,12 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/1/part_1.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
 //! Chris chats with Sean Griffin about his programming background and initial
 //! experience with Rust, Rust's appeal, and what he's doing with Diesel and
 //! some of his plans for a new web framework in Rust.
-//!
 //!
 //! Links
 //! -----
@@ -82,7 +80,6 @@
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
-//!
 //!
 //! Follow
 //! ------

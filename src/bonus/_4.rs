@@ -6,8 +6,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/4.mp3
 //!
-//! <audio style="width: 100%" title="Building as a community" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/4.mp3" />
-//!
+//! <audio style="width: 100%" title="Building as a community" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/4.mp3"></audio>
 //!
 //! Notes
 //! -----
@@ -16,7 +15,6 @@
 //! writing required for a full episode, but I can't get Rust off my mind, so
 //! I record an episode like this one. Where I talk a bit about how versatile
 //! Rust is and suggest some surprising ways you might be able to use it.
-//!
 //!
 //! Links
 //! -----
@@ -28,14 +26,12 @@
 //!       + [Using it in place of scripting languages][scripting]
 //!   - ["Feels like Python, runs like C"][python]
 //!
-//!
 //! [Rust 1.8]: http://blog.rust-lang.org/2016/04/14/Rust-1.8.html
 //! [Fake]: http://fsharp.github.io/FAKE/
 //! [HackerNews]: https://news.ycombinator.com/item?id=11498426
 //! [personal]: https://news.ycombinator.com/item?id=11498608
 //! [scripting]: https://news.ycombinator.com/item?id=11499747
 //! [python]: https://twitter.com/jdub/status/720801192884867073
-//!
 //!
 //! Sponsors
 //! --------
@@ -70,7 +66,6 @@
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
-//!
 //!
 //! Contact
 //! -------

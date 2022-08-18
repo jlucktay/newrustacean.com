@@ -10,7 +10,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e009.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //! Last time, we looked at generics and traits at a high level. This time, we
@@ -26,7 +25,6 @@
 //! just one type, but it uses almost every concept discussed on the show today!
 //!
 //! [src]: /src/show_notes/e009.rs.html
-//!
 //!
 //! Links
 //! -----
@@ -68,7 +66,6 @@
 //! [l17]: https://github.com/rust-lang/rfcs/pull/1210
 //! [l18]: https://aturon.github.io/blog/2015/09/18/reuse/
 //!
-//!
 //! Sponsors
 //! --------
 //!
@@ -91,7 +88,6 @@
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
-//!
 //!
 //! Follow
 //! ------

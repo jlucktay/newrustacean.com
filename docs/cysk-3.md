@@ -32,11 +32,11 @@ In part, that's because of the other thing that isn't there yet: further improve
 
 ## Closing
 
-So that's the Rust Language Service in a nutshell. It's already making my life far more awesome when writing Rust, and I am excited to see where it goes over the next year. If you enjoyed hearing a bit about the RLS today and want to hear more... you're in luck! Coming up next is an interview with Jonathan Turner, who helped build first the 
+So that's the Rust Language Service in a nutshell. It's already making my life far more awesome when writing Rust, and I am excited to see where it goes over the next year. If you enjoyed hearing a bit about the RLS today and want to hear more... you're in luck! Coming up next is an interview with Jonathan Turner, who helped build first the
 
 ### Sponsors
 
-Thanks to 
+Thanks to
 
 - Anthony Deschamps
 - Christopher Giffard

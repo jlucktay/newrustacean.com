@@ -28,7 +28,7 @@ In short, if you're doing things with XML, `quick-xml` is a great bet---and it's
 
 ### Sponsors
 
-Thanks to 
+Thanks to
 
 - Chris Palmer
 - Matt Rudder

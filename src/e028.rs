@@ -9,7 +9,7 @@
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e028.mp3
 //! [script]: https://newrustacean.com/show_notes/e027/struct.script
 //!
-//! <audio style="width: 100%" title="e028: Meet My Associates" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e028.mp3">
+//! <audio style="width: 100%" title="e028: Meet My Associates" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e028.mp3"></audio>
 //!
 //! Show Notes
 //! ----------
@@ -248,7 +248,6 @@
 //! - [Cash.me](https://cash.me/$chriskrycho)
 //! - [Flattr](https://flattr.com/profile/chriskrycho)
 //! - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

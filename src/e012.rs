@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e012.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
@@ -20,7 +19,6 @@
 //! constructs, and examine functions, and then widen out to discuss how having
 //! an expression-oriented language can change the way we think about
 //! programming.
-//!
 //!
 //! Links
 //! -----
@@ -73,7 +71,6 @@
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
-//!
 //!
 //! Contact
 //! -------

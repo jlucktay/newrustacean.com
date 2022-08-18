@@ -10,7 +10,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/news/3.mp3">
 //! </audio>
 //!
-//!
 //! Links and Notes
 //! ---------------
 //!
@@ -19,7 +18,6 @@
 //!
 //! [Initiative blog post]: https://blog.rust-lang.org/2017/06/27/Increasing-Rusts-Reach.html
 //! [Initiative submission form]: https://docs.google.com/forms/d/e/1FAIpQLSfbSGuoyZE9dctdEoC_XEZ7j2ox7jQT1zghAOF4iGds2PfBCA/viewform
-//!
 //!
 //! Sponsors
 //! --------
@@ -107,7 +105,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

@@ -77,7 +77,6 @@
 //! [1636-discussion]: https://github.com/rust-lang/rfcs/pull/1636
 //! [1636-tracking]: https://github.com/rust-lang/rust/issues/38643
 //!
-//!
 //! Sponsors
 //! --------
 //!
@@ -130,7 +129,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

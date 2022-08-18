@@ -10,7 +10,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/irr/matt_gathu.mp3">
 //! </audio>
 //!
-//!
 //! Show Notes
 //! ----------
 //!
@@ -31,7 +30,6 @@
 //! [test-cli]: http://mattgathu.github.io/testing-rust-cli-apps/
 //! [Meetup]: https://www.meetup.com/Rust-Nairobi/
 //! [@RustNairobi]: https://twitter.com/RustNairobi
-//!
 //!
 //! Sponsors
 //! --------
@@ -146,7 +144,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

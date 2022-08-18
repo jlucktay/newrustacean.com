@@ -85,7 +85,6 @@
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
 //!
-//!
 //! Contact
 //! -------
 //!

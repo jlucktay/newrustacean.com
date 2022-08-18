@@ -8,7 +8,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/integer32.mp3
 //!
-//! <audio style="width: 100%" title="News: Rust 1.29 and 1.30" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/integer32.mp3">
+//! <audio style="width: 100%" title="News: Rust 1.29 and 1.30" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/integer32.mp3"></audio>
 //!
 //! Show Notes
 //! ----------
@@ -26,7 +26,6 @@
 //! [QuickType]: https://quicktype.io
 //! [Lyken Software Solutions]: https://lyken.rs
 //! [“Tech Conference Budget Case Study: Rust Belt Rust 2018”]: https://integer32.com/2018/11/29/2018-rust-belt-rust-finance-report.html
-//!
 //!
 //! Sponsors
 //! --------
@@ -218,7 +217,6 @@
 //! - [Cash.me](https://cash.me/$chriskrycho)
 //! - [Flattr](https://flattr.com/profile/chriskrycho)
 //! - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

@@ -6,8 +6,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/3.mp3
 //!
-//! <audio style="width: 100%" title="Building as a community" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/3.mp3" />
-//!
+//! <audio style="width: 100%" title="Building as a community" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/3.mp3"></audio>
 //!
 //! Notes
 //! -----
@@ -17,7 +16,6 @@
 //! a bit about what happens when you don't have a good community, how Rust's
 //! community has done well so far, and then how to keep building a good
 //! community and how to build good things *as* a community.
-//!
 //!
 //! Sponsors
 //! --------
@@ -41,7 +39,6 @@
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
-//!
 //!
 //! Follow
 //! ------

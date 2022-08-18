@@ -7,8 +7,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/7.mp3
 //!
-//! <audio style="width: 100%" title="Katas—or: learning by doing" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/7.mp3">
-//!
+//! <audio style="width: 100%" title="Katas—or: learning by doing" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/7.mp3"></audio>
 //!
 //! Notes
 //! -----
@@ -16,7 +15,6 @@
 //! One of the best ways to learn is to pick a small problem you have already
 //! internalized, and to do it again but in a new language or in a new way in a
 //! language you already know.
-//!
 //!
 //! Links
 //! -----
@@ -72,7 +70,6 @@
 //! [handlebars-crate]: https://crates.io/crates/handlebars
 //! [handlebars-repo]: https://github.com/sunng87/handlebars-rust
 //!
-//!
 //! Sponsors
 //! --------
 //!
@@ -123,7 +120,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

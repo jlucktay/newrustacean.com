@@ -7,8 +7,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/8.mp3
 //!
-//! <audio style="width: 100%" title="Giving back (by teaching)" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/8.mp3"/>
-//!
+//! <audio style="width: 100%" title="Giving back (by teaching)" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/8.mp3"/></audio>
 //!
 //! Notes
 //! -----
@@ -17,7 +16,6 @@
 //! software. We should go out of our way to share with others in kind. Today,
 //! my focus is on teaching, but there are lots of ways to "give back." And I'd
 //! love to hear *your* thoughts and things *you're* doing in that vein!
-//!
 //!
 //! Links
 //! -----
@@ -29,10 +27,8 @@
 //! [jvns]: http://jvns.ca
 //! [ts-post]: http://www.chriskrycho.com/2016/keyof-and-mapped-types-in-typescript-21.html
 //!
-//!
 //! Sponsors
 //! --------
-//!
 //!
 //!   - Aleksey Pirogov
 //!   - Andreas Fischer
@@ -102,7 +98,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

@@ -77,7 +77,7 @@ I hope that gives you a pretty solid idea of how you can use, and when you shoul
 
 ### Sponsors
 
-Thanks to 
+Thanks to
 
 - Chris Palmer
 - Christopher Giffard

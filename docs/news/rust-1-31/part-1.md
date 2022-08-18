@@ -67,7 +67,7 @@ From your perspective as a user (that is, *not* as an author of the compiler its
 
 Now, if you have 2015 Edition code, *some* of it may not compile if the 2018 edition flag is set. This is why the recommended migration path is not to simply add or change that value in your `Cargo.toml`, but instead to *start* by running `cargo fix --edition`, which will safely rewrite your code to compile in both editions – or, in a few cases, tell you what kind of change you need to make yourself if it can’t see how to do it safely. (I covered `cargo fix` in a bit more detail back in [the news episode for the 1.29 and 1.30 releases](https://newrustacean.com/show_notes/news/rust_1_29_1_30/ "News: Rust 1.29 and 1.30").) *Then* you set the 2018 Edition flag in your `Cargo.toml` and you’re off to the races.
 
-`cargo fix` also has an `--edition-idioms` flag, which will further rewrite your code to be *idiomatic* in the new edition. If you want to use that flag, you should run it *after* the earlier steps. However, notice that this feature is still early in development: it’s able to do less, and what it can do doesn’t always leave your code in a compile-able state! So that’s not a *recommended* part of the edition upgrade, but 
+`cargo fix` also has an `--edition-idioms` flag, which will further rewrite your code to be *idiomatic* in the new edition. If you want to use that flag, you should run it *after* the earlier steps. However, notice that this feature is still early in development: it’s able to do less, and what it can do doesn’t always leave your code in a compile-able state! So that’s not a *recommended* part of the edition upgrade, but
 
 ## Some of the Both-Edition Features
 

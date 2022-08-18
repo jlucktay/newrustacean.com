@@ -17,7 +17,7 @@ When I bumped into Rust just a few months later, the fact that `Option` and `Res
 Rust, as I’ve often put it, is basically what you would get if you mashed together C++ and Haskell. And that combination is interesting: it’s *not* exactly functional; but it’s not exactly the C++ style of imperative, object-oriented code, either. I’ve spent a lot of time talking over the last few years about how Rust is both like and unlike C++. Here, today, I thought it would be interesting to tease out some of the ways it’s similar to and dissimilar to functional programming languages.
 
 ## Functional Programming and Rust
-  
+
 Let’s start with some of the ways Rust is *similar* to functional programming languages – or, perhaps a more accurate way to say it, some of the ways Rust steals ideas from functional programming languages.
 
 ### Similarities
@@ -45,7 +45,7 @@ Functional programming’s insight is that even this model often ends up causing
 Functional programming usually solves this problem by dropping the mutability from the equation. It’s not a problem to have shared state if it isn’t mutable; everyone just has a read-only copy of the data and you create new copies of the data when you need it. Functions just take in data and hand back new data, without altering the original, even when they’re a transformation of the original. That probably sounds *super* expensive performance-wise, but we have smart tools for making that cost a lot less than it seems like it would; I’ll link to notes on persistent data structures if you’re unfamiliar with that idea! I’ll also link to a couple persistent data structure libraries in Rust, because this idea is useful here, too.
 
 I find this approach very powerful. It lets me *know* that if I have a given piece of data, it won’t be changed underneath me (no matter what function I pass it to!). It means testing is much simpler: just *create* the data I want to pass in directly, rather than making sure I do the right sequence of method invocations to hopefully get that shape right. All these things are great!
-  
+
 They’re also expensive, though, performance-wise. Even using persistent data structures doesn’t get rid of that totally. Often, for application-level code, it doesn’t matter that much. But in some domains, at some times, it *does* matter. At the end of the day, mutation is *actually what happens* at the level of memory in a lot of cases, and abstracting over that has a cost, plain and simple. As such domains where pure functional programming isn’t 100% viable... tend to have an awful lot of overlap with Rust.
 
 #### Rust’s pitch: allow both, but never together

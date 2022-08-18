@@ -39,19 +39,19 @@ Let's take those in turn.
 ### Filling major gaps
 
 First, on filling big gaps: There are a bunch of projects in a fairly nascent state which could make a *big* difference in how useful Rust is and how easy it is for companies to adopt it. And it's worth understanding that one of the biggest things that helps languages be more than an exciting flash in the pan is getting them used in "industry" settings. You're starting to see some of this with Rust already---companies from Dropbox to Academia.edu and many others.
-    
+
 But for Rust to go from *niche* to *everywhere*, there are a lot of pieces of "infrastructure" that need to be built outside the language itself. *Big* infrastructure pieces. We need both the low-level infrastructure pieces like mio and the new futures library I mentioned at the top of the show, and some higher-level abstractions sitting on top of those to make it easier for people to build e.g. web services easily. {>> TODO: other gaps <<}
-    
+
 ### Filling smaller gaps
 
 What about all the little pieces? The community actually has a good start on this. Lots of us have built little exploratory projects---another Rust binding to some C library, a part of an XML parser, etc.---and those are *great* for little learning projects, but we also need to take a lot of those and turn them into production-level tools that are at a level that can be used in larger projects.
-    
+
 Now, don't be discouraged: if you've written that kind of small project, and you're thinking, "No way is this ready for some big company to depend on; I'm still just learning!" that's okay. No one should be sad about learning and learning in public, and no one should feel ashamed of their projects. *All* I mean is that as we move from the "just trying this out" phase to the phase where we feel reasonably competent with the language, we can start looking around and thinking about how we can turn "my first XML parser" into a *great* XML parser---perhaps by collaborating with several others who've done the same, and looking at some of the state-of-the-art options out there.
-    
+
 Those kinds of small projects aren't that *sexy*, but they're incredibly important. In many ways, given a sufficiently decent lanaguage *foundation*, they're actually *more* important than anything else that the language might do. If you don't believe me, look at JavaScript: the language has a lot of issues in its design, and there are well-known problems with the Node.js ecosystem and tooling. I *like* JavaScript, but the amount of time I've spent chasing down something which broke five layers deep in an npm dependency is infuriating.
 
 But none of that matters that much, because there is also a vibrant community trying to solve every problem imaginable---sometimes several times over in different ways, which causes its own set of problems! And the result is that, whatever the language's warts and whatever the weaknesses of the tools, the Node.js ecosystem is flourishing. And a huge part of that is simply people's willingness to build small things which *aren't* glorious, which aren't at the very center of the community.
-    
+
 A willingness to embrace that idea---that it doesn't have to be sexy for it to matter and be a valuable contribution---is huge. We need that in spades for Rust to become all it can. So: go write an incredible XML parser (or, better, help make one of the two that already exists more robust and capable). And then maintain it: fix bugs when they're found, keep on top of pull requests as they come in, and generally try to make it useful to people.
 
 There isn't a lot of glory in that. But it's *extremely* valuable.

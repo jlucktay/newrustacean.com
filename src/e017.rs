@@ -10,7 +10,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e017.mp3">
 //! </audio>
 //!
-//!
 //! Notes
 //! -----
 //!
@@ -21,7 +20,6 @@
 //! documentation; *reading* the code will be necessary for seeing the ideas.
 //!
 //! [e016]: http://newrustacean.dev/show_notes/e016/
-//!
 //!
 //! Links
 //! -----
@@ -59,7 +57,6 @@
 //! [rbe]: http://rustbyexample.com/flow_control/match/destructuring/destructure_pointers.html
 //! [uoe]: https://doc.rust-lang.org/reference.html#unary-operator-expressions
 //! [pointer-types]: https://doc.rust-lang.org/reference.html#pointer-types
-//!
 //!
 //! Sponsors
 //! --------
@@ -109,7 +106,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

@@ -11,7 +11,6 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/irr/anna_liao.mp3">
 //! </audio>
 //!
-//!
 //! Show Notes
 //! ----------
 //!
@@ -40,7 +39,6 @@
 //! [RustBridge]: https://github.com/rust-community/rustbridge
 //! [exercism.io]: https://exercism.io
 //! [the other Sense HAT Rust conversion]: https://github.com/thejpster/pi-workshop-rs
-//!
 //!
 //! Sponsors
 //! --------
@@ -155,7 +153,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

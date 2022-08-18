@@ -24,7 +24,7 @@ Next, I thought it important to mention two point releases in the 1.34 cycle:
 
 - **1.34.2** was substantially more serious: it was a fix for a security issue. You may recall from my discussion of Rust 1.34.0 that there was a newly-stabilized `Error:type_id` method. A careful Rustacean, Sean MacArthur, identified that this exposed a security hole. The *default* implementation was safe… but it was possible to return the wrong type when implementing the method yourself. And if you did that, you’d have a situation where Rust would treat the item as the wrong type, which can lead to very serious memory unsafety. For example: if the type was actually a `u8` and your returned a `Vec<u8>` instead, Rust would think you had a valid `Vec`… and if you started performing operations on it, like calling `my_vec.push(42)`, well, now you’d be scribbling over memory that didn’t belong to you! 1.34.2 therefore *destabilized* the feature entirely. There’s [an ongoing discussion][Issue #60784] about what to do with the feature, since it has existed since 1.0… just on nightly… and has been unsafe that whole time. (It’s just that now is the first time somebody caught the unsafety!)
 
-[Issue #60784]: https://github.com/rust-lang/rust/issues/60784 
+[Issue #60784]: https://github.com/rust-lang/rust/issues/60784
 
 ## Rust 1.35
 

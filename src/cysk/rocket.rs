@@ -6,8 +6,7 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/cysk/rocket.mp3
 //!
-//! <audio style="width: 100%" title="Crates You Should Know: Rocket" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/cysk/rocket.mp3" />
-//!
+//! <audio style="width: 100%" title="Crates You Should Know: Rocket" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/cysk/rocket.mp3"></audio>
 //!
 //! Links and Notes
 //! ---------------
@@ -38,7 +37,6 @@
 //! [implementation tracking issue]: https://github.com/rust-lang/rust/issues/38356
 //! [metaprogramming]: https://en.wikipedia.org/wiki/Metaprogramming
 //! [Lisp]: https://en.wikipedia.org/wiki/Lisp_(programming_language)
-//!
 //!
 //! Sponsors
 //! --------
@@ -124,7 +122,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

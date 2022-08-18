@@ -73,7 +73,7 @@ There is *one* major feature that is landing as part of the 2018 Edition that wa
 It’s worth note, before I dig into the details, that this is *presently* landing in the 2018 Edition only, but the team expects to back-port it to work with 2015 Edition Rust as well.
 
 The name of this feature, <i>non-lexical lifetimes</i>, gives us the pieces we need to understand what’s changing. At some point, we’ll all just thinking of these as “lifetimes” plain and simple, but for right now, they’re named in contrast with how lifetimes have worked historically. To this point, lifetimes were “lexical”: that is, they were the same as lexical scopes—that is, *blocks*. If you borrowed something anywhere in a block—a function, a for loop, a match block, etc.—it was borrowed until the end of the curly braces for that block. This is why one of the workarounds for a fair number of situations you’d run into with the borrow-checker has been to introduce a local block: then the lifetime and borrow analysis the compiler did could understand that something was no longer borrowed at the end of that block, and the rest of your function could do what you wanted.
-  
+
 This is super frustrating, though: you as a user can look at it and say, “No, Rust, I’m *done* with this borrow up here! Why can’t you see that I’m no longer borrowing it and let me borrow it again later! Agh!” And the block workaround is ugly and even that doesn’t always get you where you want.
 
 So, for the last several years—this has been an in-progress effort for most of the life of the 2015 Edition!—the team has been working on a new approach to the borrow checker’s understanding of lifetimes. This is tricky because the new version has to get three things right:

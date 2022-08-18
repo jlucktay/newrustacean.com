@@ -6,8 +6,7 @@
 //!
 //!  [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/cysk/wasm.mp3
 //!
-//! <audio style="width: 100%" title="Crates You Should Know: The wasm tools" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/cysk/wasm.mp3" />
-//!
+//! <audio style="width: 100%" title="Crates You Should Know: The wasm tools" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/cysk/wasm.mp3"></audio>
 //!
 //! Show Notes
 //! ----------
@@ -147,7 +146,6 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
-//!
 //!
 //! Contact
 //! -------

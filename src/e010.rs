@@ -22,7 +22,7 @@
 //! details.
 //!
 //! [n1]: https://www.newrustacean.com/show_notes/#macros
-//! [n2]: http://doc.rust-lang.org/stable/book/documentation.html#documenting-macros
+//! [n2]: https://doc.rust-lang.org/stable/book/documentation.html#documenting-macros
 //! [n3]: https://www.newrustacean.com/src/show_notes/e009.rs.html
 //! [n4]: https://www.newrustacean.com/src/show_notes/e010.rs.html#101
 //!
@@ -53,7 +53,7 @@
 //! [l1]: https://speakerdeck.com/jvns/why-i-rust
 //! [l2]: https://intermezzos.github.io/
 //! [l3]: https://doc.rust-lang.org/book/macros.html
-//! [l4]: http://rustbyexample.com/macros.html
+//! [l4]: https://doc.rust-lang.org/rust-by-example/macros.html
 //! [l5]: https://doc.rust-lang.org/reference/macros.html
 //! [l6]: https://www.cs.indiana.edu/ftp/techreports/TR206.pdf
 //! [l7]: http://www.ncameron.org/blog/macros/

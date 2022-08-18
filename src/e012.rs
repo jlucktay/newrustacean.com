@@ -39,7 +39,7 @@
 //! [l3]: https://air.mozilla.org/bay-area-rust-meetup-february-2016/#@25m50s
 //! [l4]: http://www.wired.com/2016/03/epic-story-dropboxs-exodus-amazon-cloud-empire/
 //! [l5]: https://doc.rust-lang.org/book/functions.html#expressions-vs-statements
-//! [l6]: http://rustbyexample.com/expression.html
+//! [l6]: https://doc.rust-lang.org/rust-by-example/expression.html
 //! [l7]: https://doc.rust-lang.org/reference.html#statements-and-expressions
 //! [l8]: https://github.com/rust-lang/rust/issues/1698
 //! [l9]: http://www.jpl.nasa.gov/edu/news/2016/3/16/how-many-decimals-of-pi-do-we-really-need/

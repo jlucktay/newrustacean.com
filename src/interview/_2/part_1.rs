@@ -86,10 +86,10 @@
 //! [original paper]: http://citeseer.ist.psu.edu/viewdoc/download?doi=10.1.1.14.9450&rep=rep1&type=pdf
 //! ["log n operation"]: http://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly
 //! [Big O notation]: https://en.wikipedia.org/wiki/Big_O_notation
-//! [`Arc`]: http://doc.rust-lang.org/std/sync/struct.Arc.html
-//! [`RefCell`]: http://doc.rust-lang.org/std/cell/struct.RefCell.html
-//! [`Borrow`]: http://doc.rust-lang.org/std/borrow/trait.Borrow.html
-//! [`AsRef`]: http://doc.rust-lang.org/std/convert/trait.AsRef.html
+//! [`Arc`]: https://doc.rust-lang.org/std/sync/struct.Arc.html
+//! [`RefCell`]: https://doc.rust-lang.org/std/cell/struct.RefCell.html
+//! [`Borrow`]: https://doc.rust-lang.org/std/borrow/trait.Borrow.html
+//! [`AsRef`]: https://doc.rust-lang.org/std/convert/trait.AsRef.html
 //! [Crossbeam source]: https://github.com/aturon/crossbeam
 //! [Crossbeam docs]: http://aturon.github.io/crossbeam-doc/crossbeam/
 //! [Rayon source]: https://github.com/nikomatsakis/rayon

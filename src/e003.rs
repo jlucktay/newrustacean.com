@@ -57,7 +57,7 @@
 //! [link-2]: https://www.rust-lang.org/ides.html
 //! [link-3]: https://github.com/alexeykudinkin/intellij-rust
 //! [link-4]: https://github.com/carols10cents/rustlings
-//! [link-5]: http://jakegoulding.com/rust-ffi-omnibus/basics/
+//! [link-5]: https://jakegoulding.com/rust-ffi-omnibus/basics/
 //!
 //! # Follow/Support
 //!

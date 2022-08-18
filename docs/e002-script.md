@@ -10,7 +10,7 @@ borrowed, something... moved?"
 
 - `rustfmt` -- a tool for formatting Rust code
   - [repo](https://github.com/nrc/rustfmt)
-  - ["rustfmt-ing Rust`](http://www.ncameron.org/blog/rustfmt-ing-rust/)
+  - ["rustfmt-ing Rust`](https://www.ncameron.org/blog/rustfmt-ing-rust/)
   - [Reddit discussion](https://www.reddit.com/r/rust/comments/3nt2vm/rustfmting_rust_please_help_me_rustfmt_the_rust/)
 
 - Open RFC for incremental compilation -- valuable to decrease iteration time,

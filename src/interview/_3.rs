@@ -64,7 +64,7 @@
 //! [TRPL]: https://doc.rust-lang.org/book/
 //! [Julia Evans]: http://jvns.ca
 //! [keynote]: http://jvns.ca/blog/2016/09/11/rustconf-keynote/
-//! [RBE]: http://rustbyexample.com
+//! [RBE]: https://doc.rust-lang.org/rust-by-example
 //! [Rustlings]: https://github.com/carols10cents/rustlings
 //! [sass-lang]: http://sass-lang.com
 //! [sass-impl]: https://github.com/carols10cents/sassers

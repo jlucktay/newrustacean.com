@@ -54,7 +54,7 @@
 //! [MIR]: https://github.com/rust-lang/rust/pull/34096
 //! [book:rab]: https://doc.rust-lang.org/book/references-and-borrowing.html
 //! [book:deref]: https://doc.rust-lang.org/book/deref-coercions.html
-//! [rbe]: http://rustbyexample.com/flow_control/match/destructuring/destructure_pointers.html
+//! [rbe]: https://doc.rust-lang.org/rust-by-example/flow_control/match/destructuring/destructure_pointers.html
 //! [uoe]: https://doc.rust-lang.org/reference.html#unary-operator-expressions
 //! [pointer-types]: https://doc.rust-lang.org/reference.html#pointer-types
 //!

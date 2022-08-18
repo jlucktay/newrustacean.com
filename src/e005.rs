@@ -51,18 +51,18 @@
 //!   - [Rust 1.4 full release notes][links-4]
 //!   - ["What and where are the stack and the heap?"][links-5]
 //!
-//! [links-1]: http://blog.rust-lang.org/2015/10/29/Rust-1.4.html
+//! [links-1]: https://blog.rust-lang.org/2015/10/29/Rust-1.4.html
 //! [links-2]: https://github.com/rust-lang/rfcs/blob/master/text/1214-projections-lifetimes-and-wf.md
 //! [links-3]: https://github.com/rust-lang/rfcs/issues/1061
 //! [links-4]: https://github.com/brson/rust/blob/relnotes/RELEASES.md
-//! [links-5]: http://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap
+//! [links-5]: https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap
 //!
 //! # Sponsors
 //!
 //!   - reddraggone9
 //!   - [Chris Patti][sponsors-1]
 //!
-//! [sponsors-1]: http://podcastinit.com
+//! [sponsors-1]: https://podcastinit.com
 //!
 //! ## Become a sponsor
 //!

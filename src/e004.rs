@@ -26,11 +26,11 @@
 //!   - ["What is a closure?" (Stack Overflow)][notes-5] -- careful, thorough
 //!     answer using JavaScript as an example.
 //!
-//! [notes-1]: http://martinfowler.com/bliki/Lambda.html
+//! [notes-1]: https://martinfowler.com/bliki/Lambda.html
 //! [notes-2]: https://doc.rust-lang.org/book/closures.html
 //! [notes-3]: https://doc.rust-lang.org/rust-by-example/fn/closures.html
-//! [notes-4]: http://programmers.stackexchange.com/questions/40454/what-is-a-closure
-//! [notes-5]: http://stackoverflow.com/questions/36636/what-is-a-closure
+//! [notes-4]: https://programmers.stackexchange.com/questions/40454/what-is-a-closure
+//! [notes-5]: https://stackoverflow.com/questions/36636/what-is-a-closure
 //!
 //! # Links
 //!
@@ -38,10 +38,10 @@
 //!  - [Rust Learning][link-3]
 //!  - [Rust and Swift (viii)][link-4]
 //!
-//! [link-1]: http://exercism.io/languages/rust
+//! [link-1]: https://exercism.io/languages/rust
 //! [link-2]: https://github.com/Lechindianer
 //! [link-3]: https://github.com/ctjhoa/rust-learning
-//! [link-4]: http://www.chriskrycho.com/2015/rust-and-swift-viii.html
+//! [link-4]: https://www.chriskrycho.com/2015/rust-and-swift-viii.html
 //!
 //! # Follow/Support
 //!

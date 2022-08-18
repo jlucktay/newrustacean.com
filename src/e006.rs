@@ -33,7 +33,7 @@
 //!   - [Roguelike in Rust][links-1]
 //!   - [Yehuda Katz on Ruby FFI][links-2]
 //!
-//! [links-1]: http://jaredonline.svbtle.com/roguelike-tutorial-table-of-contents
+//! [links-1]: https://jaredonline.svbtle.com/roguelike-tutorial-table-of-contents
 //! [links-2]: https://engineering.intercom.io/yehuda-on-rust-with-ruby/
 //!
 //! # Module Docs!
@@ -49,7 +49,7 @@
 //!   - reddraggone9
 //!   - [Chris Patti][sponsors-1]
 //!
-//! [sponsors-1]: http://podcastinit.com
+//! [sponsors-1]: https://podcastinit.com
 //!
 //! ## Become a sponsor
 //!

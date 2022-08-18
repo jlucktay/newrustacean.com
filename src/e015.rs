@@ -64,7 +64,7 @@
 //! [RFC1636]: https://github.com/rust-lang/rfcs/pull/1636
 //! [The Stack and the Heap]: https://doc.rust-lang.org/book/the-stack-and-the-heap.html
 //! [Choosing Your Guarantees]: https://doc.rust-lang.org/book/choosing-your-guarantees.html
-//! [rbe]: http://rustbyexample.com/std/box.html
+//! [rbe]: https://doc.rust-lang.org/rust-by-example/std/box.html
 //! [`std::boxed`]: https://doc.rust-lang.org/std/boxed/index.html
 //! [`std::rc`]: https://doc.rust-lang.org/std/rc/index.html
 //! [`stc::sync::Arc`]: https://doc.rust-lang.org/std/sync/struct.Arc.html

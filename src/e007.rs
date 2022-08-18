@@ -52,8 +52,8 @@
 //! [links-2]: https://doc.rust-lang.org/book/benchmark-tests.html
 //! [links-3]: https://doc.rust-lang.org/reference/attributes.html
 //! [links-4]: https://github.com/diesel-rs/diesel
-//! [links-5]: http://bikeshed.fm/31
-//! [links-6]: http://bikeshed.fm/32
+//! [links-5]: https://bikeshed.fm/31
+//! [links-6]: https://bikeshed.fm/32
 //!
 //! Sponsors
 //! --------

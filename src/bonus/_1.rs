@@ -19,16 +19,16 @@
 //!   - [F♯][links-2]
 //!   - [Elixir][links-3]
 //!
-//! [links-1]: http://www.scala-lang.org
-//! [links-2]: http://fsharp.org
-//! [links-3]: http://elixir-lang.org
+//! [links-1]: https://www.scala-lang.org
+//! [links-2]: https://fsharp.org
+//! [links-3]: https://elixir-lang.org
 //!
 //! # Sponsors
 //!
 //!   - reddraggone9
 //!   - [Chris Patti][sponsors-1]
 //!
-//! [sponsors-1]: http://podcastinit.com
+//! [sponsors-1]: https://podcastinit.com
 //!
 //! ## Become a sponsor
 //!

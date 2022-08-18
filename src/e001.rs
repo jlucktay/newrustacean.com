@@ -52,19 +52,19 @@
 //!   - [The Rust book chapter on `rustdoc`][16]
 //!
 //! [2]: https://github.com/rust-lang/rfcs/issues/1061
-//! [Python's Sphinx tool]: http://sphinx-doc.org
-//! [Doxygen]: http://www.stack.nl/~dimitri/doxygen/
-//! [`JSDoc`]: http://usejsdoc.org
-//! [`JavaDoc`]: http://www.oracle.com/technetwork/articles/java/index-jsp-135444.html
-//! [7]: http://julialang.org
-//! [8]: http://julia.readthedocs.org/en/latest/manual/documentation/
-//! [9]: http://elixir-lang.org
+//! [Python's Sphinx tool]: https://sphinx-doc.org
+//! [Doxygen]: https://www.stack.nl/~dimitri/doxygen/
+//! [`JSDoc`]: https://usejsdoc.org
+//! [`JavaDoc`]: https://www.oracle.com/technetwork/articles/java/index-jsp-135444.html
+//! [7]: https://julialang.org
+//! [8]: https://julia.readthedocs.org/en/latest/manual/documentation/
+//! [9]: https://elixir-lang.org
 //! [10]: https://github.com/elixir-lang/ex_doc
-//! [11]: http://blog.rust-lang.org/2015/09/17/Rust-1.3.html
+//! [11]: https://blog.rust-lang.org/2015/09/17/Rust-1.3.html
 //! [12]: https://crates.io
 //! [13]: https://github.com/brson/taskcluster-crater
-//! [14]: http://semver.org
-//! [15]: http://blog.rust-lang.org/2014/10/30/Stability.html
+//! [14]: https://semver.org
+//! [15]: https://blog.rust-lang.org/2014/10/30/Stability.html
 //! [16]: https://doc.rust-lang.org/book/second-edition/ch14-02-publishing-to-crates-io.html#making-useful-documentation-comments
 //!
 //! # Follow/Support

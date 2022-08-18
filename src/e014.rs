@@ -45,13 +45,13 @@
 //!       + [`std::ops::Deref`]
 //!
 //! [The Rust Book]: https://doc.rust-lang.org/book/strings.html
-//! [Rust by Example]: http://rustbyexample.com/std/str.html
-//! [strmod]: http://doc.rust-lang.org/std/str/
-//! [primitive type]: http://doc.rust-lang.org/std/primitive.str.html
-//! [stringmod]: http://doc.rust-lang.org/std/string/index.html
-//! [type definition]: http://doc.rust-lang.org/std/string/struct.String.html
-//! [coercions]: http://doc.rust-lang.org/book/deref-coercions.html
-//! [`std::ops::Deref`]: http://doc.rust-lang.org/std/ops/trait.Deref.html
+//! [Rust by Example]: https://doc.rust-lang.org/rust-by-example/std/str.html
+//! [strmod]: https://doc.rust-lang.org/std/str/
+//! [primitive type]: https://doc.rust-lang.org/std/primitive.str.html
+//! [stringmod]: https://doc.rust-lang.org/std/string/index.html
+//! [type definition]: https://doc.rust-lang.org/std/string/struct.String.html
+//! [coercions]: https://doc.rust-lang.org/book/deref-coercions.html
+//! [`std::ops::Deref`]: https://doc.rust-lang.org/std/ops/trait.Deref.html
 //!
 //! Sponsors
 //! --------

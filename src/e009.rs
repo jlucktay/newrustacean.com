@@ -24,7 +24,7 @@
 //! You'll find today's [source example][src] fairly interesting, I think: it's
 //! just one type, but it uses almost every concept discussed on the show today!
 //!
-//! [src]: /src/show_notes/e009.rs.html
+//! [src]: ../../src/show_notes/e009.rs.html
 //!
 //! Links
 //! -----
@@ -42,17 +42,17 @@
 //!       + [`Drop`][l10]
 //!       + [`PartialEq`][l11] and [`Eq`][l12]
 //!       + [`PartialOrd`][l13] and [`Ord`][l14]
-//!       + [Special traits][l5]
+//!       + [Special traits][l15]
 //!       + [Trait objects][l16]
 //!   - [RFC: impl specialization][l17]
 //!       + Aaron Turon: ["Specialize to reuse"][l18]
 //!
-//! [l1]: http://www.ncameron.org/blog/my-thoughts-on-rust-in-2016/
+//! [l1]: https://www.ncameron.org/blog/my-thoughts-on-rust-in-2016/
 //! [l2]: https://users.rust-lang.org/t/upcoming-breakage-starting-in-rust-1-7-from-rfcs-1214-and-136/4207
 //! [l3]: https://github.com/rust-lang/rfcs/blob/master/text/1214-projections-lifetimes-and-wf.md
 //! [l4]: https://github.com/rust-lang/rfcs/blob/master/text/0136-no-privates-in-public.md
-//! [l5]: https://doc.rust-lang.org/book/traits.html
-//! [l6]: https://doc.rust-lang.org/book/trait-objects.html
+//! [l5]: https://doc.rust-lang.org/book/ch10-02-traits.html
+//! [l6]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html
 //! [l7]: https://doc.rust-lang.org/std/iter/index.html
 //! [l8]: https://doc.rust-lang.org/std/iter/trait.Iterator.html
 //! [l9]: https://doc.rust-lang.org/std/ops/trait.Add.html
@@ -61,8 +61,8 @@
 //! [l12]: https://doc.rust-lang.org/std/cmp/trait.Eq.html
 //! [l13]: https://doc.rust-lang.org/std/cmp/trait.PartialOrd.html
 //! [l14]: https://doc.rust-lang.org/std/cmp/trait.Ord.html
-//! [l15]: https://doc.rust-lang.org/reference.html#special-traits
-//! [l16]: https://doc.rust-lang.org/reference.html#trait-objects
+//! [l15]: https://doc.rust-lang.org/reference/special-types-and-traits.html
+//! [l16]: https://doc.rust-lang.org/reference/types/trait-object.html
 //! [l17]: https://github.com/rust-lang/rfcs/pull/1210
 //! [l18]: https://aturon.github.io/blog/2015/09/18/reuse/
 //!
@@ -80,7 +80,7 @@
 //!   - [William Roe][s9]
 //!
 //! [s3]: https://twitter.com/derekmorr
-//! [s9]: http://willroe.me
+//! [s9]: https://willroe.me
 //!
 //! ### Become a sponsor
 //!
@@ -111,6 +111,7 @@ use std::ops;
 ///
 /// Look at all those default implementations we get for free!
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[allow(clippy::derive_partial_eq_without_eq)]
 pub struct DoubleAndOne {
     /// A value to double and add one to on every `next()` call.
     pub value: i64,
@@ -118,8 +119,9 @@ pub struct DoubleAndOne {
 
 impl DoubleAndOne {
     /// Start with 0.
-    pub fn default() -> DoubleAndOne {
-        DoubleAndOne { value: 0 }
+    #[must_use]
+    pub const fn default() -> Self {
+        Self { value: 0 }
     }
 }
 
@@ -151,28 +153,29 @@ impl fmt::Display for DoubleAndOne {
     }
 }
 
+#[allow(clippy::copy_iterator)]
 impl Iterator for DoubleAndOne {
     /// Define the required `Item` as being the the struct itself.
-    type Item = DoubleAndOne;
+    type Item = Self;
 
-    fn next(&mut self) -> Option<DoubleAndOne> {
+    fn next(&mut self) -> Option<Self> {
         self.value = self.value * 2 + 1;
-        Some(DoubleAndOne { value: self.value })
+        Some(Self { value: self.value })
     }
 }
 
 impl ops::Add for DoubleAndOne {
-    type Output = DoubleAndOne;
+    type Output = Self;
 
-    fn add(self, rhs: DoubleAndOne) -> DoubleAndOne {
-        DoubleAndOne {
+    fn add(self, rhs: Self) -> Self {
+        Self {
             value: self.value + rhs.value,
         }
     }
 }
 
 /// Demonstrate using a for loop over an (infinite!) iterator.
-#[cfg_attr(feature = "clippy", allow(explicit_counter_loop))]
+#[allow(clippy::explicit_counter_loop)]
 pub fn demonstrate_for() {
     let mut printed = 0;
     let max_to_print = 10;
@@ -218,6 +221,7 @@ mod tests {
     }
 
     #[test]
+    #[allow(clippy::unwrap_used)]
     fn test_together() {
         let d = DoubleAndOne { value: 42 };
         let e = d.into_iter().next().unwrap();

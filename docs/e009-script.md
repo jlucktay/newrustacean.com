@@ -1,15 +1,13 @@
-Composing a Rustic tune
-=======================
+# Composing a Rustic tune
 
-Intro (30s)
------
+## Intro (30s)
+
 Hello, I'm Chris Krycho, and this is the New Rustacean podcast---a 15--20 minute
 show about learning the Rust programming language. This is *Episode 9: Composing
 a Rustic tune*.
 
+## News (2m 30s -> 3m)
 
-News (2m 30s -> 3m)
-----
 Things have been a bit quiet the last couple weeks---the holidays will do that!
 There are a couple tidbits of note, however.
 
@@ -38,9 +36,8 @@ forum announcement and the relevant RFCs in the show notes!
 
 Now, let's talk some more about traits!
 
+## Overview (1m -> 4m)
 
-Overview (1m -> 4m)
---------
 Last week, we talked about both generics and traits, but at a fairly high level.
 This week, we're going to build on that by getting down into the nitty-gritty of
 what using generics and traits looks like in practice. There's not going to be
@@ -50,9 +47,8 @@ library docs, because they have a *ton* of generics and traits in them. In fact,
 a lot of what might feel like core behavior of the language is actually just
 standard library functionality, implemented in terms of generics and traits.
 
+## `Iterator` (8m -> 12m)
 
-`Iterator` (8m -> 12m)
-----------
 Let's start by talking about the `Iterator` trait, which is a perfect example of
 something that provides enormous functionality, but is just a trait---and, apart
 from the syntactic sugar that the compiler provides for using it, one you could
@@ -68,6 +64,7 @@ notes pages, link directly to the underlying source, as well, which is also
 extremely illuminating.
 
 ### `Iterator`
+
 I'll quote from the `std::iter` module to start, in fact:
 
 > The heart and soul of this module is the `Iterator` trait....
@@ -106,7 +103,7 @@ you're iterating over a vector, a string, a hash-map, a linked list, or quite
 literally *any other* data type which implements `Iterator`.
 
 Importantly, those types don't have to be "collection" types. To borrow a page
-from the _Rust by Example_ book, for example, you could implement a Fibonacci
+from the *Rust by Example* book, for example, you could implement a Fibonacci
 number generator in terms of `Iterator`, with `next()` always generating the
 next value in the sequence. (Because it's an infinite sequence, you'd never
 return `None`, always `Some(integer)`).
@@ -121,6 +118,7 @@ A great many of Rust's facilities for functional-style programming appear in the
 suspects from functional programming, `Iterator` is your source.
 
 ### Composition
+
 Wrapping up that description, the last thing I quoted was the assertion that
 iterators are *composable*. This is precisely why those functional patterns work
 so well: you can take one kind of iterable and create another one, and another,
@@ -144,6 +142,7 @@ depending on what kind of equivalence you have, ordering via `PartialOrd` or
 `Ord` depending on what kind of ordering your set supports... you get the idea.
 
 ### `[derive()]`
+
 I've skipped over this in previous episodes, but Rust also provides tools for
 implementing some of the more common traits automatically. If you think back to
 our discussion of attributes in episode 7, you'll recall that I mentioned being
@@ -161,9 +160,8 @@ sophisticated behaviors around even complex custom types, just by composing
 different traits together---but we're not paying a cost at runtime for it. It
 all comes at compile-time. Neat!
 
+## Syntax (4m -> 16m)
 
-Syntax (4m -> 16m)
-------
 Let's talk about `trait` syntax for a minute. Precisely because composition of
 traits is the main way we define complex types in Rust, the syntax is a bit less
 verbose than for interfaces in languages like Java or C#. Instead of an
@@ -192,9 +190,8 @@ indicates that it is safe to send a given type between two threads. That doesn't
 require a function, but it *does* require you to make sure that the type is
 memory-safe in certain ways!
 
+## Limitations (1m -> 17m)
 
-Limitations (1m -> 17m)
------------
 As powerful as all these tools are, Rust's traits can't do everything. And
 specifically, as of today you can't implement the same trait in a more specific
 way if it makes sense for a given type if there's already a concrete
@@ -206,9 +203,8 @@ helpful blog post by the RFC author, to the show notes. That way you can take a
 look if you're interested in some of the language design issues and their
 ramifications for you as a developer.
 
+## Closing (2m 30s -> 19m 30s)
 
-Closing (2m 30s -> 19m 30s)
--------
 A little teaser for the future: you can actually act on what are called *trait
 objects*, where you provide a reference to the name of a trait as shorthand for
 a reference to *some object which implements that trait*. When you do this, you
@@ -226,6 +222,7 @@ but prove extremely unfamiliar to you if you've spent a lot of time in C or C++:
 Rust's *macro* system.
 
 ### Sponsors
+
 Thanks to Hamza Sheikh and Chris Palmer for sponsoring the show this month!
 Check out the list of other sponsors in the show notes. You are all amazing; I
 really appreciate your support as I make the show. (So does my wife!)
@@ -234,6 +231,7 @@ If *you'd* like to sponsor the show, you can set up recurring donations at
 Patreon.com/newrustacean, or one-off donations at Venmo, Dwolla, or cash.me.
 
 ### Follow/support
+
 You can find show notes with detailed code samples illustrating these ideas, as
 well as links to things mentioned on the show, at NewRustacean.com. You can also
 follow the show on Twitter @newrustacean, or follow me there @chriskrycho. If

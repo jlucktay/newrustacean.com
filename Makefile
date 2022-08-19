@@ -5,7 +5,7 @@ LANDING = landing/*.html landing/*.css
 RESOURCES = resources/* resources/.nojekyll
 
 # -- Define build rules -- #
-.PHONY: all clean test docs publish
+.PHONY: all clean default test docs publish
 
 default: all
 

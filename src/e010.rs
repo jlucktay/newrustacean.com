@@ -22,14 +22,14 @@
 //! details.
 //!
 //! [n1]: https://www.newrustacean.com/show_notes/#macros
-//! [n2]: https://doc.rust-lang.org/stable/book/documentation.html#documenting-macros
+//! [n2]: https://doc.rust-lang.org/stable/book/ch14-02-publishing-to-crates-io.html#making-useful-documentation-comments
 //! [n3]: https://www.newrustacean.com/src/show_notes/e009.rs.html
 //! [n4]: https://www.newrustacean.com/src/show_notes/e010.rs.html#101
 //!
 //! Links
 //! -----
 //!   - Julia Evans: ["Why I (Heart) Rust"][l1]
-//!   - Steve Klabnik: ["IntermezzOS"][l2] (a small teaching OS built in Rust)
+//!   - Steve Klabnik: ["`IntermezzOS`"][l2] (a small teaching OS built in Rust)
 //!   - [Rust book: Macros][l3]
 //!   - [Rust by Example: Macros][l4]
 //!   - [Rust reference: Macros][l5]
@@ -52,23 +52,23 @@
 //!
 //! [l1]: https://speakerdeck.com/jvns/why-i-rust
 //! [l2]: https://intermezzos.github.io/
-//! [l3]: https://doc.rust-lang.org/book/macros.html
+//! [l3]: https://doc.rust-lang.org/book/ch19-06-macros.html
 //! [l4]: https://doc.rust-lang.org/rust-by-example/macros.html
 //! [l5]: https://doc.rust-lang.org/reference/macros.html
 //! [l6]: https://www.cs.indiana.edu/ftp/techreports/TR206.pdf
-//! [l7]: http://www.ncameron.org/blog/macros/
-//! [l8]: http://ncameron.org/blog/macros-in-rust-pt1/
-//! [l9]: http://www.ncameron.org/blog/macros-in-rust-pt2/
-//! [l10]: http://www.ncameron.org/blog/macros-in-rust-pt3/
-//! [l11]: http://www.ncameron.org/blog/macros-in-rust-pt4/
-//! [l12]: http://www.ncameron.org/blog/macros-in-rust-pt5/
-//! [l13]: http://www.ncameron.org/blog/macros-pt6-more-issues/
-//! [l14]: http://www.ncameron.org/blog/untitledconcat_idents-and-macros-in-ident-position/
-//! [l15]: http://www.ncameron.org/blog/macro-plans-overview/
-//! [l16]: http://www.ncameron.org/blog/macro-hygiene-in-all-its-guises-and-variations/
-//! [l17]: http://www.ncameron.org/blog/sets-of-scopes-macro-hygiene/
-//! [l18]: http://www.ncameron.org/blog/macro-plans-syntax/
-//! [l19]: http://www.ncameron.org/blog/procedural-macros-framework/
+//! [l7]: https://www.ncameron.org/blog/macros/
+//! [l8]: https://ncameron.org/blog/macros-in-rust-pt1/
+//! [l9]: https://www.ncameron.org/blog/macros-in-rust-pt2/
+//! [l10]: https://www.ncameron.org/blog/macros-in-rust-pt3/
+//! [l11]: https://www.ncameron.org/blog/macros-in-rust-pt4/
+//! [l12]: https://www.ncameron.org/blog/macros-in-rust-pt5/
+//! [l13]: https://www.ncameron.org/blog/macros-pt6-more-issues/
+//! [l14]: https://www.ncameron.org/blog/untitledconcat_idents-and-macros-in-ident-position/
+//! [l15]: https://www.ncameron.org/blog/macro-plans-overview/
+//! [l16]: https://www.ncameron.org/blog/macro-hygiene-in-all-its-guises-and-variations/
+//! [l17]: https://www.ncameron.org/blog/sets-of-scopes-macro-hygiene/
+//! [l18]: https://www.ncameron.org/blog/macro-plans-syntax/
+//! [l19]: https://www.ncameron.org/blog/procedural-macros-framework/
 //!
 //! Sponsors
 //! --------
@@ -84,7 +84,7 @@
 //!   - [William Roe][s9]
 //!
 //! [s3]: https://twitter.com/derekmorr
-//! [s9]: http://willroe.me
+//! [s9]: https://willroe.me
 //!
 //! ### Become a sponsor
 //!
@@ -177,17 +177,20 @@ macro_rules! main_try {
 #[macro_export]
 macro_rules! print_ident_name {
     ($id:ident) => {
-        format!("The ident's name was: {}", stringify!($id));
+        format!("The ident's name was: {}", stringify!($id))
     };
 }
 
 /// Trivial alias for Result for convenience.
 pub type TryResult = Result<i32, &'static str>;
 
-/// Demonstrate how `try!` works in practice.
+/// Demonstrate how `?` works in practice.
+///
+/// # Errors
 pub fn demonstrate_try(tr: TryResult) -> TryResult {
     // If the caller passes in an error, this returns that error.
-    let val = r#try!(tr);
+    let val = tr?;
+
     // Thus, if `tr` was `Err`, we'll never get here. If it's an `Ok`, `val` has
     // the value, so we can return it slightly modified to show that that's what
     // actually happened.
@@ -206,19 +209,25 @@ mod tests {
 
     #[test]
     fn test_print_ident_name() {
-        // We can operate on any identifier. Variables:
+        // We can operate on any identifier.
+
+        // Variables:
+        #[allow(clippy::no_effect_underscore_binding)]
         let _x = 42;
         assert_eq!(print_ident_name!(_x), format!("The ident's name was: _x"));
+
         // Functions:
         assert_eq!(
             print_ident_name!(demonstrate_try),
             format!("The ident's name was: demonstrate_try")
         );
+
         // Types:
         assert_eq!(
             print_ident_name!(TryResult),
             format!("The ident's name was: TryResult")
         );
+
         // Even macros!
         assert_eq!(
             print_ident_name!(print_ident_name),

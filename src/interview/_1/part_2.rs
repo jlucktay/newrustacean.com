@@ -33,7 +33,7 @@
 //! led me to believe. It's no Rust or F♯, but its type system is substantially
 //! more capable than Java's.
 //!
-//! [c1]: https://msdn.microsoft.com/library/bb919210(v=vs.90).aspx
+//! [c1]: https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-6.0
 //!
 //! Links
 //! -----
@@ -47,12 +47,12 @@
 //!           * [Implementation][l5]
 //!   - [Diesel][l6]
 //!
-//! [l1]: https://robots.thoughtbot.com/functional-swift-for-dealing-with-optional-values
-//! [l2]: http://learnyouahaskell.com/functors-applicative-functors-and-monoids
-//! [l3]: https://doc.rust-lang.org/book/trait-objects.html
+//! [l1]: https://thoughtbot.com/blog/functional-swift-for-dealing-with-optional-values
+//! [l2]: https://learnyouahaskell.com/functors-applicative-functors-and-monoids
+//! [l3]: https://doc.rust-lang.org/book/ch17-02-trait-objects.html
 //! [l4]: https://github.com/rust-lang/rfcs/pull/1210
 //! [l5]: https://github.com/rust-lang/rust/issues/31844
-//! [l6]: https://github.com/sgrif/diesel
+//! [l6]: https://github.com/diesel-rs/diesel
 //!
 //! Sponsors
 //! --------
@@ -70,7 +70,7 @@
 //!   - [William Roe][s11]
 //!
 //! [s3]: https://twitter.com/derekmorr
-//! [s11]: http://willroe.me
+//! [s11]: https://willroe.me
 //!
 //! ### Become a sponsor
 //!

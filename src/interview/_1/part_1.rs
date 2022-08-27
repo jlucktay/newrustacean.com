@@ -38,23 +38,23 @@
 //!       + [23: Why Did They Call It Rust?][l16]
 //!   - [_Maybe Haskell_][l17]
 //!
-//! [l1]: http://rubyonrails.org
-//! [l2]: http://guides.rubyonrails.org/active_record_basics.html
-//! [l3]: http://diesel.rs
-//! [l4]: https://github.com/sgrif/diesel
-//! [l5]: https://gitter.im/sgrif/diesel
-//! [l6]: http://bikeshed.fm
-//! [l7]: http://bikeshed.fm/51
-//! [l8]: http://bikeshed.fm/49
-//! [l9]: http://bikeshed.fm/48
-//! [l10]: http://bikeshed.fm/46
-//! [l11]: http://bikeshed.fm/44
-//! [l12]: http://bikeshed.fm/39
-//! [l13]: http://bikeshed.fm/32
-//! [l14]: http://bikeshed.fm/31
-//! [l15]: http://bikeshed.fm/27
-//! [l16]: http://bikeshed.fm/23
-//! [l17]: https://gumroad.com/l/maybe-haskell
+//! [l1]: https://rubyonrails.org
+//! [l2]: https://guides.rubyonrails.org/active_record_basics.html
+//! [l3]: https://diesel.rs
+//! [l4]: https://github.com/diesel-rs/diesel
+//! [l5]: https://gitter.im/diesel-rs/diesel
+//! [l6]: https://bikeshed.fm
+//! [l7]: https://bikeshed.fm/51
+//! [l8]: https://bikeshed.fm/49
+//! [l9]: https://bikeshed.fm/48
+//! [l10]: https://bikeshed.fm/46
+//! [l11]: https://bikeshed.fm/44
+//! [l12]: https://bikeshed.fm/39
+//! [l13]: https://bikeshed.fm/32
+//! [l14]: https://bikeshed.fm/31
+//! [l15]: https://bikeshed.fm/27
+//! [l16]: https://bikeshed.fm/23
+//! [l17]: https://thoughtbot.gumroad.com/l/maybe-haskell
 //!
 //! Sponsors
 //! --------
@@ -72,7 +72,7 @@
 //!   - [William Roe][s11]
 //!
 //! [s3]: https://twitter.com/derekmorr
-//! [s11]: http://willroe.me
+//! [s11]: https://willroe.me
 //!
 //! ### Become a sponsor
 //!

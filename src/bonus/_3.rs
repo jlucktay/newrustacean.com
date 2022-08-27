@@ -31,7 +31,7 @@
 //!   - [William Roe][s9]
 //!
 //! [s3]: https://twitter.com/derekmorr
-//! [s9]: http://willroe.me
+//! [s9]: https://willroe.me
 //!
 //! ### Become a sponsor
 //!

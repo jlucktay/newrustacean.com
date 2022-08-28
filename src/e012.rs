@@ -163,7 +163,7 @@ pub fn match_blocks_are_expressions() -> String {
     };
 
     match x {
-        0...100 => "Less than 100".to_string(),
+        0..=100 => "Less than 100".to_string(),
         _ => "Less than 0, or more than 100".to_string(),
     }
 }

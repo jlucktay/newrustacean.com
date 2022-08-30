@@ -6,19 +6,17 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e000.mp3
 //!
-//! <audio style="width: 100%" title="Hello, world!" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e000.mp3"></audio>
+//! <audio style="width: 100%" title="Hello, world!" controls preload=metadata
+//! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e000.mp3"></audio>
 //!
-//! Today's show is pretty meta. You can skip it if you just want to start with
-//! something more technical, but I thought listeners might want to know a
-//! little about the origins of the show and my own background, so that's what
-//! you get today. Next time, we'll be tackling the `rustdoc` command in some
-//! detail.
+//! Today's show is pretty meta. You can skip it if you just want to start with something more technical, but I thought
+//! listeners might want to know a little about the origins of the show and my own background, so that's what you get
+//! today. Next time, we'll be tackling the `rustdoc` command in some detail.
 //!
 //! ---
 //!
-//! This is an almost-empty module: we aren't doing any fun code samples yet.
-//! I included the standard "Hello, world!" example, because how could I not?
-//! However, at some point in the future, there will be much more detailed code
+//! This is an almost-empty module: we aren't doing any fun code samples yet. I included the standard "Hello, world!"
+//! example, because how could I not? However, at some point in the future, there will be much more detailed code
 //! samples available:
 //!
 //!   - in the [GitHub repository] for the show
@@ -26,8 +24,7 @@
 //!
 //! [GitHub repository]: https://github.com/chriskrycho/newrustacean.com
 //!
-//! Hopefully, the result will be a pretty helpful bunch of side content along
-//! with the audio of the podcast itself.
+//! Hopefully, the result will be a pretty helpful bunch of side content along with the audio of the podcast itself.
 //!
 //! # Follow/Support
 //!

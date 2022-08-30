@@ -2,14 +2,12 @@
 
 ## Intro (30s)
 
-Hello, I'm Chris Krycho, and this is the New Rustacean podcast---a 15--20 minute
-show about learning the Rust programming language. This is episode 3: No More
-Nulls.
+Hello, I'm Chris Krycho, and this is the New Rustacean podcast---a 15--20 minute show about learning the Rust
+programming language. This is episode 3: No More Nulls.
 
 ## News (2m)
 
-- Shout out to GitHub user romankl, who submitted a PR to the show to fix an
-  error in a link. So good!
+- Shout out to GitHub user romankl, who submitted a PR to the show to fix an error in a link. So good!
 
 - Work on IDE support!
   - My chosen tool: JetBrains/IntelliJ
@@ -27,10 +25,8 @@ Why do we care?
   - C special error values
   - C/C++ `void`, Java `null`, etc.
 
-- Pattern matching -> sophisticated way of handling things that goes way
-  beyond what a `switch/case` statement can do, and `enum` types are a great
-  way to start with those (though enums can do much more, and so can pattern
-  matching).
+- Pattern matching -> sophisticated way of handling things that goes way beyond what a `switch/case` statement can do,
+  and `enum` types are a great way to start with those (though enums can do much more, and so can pattern matching).
 
 ## enum types (4m)
 
@@ -40,12 +36,12 @@ Why do we care?
 
 ## Pattern-matching (5m)
 
-When matching against a pattern---any pattern, not just enums!---the pattern
-match must exhaustive. If you forget something, the code won't compile.
+When matching against a pattern---any pattern, not just enums!---the pattern match must exhaustive. If you forget
+something, the code won't compile.
 
 - Not like if/else blocks where you can forget conditions
-- Kind of like switch/case blocks, but not limited in the same ways (can match
-  on any type, and on different types described by enums)
+- Kind of like switch/case blocks, but not limited in the same ways (can match on any type, and on different types
+  described by enums)
 
 Lots of places where this might be useful:
 
@@ -62,14 +58,12 @@ What kinds of things can you match?
 - Tuples
 - etc.
 
-You can also deconstruct these complex types to act on them. Match arms are
-expressions, so you assign the result of a `match` to a variable (more on this
-when we talk about expressions in a future episode).
+You can also deconstruct these complex types to act on them. Match arms are expressions, so you assign the result of a
+`match` to a variable (more on this when we talk about expressions in a future episode).
 
 ## Meaningful returns (2m)
 
-One place pattern matching and enums combine to become extremely powerful is in
-handling return statements.
+One place pattern matching and enums combine to become extremely powerful is in handling return statements.
 
 - `Option<T>`
 - `Result<T, E>`
@@ -83,18 +77,15 @@ handling return statements.
   - Methods
   - Closures
 
-- Gives us a good excuse to talk a bit about the "stack" and the "heap" as
-  well; we'll *introduce* those ideas along the way.
+- Gives us a good excuse to talk a bit about the "stack" and the "heap" as well; we'll *introduce* those ideas along
+  the way.
 
 ### Follow/support
 
-You can find show notes with detailed code samples illustrating these ideas, as
-well as links to things mentioned on the show, at NewRustacean.com. You can also
-follow the show on Twitter or App.net @newrustacean, or follow me there
-@chriskrycho. If you like the show, please rate and review it on iTunes to help
-others find it, and if you *really* like the show, I'd welcome your financial
-support at Patreon.com/newrustacean. Last but not least, I'd love to hear from
-you on social media, in the thread for the show on users.rust-lang.org, or via
-email at hello@newrustacean.com.
+You can find show notes with detailed code samples illustrating these ideas, as well as links to things mentioned on
+the show, at NewRustacean.com. You can also follow the show on Twitter or App.net @newrustacean, or follow me there
+@chriskrycho. If you like the show, please rate and review it on iTunes to help others find it, and if you *really*
+like the show, I'd welcome your financial support at Patreon.com/newrustacean. Last but not least, I'd love to hear
+from you on social media, in the thread for the show on users.rust-lang.org, or via email at hello@newrustacean.com.
 
 Until next time, happy coding!

@@ -7,25 +7,24 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e003.mp3
 //!
-//! <audio style="width: 100%" title="No. more. nulls." controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e003.mp3"></audio>
+//! <audio style="width: 100%" title="No. more. nulls." controls preload=metadata
+//! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e003.mp3"></audio>
 //!
 //! # Notes
 //!
 //! Today's episode discusses, in order:
 //!
-//!   - Enumerated types, with an eye to the difference between structs and
-//!     enums, and to the differences between `enum`s in C and in Rust.
-//!   - Pattern matching, with a focus on using them with enumerated types and
-//!     some discussion about how they differ from `switch` blocks in C-like
-//!     languages.
-//!   - Using the `Option` and `Result` enumerated types with pattern matching
-//!     to provide meaningful returns from functions safely.
+//!   - Enumerated types, with an eye to the difference between structs and enums, and to the differences between
+//!     `enum`s in C and in Rust.
+//!   - Pattern matching, with a focus on using them with enumerated types and some discussion about how they differ
+//!     from `switch` blocks in C-like languages.
+//!   - Using the `Option` and `Result` enumerated types with pattern matching to provide meaningful returns from
+//!     functions safely.
 //!
 //! ## Order
 //!
-//! There is a specific order to the examples below, and it is *not* the
-//! automatically-alphabetized order rendered by `rustdoc`. Instead, you should
-//! work through in the sequence they appear in the [source]:
+//! There is a specific order to the examples below, and it is *not* the automatically-alphabetized order rendered by
+//! `rustdoc`. Instead, you should work through in the sequence they appear in the [source]:
 //!
 //!  1. [`RelatedishThings`]
 //!  2. [`demonstrate_basic_enumeration`]
@@ -79,21 +78,19 @@ pub struct PreexistingStruct {
 
 /// An enumeration can *hold* a variety of types. This one shows you a few.
 ///
-/// Note: using an `enum` this way is actually crazy. The types should usually
-/// have some relationship to each other. Here, they don't. The *only* reason I
-/// have them together like this is to show you that these aren't just integers.
+/// Note: using an `enum` this way is actually crazy. The types should usually have some relationship to each other.
+/// Here, they don't. The *only* reason I have them together like this is to show you that these aren't just integers.
 /// Enums in Rust can have members of any other type.
 ///
 /// As [Rust by Example][1] [puts it][2]:
 ///
 /// > Any variant which is valid as a `struct` is also valid as an `enum`.
 ///
-/// What's the difference between an `enum` and `struct`? An `enum` is only ever
-/// *one* of the options which comprise it, whereas a `struct` is always *all*
-/// the elements which comprise it.
+/// What's the difference between an `enum` and `struct`? An `enum` is only ever *one* of the options which comprise
+/// it, whereas a `struct` is always *all* the elements which comprise it.
 ///
-/// One enormous benefit of `enum` types is that, when they are the return value
-/// of a function (as in the examples below), they *must* be handled.
+/// One enormous benefit of `enum` types is that, when they are the return value of a function (as in the examples
+/// below), they *must* be handled.
 ///
 /// [1]: https://doc.rust-lang.org/rust-by-example/
 /// [2]: https://doc.rust-lang.org/rust-by-example/custom_types/enum.html
@@ -150,10 +147,9 @@ fn get_reused_structure() -> RelatedishThings {
 
 /// Shows how the result of an enum comes back as increasingly complex data.
 ///
-/// Note that while we *could* have a numeric value associated with each
-/// enumerated value (as in a C/C++ `enum`), we don't *have* to. The value of
-/// an enumeration in Rust is *which enumerated value it is*, and nothing more
-/// unless you specify something more.
+/// Note that while we *could* have a numeric value associated with each enumerated value (as in a C/C++ `enum`), we
+/// don't *have* to. The value of an enumeration in Rust is *which enumerated value it is*, and nothing more unless you
+/// specify something more.
 pub fn demonstrate_basic_enumeration() {
     print!(
         "{:?}\n{:?}\n{:?}\n{:?}\n{:?}\n",
@@ -167,14 +163,12 @@ pub fn demonstrate_basic_enumeration() {
 
 /// Shows in a bit more detail how `match` works.
 ///
-/// Note that the pattern matches include matching against numbers, tuple types,
-/// and more. Big takeaways:
+/// Note that the pattern matches include matching against numbers, tuple types, and more. Big takeaways:
 ///
 ///   - You can match against all sorts of types.
-///   - You have to match exhaustively. Handle "everything else" with `_` as the
-///     sole component of the match arm.
-///   - You can destructure complex types into their components. You can ignore
-///     components of complex types with `_` as well.
+///   - You have to match exhaustively. Handle "everything else" with `_` as the sole component of the match arm.
+///   - You can destructure complex types into their components. You can ignore components of complex types with `_` as
+///     well.
 #[allow(clippy::items_after_statements)]
 pub fn demonstrate_match() {
     // You can match on numbers...
@@ -206,12 +200,12 @@ pub fn demonstrate_match() {
     match some_tuple {
         // You can match on the full tuple with specific values.
         (THREE, TWO) => println!("Got both!"),
-        // You can match on only part of it; note that these match the cases where both are *not*
-        // filled with the value specified in the first arm.
+        // You can match on only part of it; note that these match the cases where both are *not* filled with the value
+        // specified in the first arm.
         (THREE, _) => println!("Got three only."),
         (_, TWO) => println!("Got two only."),
-        // You can also destructure the elements of the tuple into values to be
-        // used in the body of the expression, not just ignore them with `_`.
+        // You can also destructure the elements of the tuple into values to be used in the body of the expression, not
+        // just ignore them with `_`.
         (a, b) => println!("Got weird other stuff: {:}, {:}", a, b),
     }
 }
@@ -224,8 +218,8 @@ pub const fn get_an_option(get_it: bool) -> Option<f64> {
         // Returns an `Option` enum in the `Some` type.
         Some(3.141)
     } else {
-        // Returns an `Option` enum in the `None` type. This might look like the
-        // `null` type you'd see elsewhere; it isn't. See below.
+        // Returns an `Option` enum in the `None` type. This might look like the `null` type you'd see elsewhere; it
+        // isn't. See below.
         None
     }
 }
@@ -239,10 +233,8 @@ pub fn demonstrate_option() {
     let none = get_an_option(false);
     print!("{:?}\n{:?}\n", some, none);
 
-    // You can see, from printing the values above, that the `some` is (as you
-    // would expect from seeing how enums work in general) not a plain value;
-    // it's wrapped in `Some`! However, we can unwrap it to get at the actual
-    // value:
+    // You can see, from printing the values above, that the `some` is (as you would expect from seeing how enums work
+    // in general) not a plain value; it's wrapped in `Some`! However, we can unwrap it to get at the actual value:
     #[allow(clippy::unwrap_used)]
     let some_value = some.unwrap();
     println!("{:?}", some_value);
@@ -250,11 +242,9 @@ pub fn demonstrate_option() {
 
 /// Shows how to return either a meaningful result or an error as an enum.
 ///
-/// The `Result` type is a standard pattern for handling cases where the result
-/// of a given function may be an error. No more of the C/C++ pattern of passing
-/// in/out arguments so that you can get a normal/error-indicating return code.
-/// Instead, you just return a `Result`, and then `match` on that value to
-/// handle it.
+/// The `Result` type is a standard pattern for handling cases where the result of a given function may be an error. No
+/// more of the C/C++ pattern of passing in/out arguments so that you can get a normal/error-indicating return code.
+/// Instead, you just return a `Result`, and then `match` on that value to handle it.
 ///
 /// # Errors
 #[allow(clippy::approx_constant)]
@@ -268,25 +258,23 @@ pub fn get_a_result(succeeds: bool) -> Result<f64, String> {
 
 /// Shows how a `Result` type works in practice.
 ///
-/// A `Result` is an `enum` (which can be converted to the `Option` type), which
-/// lets us hand back, and then handle, the results of a given function easily.
+/// A `Result` is an `enum` (which can be converted to the `Option` type), which lets us hand back, and then handle,
+/// the results of a given function easily.
 pub fn demonstrate_result() {
-    // First of all, what is the result of this `match`? What would it be if we
-    // changed the call to `get_a_result(false)` instead?
+    // First of all, what is the result of this `match`? What would it be if we changed the call to
+    // `get_a_result(false)` instead?
     match get_a_result(true) {
         Ok(value) => println!("The value was: {:}", value),
         Err(message) => println!("ERROR: {:}", message),
     }
 
-    // Note that you can readily convert the `Ok` and `Err` terms in a `Result`
-    // to `Option`s!
+    // Note that you can readily convert the `Ok` and `Err` terms in a `Result` to `Option`s!
     let an_ok = get_a_result(true);
     let an_err = get_a_result(false);
     print!("{:?}\n{:?}\n", an_ok.ok(), an_err.err());
 
-    // Let's demonstrate the flip-side (i.e. the `None` and `Some` bits). Note
-    // how the methods behave: `Result::ok()` -> `Some` for the `Ok` enum and
-    // `None` for the `Err` enum; and `Result::err()` does the inverse..
+    // Let's demonstrate the flip-side (i.e. the `None` and `Some` bits). Note how the methods behave: `Result::ok()`
+    // -> `Some` for the `Ok` enum and `None` for the `Err` enum; and `Result::err()` does the inverse..
     let another_ok = get_a_result(true);
     let another_err = get_a_result(false);
     print!("{:?}\n{:?}\n", another_ok.err(), another_err.ok());

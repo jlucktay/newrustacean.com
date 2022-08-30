@@ -24,7 +24,7 @@ Before we can talk about Rust's type system in particular, though, we have to an
 
 We can come at this from two directions. One is in terms of the mechanics of programming and generating some runnable output form the computer. In that sense, our type system is the way a programming language has for representing data and functions to the compiler. We might distinguish between different type systems, then, in the extent to which they provide more or less information both to the computer and to the programmer. At the most basic level, there are bits---but we need a way to specify what those bits represent when we're running a program, and we need ways to tell the compiler or interpreter how it should think about those bits.
 
-It may actually help to come at it in much more abstract terms. A paper I read, which was a distillation of an opening lecture to Ph.D. students, put it this way: a type system is "a system describing what things can be constructed" ([source](http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf)).
+It may actually help to come at it in much more abstract terms. A paper I read, which was a distillation of an opening lecture to Ph.D. students, put it this way: a type system is "a system describing what things can be constructed" ([source](https://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf)).
 
 That's helpful, and it explains what we mean when we start talking to the compiler. We are specifying *what to construct*, and *how to construct it*.
 

@@ -14,9 +14,8 @@
 //! Notes
 //! -----
 //!
-//! Talking about type systems! A broad and wide-ranging discussion about type
-//! systems in general, with specific examples from languages like PHP,
-//! JavaScript, Python, C, C++, Java, C♯, Haskell, and Rust!
+//! Talking about type systems! A broad and wide-ranging discussion about type systems in general, with specific
+//! examples from languages like PHP, JavaScript, Python, C, C++, Java, C♯, Haskell, and Rust!
 //!
 //!   - What is a type system?
 //!   - What are the kinds of things we get out of type systems?
@@ -24,14 +23,11 @@
 //!   - What is Rust's type system like?
 //!   - What is especially attractive about Rust's type system?
 //!
-//! A comment on the C integer/character string addition example: what's
-//! actually happening there is that the character string is an array "under the
-//! covers," and as such has an address. C silently switches to using the memory
-//! address, which is of course just an integer, when you try to add the two
-//! together. As I said on the show: the result is nonsense (unless you're using
-//! this as a way of operating on memory addresses), but it's compileable
-//! nonsense. In a stricter and stronger type system, memory addresses and
-//! normal numbers shouldn't be addable!
+//! A comment on the C integer/character string addition example: what's actually happening there is that the character
+//! string is an array "under the covers," and as such has an address. C silently switches to using the memory address,
+//! which is of course just an integer, when you try to add the two together. As I said on the show: the result is
+//! nonsense (unless you're using this as a way of operating on memory addresses), but it's compileable nonsense. In a
+//! stricter and stronger type system, memory addresses and normal numbers shouldn't be addable!
 //!
 //! Links
 //! -----
@@ -42,11 +38,11 @@
 //!   - [Visualizing Rust's type-system][l4]
 //!   - [The Many Kinds of Code Reuse in Rust][l5]
 //!
-//! [l1]: http://blog.rust-lang.org/2016/03/02/Rust-1.7.html
-//! [l2]: http://blog.rust-lang.org/2016/03/02/Rust-1.7.html#library-stabilizations
-//! [l3]: http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf
+//! [l1]: https://blog.rust-lang.org/2016/03/02/Rust-1.7.html
+//! [l2]: https://blog.rust-lang.org/2016/03/02/Rust-1.7.html#library-stabilizations
+//! [l3]: https://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf
 //! [l4]: https://jadpole.github.io/rust/type-system
-//! [l5]: http://cglab.ca/~abeinges/blah/rust-reuse-and-recycle/
+//! [l5]: https://cglab.ca/~abeinges/blah/rust-reuse-and-recycle/
 //!
 //! Sponsors
 //! --------
@@ -67,7 +63,7 @@
 //!   - [William Roe][s11]
 //!
 //! [s3]: https://twitter.com/derekmorr
-//! [s11]: http://willroe.me
+//! [s11]: https://willroe.me
 //!
 //! ### Become a sponsor
 //!
@@ -101,12 +97,12 @@ pub enum Expressive {
 impl fmt::Display for Expressive {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         let description = match *self {
-            Expressive::Ridiculously => "ridiculously",
-            Expressive::PrettyDarn => "pretty darn",
-            Expressive::Fairly => "fairly",
-            Expressive::SortOf => "sort of",
-            Expressive::Barely => "barely",
-            Expressive::NotEvenALittle => "not even a little",
+            Self::Ridiculously => "ridiculously",
+            Self::PrettyDarn => "pretty darn",
+            Self::Fairly => "fairly",
+            Self::SortOf => "sort of",
+            Self::Barely => "barely",
+            Self::NotEvenALittle => "not even a little",
         };
 
         write!(f, "{} expressive", description)
@@ -124,10 +120,10 @@ pub enum Strong {
 impl fmt::Display for Strong {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         let description = match *self {
-            Strong::Indeed => "strong indeed",
-            Strong::ABit => "a bit strong",
-            Strong::NotEspecially => "not especially strong",
-            Strong::NopeNopeNope => "strong? NOPE NOPE NOPE",
+            Self::Indeed => "strong indeed",
+            Self::ABit => "a bit strong",
+            Self::NotEspecially => "not especially strong",
+            Self::NopeNopeNope => "strong? NOPE NOPE NOPE",
         };
 
         write!(f, "{}", description)
@@ -143,8 +139,8 @@ pub enum StaticallyKnown {
 impl fmt::Display for StaticallyKnown {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         let description = match *self {
-            StaticallyKnown::Yeah => "it's totally known at compile time",
-            StaticallyKnown::Nope => "we don't know anything about it until run time",
+            Self::Yeah => "it's totally known at compile time",
+            Self::Nope => "we don't know anything about it until run time",
         };
 
         write!(f, "{}", description)
@@ -160,17 +156,18 @@ pub struct TypeSystem {
 }
 
 impl TypeSystem {
+    #[must_use]
     pub fn builder(
         name: &str,
         expressive: Expressive,
         strong: Strong,
         statically_known: StaticallyKnown,
-    ) -> TypeSystem {
-        TypeSystem {
+    ) -> Self {
+        Self {
             name: name.to_string(),
-            expressive: expressive,
-            strong: strong,
-            statically_known: statically_known,
+            expressive,
+            strong,
+            statically_known,
         }
     }
 }

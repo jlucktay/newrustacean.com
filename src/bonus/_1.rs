@@ -5,13 +5,12 @@
 //!     learning) lots of languages.
 //!   - [**Audio**](https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/1.mp3)
 //!
-//! <audio style="width: 100%" title="Polyglot programming promises and perils" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/1.mp3"></audio>
+//! <audio style="width: 100%" title="Polyglot programming promises and perils" controls preload=metadata
+//! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/1.mp3"></audio>
 //!
-//! Sometimes, you're doing a technical interview, and you just cannot figure
-//! out why your JavaScript function isn't behaving like it should... and then,
-//! prompted by the interviewer, you realize that you're not returning anything.
-//! Polyglot programming is beautiful, and wonderful, and sometimes it bites you
-//! when you aren't looking.
+//! Sometimes, you're doing a technical interview, and you just cannot figure out why your JavaScript function isn't
+//! behaving like it should... and then, prompted by the interviewer, you realize that you're not returning anything.
+//! Polyglot programming is beautiful, and wonderful, and sometimes it bites you when you aren't looking.
 //!
 //! # Links
 //!

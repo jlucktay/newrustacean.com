@@ -6,15 +6,15 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e006.mp3
 //!
-//! <audio style="width: 100%" title="Modularize this!" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e006.mp3"></audio>
+//! <audio style="width: 100%" title="Modularize this!" controls preload=metadata
+//! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e006.mp3"></audio>
 //!
 //! # Notes
 //!
-//! Today, we are talking about modules, packages, and APIs in Rust. Taking a
-//! bit of a breather after some pretty hard material the last few weeks.
+//! Today, we are talking about modules, packages, and APIs in Rust. Taking a bit of a breather after some pretty hard
+//! material the last few weeks.
 //!
-//! For reference, the [Rust book][notes-1] section on [Crates][notes-2] and
-//! [Modules][notes-3] will be very helpful.
+//! For reference, the [Rust book][notes-1] section on [Crates][notes-2] and [Modules][notes-3] will be very helpful.
 //!
 //! [notes-1]: https://doc.rust-lang.org/book/
 //! [notes-2]: https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html
@@ -24,9 +24,8 @@
 //!
 //! I accidentally called this episode 5, instead of episode 6. *Whoops.*
 //!
-//! Just before the 15:00 mark, while discussing libraries, I referred to
-//! "e006.md" when I meant to say "e006.rs". Slips of the tongue inspired by the
-//! fact that Rust (delightfully) uses Markdown for its documentation.
+//! Just before the 15:00 mark, while discussing libraries, I referred to "e006.md" when I meant to say "e006.rs".
+//! Slips of the tongue inspired by the fact that Rust (delightfully) uses Markdown for its documentation.
 //!
 //! # Links
 //!
@@ -38,11 +37,10 @@
 //!
 //! # Module Docs!
 //!
-//! As you've no doubt noted if you've actually looked at the show notes along
-//! the way, these are in fact module docs! Because we're inside a module marked
-//! off by being a file, we *have* to use the `//!` style of documentation
-//! comments to mark them off. However, as you'll see below, if we structure or
-//! declare modules in other ways, we will not have the same restriction.
+//! As you've no doubt noted if you've actually looked at the show notes along the way, these are in fact module docs!
+//! Because we're inside a module marked off by being a file, we *have* to use the `//!` style of documentation
+//! comments to mark them off. However, as you'll see below, if we structure or declare modules in other ways, we will
+//! not have the same restriction.
 //!
 //! # Sponsors
 //!
@@ -70,19 +68,17 @@
 
 /// This is an internal module. Note that it isn't public.
 ///
-/// Modules may have any kind of "item" local to them. "Items" in Rust are
-/// things like functions, structs, enums, traits, type definitions, and other
-/// modules.
+/// Modules may have any kind of "item" local to them. "Items" in Rust are things like functions, structs, enums,
+/// traits, type definitions, and other modules.
 ///
 /// Modules have namespaces
 mod internal_module {
 
     /// A module function, demonstrating module-public function status.
     ///
-    /// This function is public to the `internal_module`, but because the module
-    /// itself isn't public, neither is the function. It is available to
-    /// anything which uses `internal_module`, however, as it is public at the
-    /// function level.
+    /// This function is public to the `internal_module`, but because the module itself isn't public, neither is the
+    /// function. It is available to anything which uses `internal_module`, however, as it is public at the function
+    /// level.
     pub fn a_public_module_fn() {
         println!("At `internal_module::a_public_module_fn()`.");
         a_private_module_fn();
@@ -90,10 +86,9 @@ mod internal_module {
 
     /// Another module function, demonstrating module-private function status.
     ///
-    /// Since this function is private to the module, it is inaccessible to
-    /// external callers (see below in `use_modules_internal()`). However, it is
-    /// accessible as normal to other functions within its own module, and thus
-    /// can be called by `a_public_module_fn()`.
+    /// Since this function is private to the module, it is inaccessible to external callers (see below in
+    /// `use_modules_internal()`). However, it is accessible as normal to other functions within its own module, and
+    /// thus can be called by `a_public_module_fn()`.
     fn a_private_module_fn() {
         println!("At `internal_module::a_private_module_fn()`.");
     }
@@ -101,14 +96,14 @@ mod internal_module {
 
 /// This is an internal module which *is* public.
 ///
-/// External modules therefore have access to this module, not just other
-/// modules within the immediate parent `e006` (file) module.
+/// External modules therefore have access to this module, not just other modules within the immediate parent `e006`
+/// (file) module.
 pub mod public_internal_module {
 
     /// A public function in a public module.
     ///
-    /// Note that the name of this function is the *same* as the public function
-    /// in `internal_module` above! This is one of the values of namespacing.
+    /// Note that the name of this function is the *same* as the public function in `internal_module` above! This is
+    /// one of the values of namespacing.
     pub fn a_public_module_fn() {
         println!("At `public_internal_module::a_public_module_fn()`.");
         some_private_fn();
@@ -122,52 +117,44 @@ pub mod public_internal_module {
 
 /// Demonstrates the use of modules and namespaces.
 ///
-/// Modules can access other modules which are contained in the same parent
-/// module as them regardless of the privacy settings. However, they cannot
-/// access non-public modules which don't have the same immediate parent.
+/// Modules can access other modules which are contained in the same parent module as them regardless of the privacy
+/// settings. However, they cannot access non-public modules which don't have the same immediate parent.
 pub fn use_modules_internal() {
     println!("At `use_modules_internal()`.");
 
     // Calling another module's function is quite straightforward.
     internal_module::a_public_module_fn();
 
-    // Note that we cannot access the internal module's private function. If you
-    // uncomment the following line, you will see a compile error indicating
-    // that the function is private.
+    // Note that we cannot access the internal module's private function. If you uncomment the following line, you will
+    // see a compile error indicating that the function is private.
     //
     //     internal_module::a_private_module_fn();
     //
-    // Similarly, as you would expect, we have access to public functions in
-    // public modules, but no access to private functions in public modules. (We
-    // have already seen this, in fact, just in file-based, rather than
+    // Similarly, as you would expect, we have access to public functions in public modules, but no access to private
+    // functions in public modules. (We have already seen this, in fact, just in file-based, rather than
     // declaration-based, modules.)
     public_internal_module::a_public_module_fn();
 }
 
-// What if we wanted to use *any* public function from a given module? We
-// can simply `use` that module.
+// What if we wanted to use *any* public function from a given module? We can simply `use` that module.
 //
 // It is worth quoting the Rust book here:
 //
-// > **Note:** Unlike in many languages, use declarations in Rust do not
-// > declare linkage dependency with external crates. Rather, `extern crate`
-// > declarations declare linkage dependencies.
+// > **Note:** Unlike in many languages, use declarations in Rust do not declare linkage dependency with external
+// > crates. Rather, `extern crate` declarations declare linkage dependencies.
 pub mod demonstrate_namespacing {
     /// We can `use` other module's contents.
     use crate::e006::public_internal_module::a_public_module_fn;
 
-    /// We can also alias other modules. Note that though we don't use this
-    /// until `demonstrate_aliased_calls()`, we have to put any `use` statements
-    /// before any other contents of the module (so this can't go between the
-    /// `demonstrate_globbed_calls()` and `demonstrate_aliased_calls()` function
-    /// definitions).
+    /// We can also alias other modules. Note that though we don't use this until `demonstrate_aliased_calls()`, we
+    /// have to put any `use` statements before any other contents of the module (so this can't go between the
+    /// `demonstrate_globbed_calls()` and `demonstrate_aliased_calls()` function definitions).
     use crate::e006::internal_module as im;
 
     /// Demonstrates how glob-imported `use`s works.
     pub fn demonstrate_globbed_calls() {
         println!("At `demonstrate_namespacing::demonstrate_globbed_calls()`.");
-        // Having imported *everything* from `public_internal_module`, we can call
-        // its public functions directly.
+        // Having imported *everything* from `public_internal_module`, we can call its public functions directly.
         a_public_module_fn();
     }
 
@@ -188,19 +175,17 @@ pub fn demonstrate_use_inside_function() {
 
 /// Give an example of nested modules.
 ///
-/// Of course, *all* the modules in this file are nested: they are part of the
-/// file-level `e006` module. Here, though, we see an explicit example of that.
+/// Of course, *all* the modules in this file are nested: they are part of the file-level `e006` module. Here, though,
+/// we see an explicit example of that.
 pub mod demonstrate_nesting {
     /// This is just a nested module.
     pub mod a_nested_module {}
 
     // An example of re-exporting another module's contents publicly.
     //
-    // Remember, this module was initially part of a private module (but one
-    // within the `e006` parent module, and therefore accessible to us.)
-    // We are re-exporting its `a_nested_module` contents, with a different
-    // name, as a public module. When you look at the docs, you'll see this
-    // function name within the module, with the docs from the definition of the
-    // function in the `internal_module` above!
+    // Remember, this module was initially part of a private module (but one within the `e006` parent module, and
+    // therefore accessible to us.) We are re-exporting its `a_nested_module` contents, with a different name, as a
+    // public module. When you look at the docs, you'll see this function name within the module, with the docs from
+    // the definition of the function in the `internal_module` above!
     pub use crate::e006::internal_module::a_public_module_fn as now_public_fn;
 }

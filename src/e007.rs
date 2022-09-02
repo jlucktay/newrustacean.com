@@ -46,7 +46,7 @@
 //!     + [32: Bug for Bug Compatibility][links-6]
 //!
 //! [links-1]: https://doc.rust-lang.org/book/ch11-00-testing.html
-//! [links-2]: https://doc.rust-lang.org/book/benchmark-tests.html
+//! [links-2]: https://doc.rust-lang.org/unstable-book/library-features/test.html
 //! [links-3]: https://doc.rust-lang.org/reference/attributes.html
 //! [links-4]: https://github.com/diesel-rs/diesel
 //! [links-5]: https://bikeshed.fm/31

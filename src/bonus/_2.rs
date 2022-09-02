@@ -6,12 +6,12 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/2.mp3
 //!
-//! <audio style="width: 100%" title="Legacy code" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/2.mp3"></audio>
+//! <audio style="width: 100%" title="Legacy code" controls preload=metadata
+//! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/2.mp3"></audio>
 //!
-//! Software developers spend a large part of our careers dealing with legacy
-//! code. But what is the *best* way to deal with legacy code? When should you
-//! rip out the old and rewrite it, and when should you opt for smaller clean-up
-//! jobs because, however ugly, what is already present *works*?
+//! Software developers spend a large part of our careers dealing with legacy code. But what is the *best* way to deal
+//! with legacy code? When should you rip out the old and rewrite it, and when should you opt for smaller clean-up jobs
+//! because, however ugly, what is already present *works*?
 //!
 //! # Sponsors
 //!

@@ -1,4 +1,4 @@
-//! One year and counting
+//! # One year and counting
 //!
 //!   - **Date:** May 31, 2016
 //!   - **Subject:** A year in, Rust is changing fast but still stable.
@@ -10,8 +10,7 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/news/1.mp3">
 //! </audio>
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //!   - Rust 1.9
 //!       + [blog post][1.9-blog]
@@ -26,29 +25,27 @@
 //!           * Non-zeroing dynamic drop
 //!               - [RFC][rfc-320]
 //!               - [pull request and discussion][rfc-320-pr]
-//!           * [Issue 811: "Non-lexical borrow scopes and better treatment of
-//!             nested method calls"][issue-811]
+//!           * [Issue 811: "Non-lexical borrow scopes and better treatment of nested method calls"][issue-811]
 //!   - [Cargo blog post]
 //!   - `rustup`
 //!       + [blog post][rustup-blog]
 //!       + [install from rustup.rs][rustup.rs]
 //!
-//! [1.9-blog]: http://blog.rust-lang.org/2016/05/26/Rust-1.9.html
+//! [1.9-blog]: https://blog.rust-lang.org/2016/05/26/Rust-1.9.html
 //! [release notes]: https://github.com/rust-lang/rust/blob/master/RELEASES.md#version-190-2016-05-26
-//! [LLVM]: http://llvm.org
-//! [LLVM projects]: http://llvm.org/ProjectsWithLLVM/
+//! [LLVM]: https://llvm.org
+//! [LLVM projects]: https://llvm.org/ProjectsWithLLVM/
 //! [Wikipedia discussion]: https://en.wikipedia.org/wiki/LLVM
-//! [mir-blog]: http://blog.rust-lang.org/2016/04/19/MIR.html
+//! [mir-blog]: https://blog.rust-lang.org/2016/04/19/MIR.html
 //! [rfc-320]: https://github.com/rust-lang/rfcs/blob/master/text/0320-nonzeroing-dynamic-drop.md
 //! [rfc-320-pr]: https://github.com/rust-lang/rfcs/pull/320
 //! [issue-811]: https://github.com/rust-lang/rfcs/issues/811
-//! [Cargo blog post]: http://blog.rust-lang.org/2016/05/05/cargo-pillars.html
+//! [Cargo blog post]: https://blog.rust-lang.org/2016/05/05/cargo-pillars.html
 //! [play.rust-lang.org]: https://play.rust-lang.org
-//! [rustup-blog]: http://blog.rust-lang.org/2016/05/13/rustup.html
+//! [rustup-blog]: https://blog.rust-lang.org/2016/05/13/rustup.html
 //! [rustup.rs]: https://www.rustup.rs
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Aleksey Pirogov
 //!   - [Chris Palmer]
@@ -67,14 +64,13 @@
 //!   - Vesa Kaihlavirta
 //!   - [William Roe]
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Pascal Hertleif]: https://pascalhertleif.de/
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
-//! (Thanks to the couple people donating who opted out of the reward tier, as
-//! well. You know who you are!)
+//! (Thanks to the couple people donating who opted out of the reward tier, as well. You know who you are!)
 //!
 //! ### Become a sponsor
 //!
@@ -85,8 +81,7 @@
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
 //!
-//! Contact
-//! -------
+//! ## Contact
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

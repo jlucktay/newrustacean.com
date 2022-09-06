@@ -249,3 +249,5 @@ You can sponsor the show at patreon.com/newrustacean or via other services liste
 Please recommend the show to others if you like it, whether in person, via your podcast directory, or in various media online! You can contact me at @chriskrycho or @newrustacean on Twitter, or by sending men an email at hello@newrustacean.com.
 
 Until next time, happy coding!
+
+[RFC #0560]: https://github.com/rust-lang/rfcs/blob/master/text/0560-integer-overflow.md

@@ -1,8 +1,7 @@
-//! Stringing things along
+//! # Stringing things along
 //!
 //!   - **Date:** April 24, 2016
-//!   - **Subject:** `Strings` `&str`s and `Vec`s and slices (and Unicode) --
-//!     oh, my!
+//!   - **Subject:** `Strings` `&str`s and `Vec`s and slices (and Unicode) -- oh, my!
 //!   - [**Audio**][mp3]
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e014.mp3
@@ -11,25 +10,21 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e014.mp3">
 //! </audio>
 //!
-//! Notes
-//! -----
+//! ## Notes
 //!
-//! This episode, I take a deep dive on strings in Rust, looking at the
-//! differences between `String` and `&str`, discussing Unicode a bit, and then
-//! expanding the discussion to think about how these types relate to the types
+//! This episode, I take a deep dive on strings in Rust, looking at the differences between `String` and `&str`,
+//! discussing Unicode a bit, and then expanding the discussion to think about how these types relate to the types
 //! they're built on (like `Vec`).
 //!
 //! ### Corrigenda
 //!
-//! Listener Nev pointed out to me that I got it wrong when describing how
-//! `&str` data is stored. It is *not* stack-allocated, but rather goes in the
-//! [data segment]. I should have said *statically*-allocated, not
+//! Listener Nev pointed out to me that I got it wrong when describing how `&str` data is stored. It is *not*
+//! stack-allocated, but rather goes in the [data segment]. I should have said *statically*-allocated, not
 //! *stack*-allocated. Thanks to Nev for the correction!
 //!
 //! [data segment]: https://en.wikipedia.org/wiki/Data_segment
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //!   - Strings:
 //!       + [The Rust Book]
@@ -44,17 +39,16 @@
 //!       + [coercions]
 //!       + [`std::ops::Deref`]
 //!
-//! [The Rust Book]: https://doc.rust-lang.org/book/strings.html
+//! [The Rust Book]: https://doc.rust-lang.org/book/ch08-02-strings.html
 //! [Rust by Example]: https://doc.rust-lang.org/rust-by-example/std/str.html
 //! [strmod]: https://doc.rust-lang.org/std/str/
 //! [primitive type]: https://doc.rust-lang.org/std/primitive.str.html
 //! [stringmod]: https://doc.rust-lang.org/std/string/index.html
 //! [type definition]: https://doc.rust-lang.org/std/string/struct.String.html
-//! [coercions]: https://doc.rust-lang.org/book/deref-coercions.html
+//! [coercions]: https://doc.rust-lang.org/book/ch15-02-deref.html
 //! [`std::ops::Deref`]: https://doc.rust-lang.org/std/ops/trait.Deref.html
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Aleksey Pirogov
 //!   - [Chris Palmer]
@@ -72,13 +66,12 @@
 //!   - Vesa Kaihlavirta
 //!   - [William Roe]
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Pascal Hertleif]: https://pascalhertleif.de/
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
-//! (Thanks to the couple people donating who opted out of the reward tier, as
-//! well. You know who you are!)
+//! (Thanks to the couple people donating who opted out of the reward tier, as well. You know who you are!)
 //!
 //! ### Become a sponsor
 //!
@@ -88,8 +81,7 @@
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!
-//! Contact
-//! -------
+//! ## Contact
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)
@@ -101,27 +93,31 @@
 /// Get a string *slice*. Note the required lifetime specifier on the type!
 ///
 /// String slices are pointers to a given chunk of data.
-pub fn get_a_slice() -> &'static str {
+#[must_use]
+pub const fn get_a_slice() -> &'static str {
     "this is a statically allocated slice"
 }
 
 /// Get a `String` instance. Note there's no lifetime.
+#[must_use]
 pub fn get_a_string() -> String {
     let mut a_string = String::new();
-    a_string = a_string + "this is a heap-allocated String";
+    a_string += "this is a heap-allocated String";
     a_string
 }
 
 /// It's easy enough to get a `String` from a `str`.
+#[must_use]
 pub fn show_from_behavior() -> String {
     String::from("any old slice will do")
 }
 
 /// Print a 🚀, just because we can.
 pub fn demonstrate_unicode() {
-    println!("{}", "🚀");
+    println!("🚀");
 }
 
+#[must_use]
 pub fn get_back_some_unicode(desc: &str) -> String {
     match desc {
         "rocket" => "🚀".to_string(),
@@ -132,25 +128,23 @@ pub fn get_back_some_unicode(desc: &str) -> String {
 
 /// Get a `String` with a specified capacity.
 ///
-/// Strings are heap-allocated, so we can simply build them to hold a certain
-/// number of characters by default if we know how big they are, allowing them
-/// to expand later *if necessary*.
+/// Strings are heap-allocated, so we can simply build them to hold a certain number of characters by default if we
+/// know how big they are, allowing them to expand later *if necessary*.
+#[must_use]
 pub fn get_a_string_with_capacity(capacity: usize) -> String {
     let mut string = String::with_capacity(capacity);
-    string = string + "few";
+    string += "few";
     string
 }
 
 /// Demonstrate dereferencing. (You'll want to read this example carefully.)
 ///
-/// Note that here we have two types which are empty of values, which makes the
-/// dereferencing operation quite straightforward. If the types had contents,
-/// this would be a bit more involved!
+/// Note that here we have two types which are empty of values, which makes the dereferencing operation quite
+/// straightforward. If the types had contents, this would be a bit more involved!
 ///
-/// Note as well that the dereference in this case recurses. This is a
-/// consequence of having the empty types---so it's not exactly recommended to
-/// do this in that case! (In fact, it's *usually*, though not always, pointless
-/// to do that.)
+/// Note as well that the dereference in this case recurses. This is a consequence of having the empty types---so it's
+/// not exactly recommended to do this in that case! (In fact, it's *usually*, though not always, pointless to do
+/// that.)
 pub mod demo_deref {
     use std::ops::Deref;
 
@@ -163,7 +157,7 @@ pub mod demo_deref {
     impl Deref for Origin {
         type Target = DerefTarget;
 
-        #[cfg_attr(feature = "clippy", allow(unconditional_recursion))]
+        #[allow(unconditional_recursion)]
         fn deref(&self) -> &DerefTarget {
             self
         }
@@ -179,7 +173,7 @@ mod tests {
         let capacity: usize = 4;
         let mut the_str = get_a_string_with_capacity(capacity);
         assert_eq!(the_str.capacity(), capacity);
-        the_str = the_str + "this is more than 4";
+        the_str += "this is more than 4";
         assert!(the_str.capacity() > capacity);
     }
 }

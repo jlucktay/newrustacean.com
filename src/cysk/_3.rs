@@ -34,9 +34,9 @@
 //!     + [implementations]
 //!
 //! [repo]: https://github.com/rust-lang-nursery/rls
-//! [announcement]: http://www.jonathanturner.org/2017/01/rls-alpha-release.html
-//! [alpha 2 release]: http://www.jonathanturner.org/2017/03/rls-alpha-2.html
-//! [first `rustup` release]: http://www.jonathanturner.org/2017/04/rls-now-in-nightly.md.html
+//! [announcement]: https://www.jonathanturner.org/2017/01/rls-alpha-release.html
+//! [alpha 2 release]: https://www.jonathanturner.org/2017/03/rls-alpha-2.html
+//! [first `rustup` release]: https://www.jonathanturner.org/2017/04/rls-now-in-nightly.md.html
 //! [lsp-repo]: https://github.com/Microsoft/language-server-protocol
 //! [VS Code blog post]: https://code.visualstudio.com/blogs/2016/06/27/common-language-protocol
 //! [implementations]: https://github.com/Microsoft/language-server-protocol/wiki/Protocol-Implementations
@@ -89,8 +89,8 @@
 //!
 //! [Anthony Deschamps]: https://github.com/adeschamps
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Christopher Giffard]: http://blog.cgiffard.com
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Christopher Giffard]: https://blog.cgiffard.com
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
@@ -100,8 +100,8 @@
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

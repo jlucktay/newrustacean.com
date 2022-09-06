@@ -24,8 +24,8 @@
 //! - [`keyof` and Mapped Types in TypeScript 2.1][ts-post] -- the blog post I
 //!   mentioned writing a few months ago.
 //!
-//! [jvns]: http://jvns.ca
-//! [ts-post]: http://www.chriskrycho.com/2016/keyof-and-mapped-types-in-typescript-21.html
+//! [jvns]: https://jvns.ca
+//! [ts-post]: https://www.chriskrycho.com/2016/keyof-and-mapped-types-in-typescript-21.html
 //!
 //! Sponsors
 //! --------
@@ -73,8 +73,8 @@
 //!   - Zaki
 //!
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Christopher Giffard]: http://blog.cgiffard.com
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Christopher Giffard]: https://blog.cgiffard.com
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
@@ -84,8 +84,8 @@
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

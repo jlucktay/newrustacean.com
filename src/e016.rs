@@ -73,8 +73,8 @@
 //! [discussion]: https://github.com/rust-lang/rfcs/pull/1510
 //! [implementation]: https://github.com/rust-lang/rust/pull/33553
 //! [rustup 0.3.0 release]: https://internals.rust-lang.org/t/beta-testing-rustup-rs/3316/144
-//! [Integer32]: http://www.integer32.com
-//! [announcement blog post]: http://www.integer32.com/2016/07/11/why-rust.html
+//! [Integer32]: https://www.integer32.com
+//! [announcement blog post]: https://www.integer32.com/2016/07/11/why-rust.html
 //! [reddit i32]: https://www.reddit.com/r/rust/comments/4sdncw/why_were_starting_a_rust_consultancy/
 //! [IntelliJ Rust]: https://intellij-rust.github.io
 //! [reddit ijr]: https://www.reddit.com/r/rust/comments/4sbqaq/intellijrust_has_a_website_now/
@@ -111,12 +111,12 @@
 //!   - Vesa Kaihlavirta
 //!   - [William Roe]
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
 //! [Pascal Hertleif]: https://pascalhertleif.de/
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

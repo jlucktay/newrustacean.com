@@ -28,9 +28,9 @@
 //!
 //! [Rocket]: https://rocket.rs
 //! [Hyper]: https://hyper.rs
-//! [Iron]: http://ironframework.io
+//! [Iron]: https://ironframework.io
 //! [Django]: https://www.djangoproject.com
-//! [Rails]: http://rubyonrails.org
+//! [Rails]: https://rubyonrails.org
 //! [ASP.NET MVC]: https://www.asp.net/mvc
 //! [first edition]: https://doc.rust-lang.org/book/first-edition/procedural-macros.html
 //! [RFC #1566]: https://github.com/rust-lang/rfcs/pull/1566
@@ -96,8 +96,8 @@
 //! [Anthony Deschamps]: https://github.com/adeschamps
 //! [Behnam Esfahbod]: https://github.com/behnam
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Christopher Giffard]: http://blog.cgiffard.com
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Christopher Giffard]: https://blog.cgiffard.com
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Henri Sivonen]: https://hsivonen.fi/
@@ -108,8 +108,8 @@
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

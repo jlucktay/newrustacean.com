@@ -47,22 +47,22 @@
 //!           * [crate][handlebars-crate]
 //!           * [repo][handlebars-repo]
 //!
-//! [AreWeGameYet]: http://arewegameyet.com
+//! [AreWeGameYet]: https://arewegameyet.com
 //! [AreWeIDEYet]: https://areweideyet.com
-//! [AreWeWebYet]: http://www.arewewebyet.org
+//! [AreWeWebYet]: https://www.arewewebyet.org
 //! [vision]: https://internals.rust-lang.org/t/setting-our-vision-for-the-2017-cycle/3958
 //! [Incremental Compilation]: https://blog.rust-lang.org/2016/09/08/incremental.html
 //! [internals post]: https://internals.rust-lang.org/t/want-to-help-develop-tool-for-testing-incremental-compilation/3963
 //! [repo]: https://github.com/nikomatsakis/cargo-incremental/
-//! [Elm]: http://elm-lang.org
-//! [CodeKata]: http://codekata.com
+//! [Elm]: https://elm-lang.org
+//! [CodeKata]: https://codekata.com
 //! [hyper-docs]: https://docs.rs/hyper/
 //! [hyper-crate]: https://crates.io/crates/hyper
 //! [hyper-repo]: https://github.com/hyperium/hyper
 //! [serde-docs]: https://docs.rs/serde/
 //! [serde-crate]: https://crates.io/crates/serde
 //! [serde-repo]: https://github.com/serde-rs/serde
-//! [Flask]: http://flask.pocoo.org
+//! [Flask]: https://flask.pocoo.org
 //! [pencil-docs]: https://docs.rs/pencil/
 //! [pencil-crate]: https://crates.io/crates/pencil
 //! [pencil-repo]: https://github.com/fengsp/pencil
@@ -101,13 +101,13 @@
 //!   - Vesa Kaihlavirta
 //!   - [William Roe]
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
 //! [Jupp Müller]: https://de.linkedin.com/in/juppm
 //! [Pascal Hertleif]: https://pascalhertleif.de/
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

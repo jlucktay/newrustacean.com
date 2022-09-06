@@ -66,7 +66,7 @@
 //! [in typechecking]: https://github.com/rust-lang/rust/milestone/32
 //! [Original RFC]: https://github.com/rust-lang/rfcs/blob/master/text/1525-cargo-workspace.md
 //! [discussion]: https://github.com/rust-lang/rfcs/pull/1525
-//! [Documentation]: http://doc.crates.io/manifest.html#the-workspace-section
+//! [Documentation]: https://doc.crates.io/manifest.html#the-workspace-section
 //! [Announcement post]: https://internals.rust-lang.org/t/introducing-rust-language-server-source-release/4209
 //! [Demo]: https://www.youtube.com/watch?time_continue=2405&v=pTQxHIzGqFI
 //! [Futures]: https://github.com/alexcrichton/futures-rs
@@ -109,14 +109,14 @@
 //!   - [William Roe]
 //!   - Zaki
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
 //! [Jupp Müller]: https://de.linkedin.com/in/juppm
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

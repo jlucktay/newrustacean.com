@@ -26,7 +26,7 @@
 //!
 //! [RLS reference VS Code plugin]: https://github.com/jonathandturner/rls_vscode
 //! [vscode-rust]: https://github.com/editor-rs/vscode-rust
-//! [langserver.org]: http://langserver.org
+//! [langserver.org]: https://langserver.org
 //! [The 2017 Rust Roadmap]: https://blog.rust-lang.org/2017/02/06/roadmap.html
 //! [Improved match ergonomics around references]: https://github.com/rust-lang/rust-roadmap/issues/24
 //! [const generics]: https://internals.rust-lang.org/t/lang-team-minutes-const-generics/5090
@@ -49,10 +49,10 @@
 //!
 //! [Servo]: https://servo.org
 //! [Windows nightlies]: https://blog.servo.org/2017/04/13/windows/
-//! [llvm]: http://llvm.org
-//! [OpenGL]: http://lists.llvm.org/pipermail/llvm-dev/2006-August/006497.html
+//! [llvm]: https://llvm.org
+//! [OpenGL]: https://lists.llvm.org/pipermail/llvm-dev/2006-August/006497.html
 //! [Metal]: https://developer.apple.com/metal/metal-shading-language-specification.pdf
-//! [clang]: http://clang.llvm.org
+//! [clang]: https://clang.llvm.org
 //! [swift]: https://swift.org
 //! [Project Quantum]: https://medium.com/mozilla-tech/a-quantum-leap-for-the-web-a3b7174b3c12
 //! [WebKit]: https://webkit.org
@@ -117,8 +117,8 @@
 //! [Anthony Deschamps]: https://github.com/adeschamps
 //! [Behnam Esfahbod]: https://github.com/behnam
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Christopher Giffard]: http://blog.cgiffard.com
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Christopher Giffard]: https://blog.cgiffard.com
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Henri Sivonen]: https://hsivonen.fi/
@@ -129,8 +129,8 @@
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

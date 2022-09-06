@@ -19,7 +19,7 @@
 //! As was the case with [e016], the code samples have little to say in their
 //! documentation; *reading* the code will be necessary for seeing the ideas.
 //!
-//! [e016]: http://newrustacean.dev/show_notes/e016/
+//! [e016]: https://newrustacean.dev/show_notes/e016/
 //!
 //! Links
 //! -----
@@ -44,7 +44,7 @@
 //!         * [Pointer Types][pointer-types]
 //!
 //! [raph]: https://medium.com/@raphlinus/inside-the-fastest-font-renderer-in-the-world-75ae5270c445#.1opn7gihv
-//! [blog]: http://aturon.github.io/blog/2016/07/27/rust-platform/
+//! [blog]: https://aturon.github.io/blog/2016/07/27/rust-platform/
 //! [internals]: https://internals.rust-lang.org/t/proposal-the-rust-platform/3745
 //! [reddit1]: https://www.reddit.com/r/rust/comments/4uxdn8/the_rust_platform_aaron_turon/?
 //! [hn1]: https://news.ycombinator.com/item?id=12177002
@@ -87,13 +87,13 @@
 //!   - Vesa Kaihlavirta
 //!   - [William Roe]
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
-//! [Jared Smith]: http://twitter.com/jaredthecoder
+//! [Jared Smith]: https://twitter.com/jaredthecoder
 //! [Pascal Hertleif]: https://pascalhertleif.de/
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

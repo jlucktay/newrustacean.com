@@ -130,38 +130,38 @@
 //! [Behnam Esfahbod]: https://github.com/behnam
 //! [Brent Vatne]: https://github.com/brentvatne
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Coleman McFarland]: http://github.com/anxiousmodernman
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Coleman McFarland]: https://github.com/anxiousmodernman
 //! [Damien Stanton]: https://github.com/damienstanton
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Daniel Mason]: https://github.com/gisleburt
 //! [Daniel P. Clark]: https://6ftdan.com/
-//! [David W. Allen]: http://GitHub.com/DataRiot
+//! [David W. Allen]: https://GitHub.com/DataRiot
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Fjällemark]: https://fjallemark.com/
 //! [Henri Sivonen]: https://hsivonen.fi/
 //! [Ian Jones]: https://www.ianmjones.com/
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
-//! [John Rudnick]: http://www.cindur.com/
+//! [John Rudnick]: https://www.cindur.com/
 //! [Jupp Müller]: https://de.linkedin.com/in/juppm
 //! [Karl Hobley]: https://github.com/kaedroho/
-//! [Luiz Irber]: http://luizirber.org/
+//! [Luiz Irber]: https://luizirber.org/
 //! [Martin Heuschober]: https://github.com/epsilonhalbe
 //! [Max Jacobson]: https://twitter.com/maxjacobson
 //! [Messense Lv]: https://github.com/messense
-//! [Nathan Sculli]: http://influential.co/
-//! [Nick Coish]: http://github.com/ncoish
+//! [Nathan Sculli]: https://influential.co/
+//! [Nick Coish]: https://github.com/ncoish
 //! [Nick Stevens]: https://github.com/nastevens
-//! [Oluseyi Sonaiya]: http://oluseyi.info/
+//! [Oluseyi Sonaiya]: https://oluseyi.info/
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Ramon Buckley]: http://www.inosion.com
-//! [Ryan Blecher]: http://notryanb.github.io/
+//! [Ramon Buckley]: https://www.inosion.com
+//! [Ryan Blecher]: https://notryanb.github.io/
 //! [Ryan Osial]: https://github.com/osialr
 //! [Sebastián Ramírez Magrí]: https://www.twitter.com/sebasmagri
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

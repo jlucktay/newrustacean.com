@@ -108,7 +108,7 @@ However, we have to make sure that the functions we supply for interacting with 
 
 This is exactly the same thing going on with `unsafe`. The abstraction around the unsafe code and the unsafe block itself are responsible to ensure that the function *does the right thing* with the data outside callers hand it. But now we’ve isolated it, at the programming language level, and we can know with confidence exactly where any bugs in the behavior of that unsafe abstraction come from. Or, to put a more positive spin on it, we can know where we need to focus our design and testing and verification efforts!
 
-I really liked how Nerijus Arlauskas put it in a blog post (which I have of course linked in the show notes), [Rust and OpenGL from Scratch](http://nercury.github.io/rust/opengl/tutorial/2018/02/08/opengl-in-rust-from-scratch-00-setup.html):
+I really liked how Nerijus Arlauskas put it in a blog post (which I have of course linked in the show notes), [Rust and OpenGL from Scratch](https://nercury.github.io/rust/opengl/tutorial/2018/02/08/opengl-in-rust-from-scratch-00-setup.html):
 
 > It may seem strange that “unsafe” exists at all. The reason for it is quite simple: it allows us to deal with complicated stuff once, inside a function with a safe API, and then completely forget about it when we become the users of that API. In other words, it moves the responsibility of correct API usage to API implementer.
 

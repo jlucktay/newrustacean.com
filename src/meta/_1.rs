@@ -23,7 +23,7 @@
 //!     Generators — all 445 of them!
 //!
 //! [lightning-rs]: https://github.com/chriskrycho/lightning-rs
-//! [Pelican]: http://getpelican.com
+//! [Pelican]: https://getpelican.com
 //! [Hugo]: https://gohugo.io
 //! [Jekyll]: https://jekyllrb.com
 //! [Static Site Generators]: https://staticsitegenerators.net

@@ -33,15 +33,15 @@
 //!   - [`gilrs`]: Game Input Library for Rust
 //!
 //! [`futures-rs`]: https://github.com/alexcrichton/futures-rs
-//! [futures-blog]: http://aturon.github.io/blog/2016/08/11/futures/
+//! [futures-blog]: https://aturon.github.io/blog/2016/08/11/futures/
 //! [Tokio]: https://github.com/tokio-rs/tokio
 //! [tokio-medium]: https://medium.com/@carllerche/announcing-tokio-df6bb4ddb34#.c9pqf9wyx
 //! [Friends of Rust]: https://www.rust-lang.org/en-US/friends.html
-//! [trpl]: http://words.steveklabnik.com/whats-new-with-the-rust-programming-language
+//! [trpl]: https://words.steveklabnik.com/whats-new-with-the-rust-programming-language
 //! [`ring`]: https://github.com/briansmith/ring
 //! [`alexa-rs`]: https://github.com/neil-lobracco/alexa-rs
 //! [`gilrs`]: https://gitlab.com/Arvamer/gilrs
-//! [ShaderCat]: http://www.shadercat.com
+//! [ShaderCat]: https://www.shadercat.com
 //!
 //! Sponsors
 //! --------
@@ -72,13 +72,13 @@
 //!   - Vesa Kaihlavirta
 //!   - [William Roe]
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
-//! [Jared Smith]: http://twitter.com/jaredthecoder
+//! [Jared Smith]: https://twitter.com/jaredthecoder
 //! [Pascal Hertleif]: https://pascalhertleif.de/
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

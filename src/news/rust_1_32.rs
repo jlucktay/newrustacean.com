@@ -172,14 +172,14 @@
 //! [beaorn]: https://github.com/beaorn
 //! [Behnam Esfahbod]: https://github.com/behnam
 //! [Brian McCallister]: https://skife.org/
-//! [Bryan Stitt]: http://www.stitthappens.com/
+//! [Bryan Stitt]: https://www.stitthappens.com/
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Damien Stanton]: https://github.com/damienstanton
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Daniel Mason]: https://github.com/gisleburt
 //! [Daniel P. Clark]: https://6ftdan.com/
-//! [David W. Allen]: http://GitHub.com/DataRiot
+//! [David W. Allen]: https://GitHub.com/DataRiot
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Eduard Knyshov]: https://github.com/edvorg
 //! [Embark Studios]: https://www.embark-studios.com
@@ -188,34 +188,34 @@
 //! [Graham Wihlidal]: https://wihlidal.com/
 //! [Henri Sivonen]: https://hsivonen.fi/
 //! [Ian Jones]: https://www.ianmjones.com/
-//! [Joar Wandborg]: http://github.com/joar
+//! [Joar Wandborg]: https://github.com/joar
 //! [Johan Andersson]: https://www.embark-studios.com
 //! [Jonathan Knapp]: https://www.coffeeandcode.com/
-//! [Joe Percy]: http://joetdc.com/
-//! [John Rudnick]: http://www.cindur.com/
-//! [Luiz Irber]: http://luizirber.org/
+//! [Joe Percy]: https://joetdc.com/
+//! [John Rudnick]: https://www.cindur.com/
+//! [Luiz Irber]: https://luizirber.org/
 //! [Martin Heuschober]: https://github.com/epsilonhalbe
 //! [Max Jacobson]: https://twitter.com/maxjacobson
 //! [Messense Lv]: https://github.com/messense
 //! [Michael Mc Donnell]: https://www.linkedin.com/in/michaelmcdonnell/
 //! [Michael Melanson]: https://www.michaelmelanson.net
-//! [Nathan Sculli]: http://influential.co/
-//! [Nick Coish]: http://github.com/ncoish
+//! [Nathan Sculli]: https://influential.co/
+//! [Nick Coish]: https://github.com/ncoish
 //! [Nick Stevens]: https://github.com/nastevens
 //! [Nicolas Pochet]: https://github.com/n-pochet
-//! [Oluseyi Sonaiya]: http://oluseyi.info/
+//! [Oluseyi Sonaiya]: https://oluseyi.info/
 //! [Pascal]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Ramon Buckland]: http://www.inosion.com
+//! [Ramon Buckland]: https://www.inosion.com
 //! [Robbie Clarken]: https://github.com/RobbieClarken/
-//! [Ryan Blecher]: http://notryanb.github.io/
+//! [Ryan Blecher]: https://notryanb.github.io/
 //! [Ryan Osial]: https://github.com/osialr
 //! [Sebastián Ramírez Magrí]: https://www.twitter.com/sebasmagri
 //! [Simon Dickson]: https://www.simonhdickson.com/
 //! [Steffen Loen Sunde]: https://www.ntnu.edu/employees/steffen.sunde
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

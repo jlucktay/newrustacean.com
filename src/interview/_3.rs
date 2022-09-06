@@ -57,36 +57,36 @@
 //!   the books from which Chris learned C.
 //!
 //! [XSLT]: https://developer.mozilla.org/en-US/docs/Web/XSLT
-//! [Rspec]: http://rspec.info
-//! [Rails]: http://rubyonrails.org
+//! [Rspec]: https://rspec.info
+//! [Rails]: https://rubyonrails.org
 //! [Think Through Math]: https://www.thinkthroughmath.com
 //! [Rust for Rubyists]: https://github.com/steveklabnik/rust_for_rubyists
 //! [TRPL]: https://doc.rust-lang.org/book/
-//! [Julia Evans]: http://jvns.ca
-//! [keynote]: http://jvns.ca/blog/2016/09/11/rustconf-keynote/
+//! [Julia Evans]: https://jvns.ca
+//! [keynote]: https://jvns.ca/blog/2016/09/11/rustconf-keynote/
 //! [RBE]: https://doc.rust-lang.org/rust-by-example
 //! [Rustlings]: https://github.com/carols10cents/rustlings
-//! [sass-lang]: http://sass-lang.com
+//! [sass-lang]: https://sass-lang.com
 //! [sass-impl]: https://github.com/carols10cents/sassers
 //! [IRC]: https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-community
 //! [minutes]: https://github.com/rust-community/team/tree/master/meeting-minutes
 //! [survey]: https://blog.rust-lang.org/2016/06/30/State-of-Rust-Survey-2016.html
 //! [community]: https://github.com/rust-community
-//! [TRPL update]: http://rust-lang.github.io/book/
+//! [TRPL update]: https://rust-lang.github.io/book/
 //! ["curse of knowledge"]: https://en.wikipedia.org/wiki/Curse_of_knowledge
-//! [RustConf]: http://rustconf.com
-//! [RustFest]: http://www.rustfest.eu
-//! [Rust Belt Rust]: http://www.rust-belt-rust.com
-//! [Integer32]: http://www.integer32.com
-//! [Panoptix]: http://www.panoptix.co.za/
+//! [RustConf]: https://rustconf.com
+//! [RustFest]: https://www.rustfest.eu
+//! [Rust Belt Rust]: https://www.rust-belt-rust.com
+//! [Integer32]: https://www.integer32.com
+//! [Panoptix]: https://www.panoptix.co.za/
 //! [crate]: https://crates.io/crates/nickel-jwt-session
 //! [docs]: https://docs.rs/nickel-jwt-session/
 //! [source]: https://github.com/kaj/nickel-jwt-session
-//! [so]: http://stackoverflow.com/cv/jakegoulding
+//! [so]: https://stackoverflow.com/cv/jakegoulding
 //! [Friends of the Tree]: https://github.com/rust-lang/rust-wiki-backup/blob/master/Doc-friends-of-the-tree.md
 //! [Friends of the Forest]: https://github.com/rust-community/team/issues/51
-//! [WEWLC]: http://www.alibris.com/booksearch?keyword=working%20effectively%20with%20legacy%20code
-//! [TCPL]: http://www.alibris.com/The-C-Programming-Language-Brian-Kernighan/book/875968
+//! [WEWLC]: https://www.alibris.com/booksearch?keyword=working%20effectively%20with%20legacy%20code
+//! [TCPL]: https://www.alibris.com/The-C-Programming-Language-Brian-Kernighan/book/875968
 //!
 //! Sponsors
 //! --------
@@ -119,13 +119,13 @@
 //!   - Vesa Kaihlavirta
 //!   - [William Roe]
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
 //! [Jupp Müller]: https://de.linkedin.com/in/juppm
 //! [Pascal Hertleif]: https://pascalhertleif.de/
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

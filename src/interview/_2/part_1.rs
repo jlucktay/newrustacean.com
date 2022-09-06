@@ -70,30 +70,30 @@
 //!     > repurposed by developers other than its creators. The Unix philosophy
 //!     > favors composability as opposed to monolithic design.
 //!
-//! [GIMP]: http://www.gimp.org
-//! [GTK]: http://gtk.org
-//! [GhostScript]: http://www.ghostscript.com
+//! [GIMP]: https://www.gimp.org
+//! [GTK]: https://gtk.org
+//! [GhostScript]: https://www.ghostscript.com
 //! [Google Web Fonts]: https://fonts.google.com
 //! [font-rs]: https://github.com/google/font-rs
 //! [pulldown-cmark]: https://github.com/google/pulldown-cmark
 //! [Xi Editor]: https://github.com/google/xi-editor
 //! [fuzz testing]: https://en.wikipedia.org/wiki/Fuzz_testing
-//! [sanitizers]: http://developers.redhat.com/blog/2014/12/02/address-and-thread-sanitizers-gcc/
+//! [sanitizers]: https://developers.redhat.com/blog/2014/12/02/address-and-thread-sanitizers-gcc/
 //! [FreeType]: https://www.freetype.org
 //! [HarfBuzz]: https://www.freedesktop.org/wiki/Software/HarfBuzz/
-//! [ICU]: http://site.icu-project.org
+//! [ICU]: https://site.icu-project.org
 //! [Wikipedia summary]: https://en.wikipedia.org/wiki/Rope_%28data_structure%29
-//! [original paper]: http://citeseer.ist.psu.edu/viewdoc/download?doi=10.1.1.14.9450&rep=rep1&type=pdf
-//! ["log n operation"]: http://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly
+//! [original paper]: https://citeseer.ist.psu.edu/viewdoc/download?doi=10.1.1.14.9450&rep=rep1&type=pdf
+//! ["log n operation"]: https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly
 //! [Big O notation]: https://en.wikipedia.org/wiki/Big_O_notation
 //! [`Arc`]: https://doc.rust-lang.org/std/sync/struct.Arc.html
 //! [`RefCell`]: https://doc.rust-lang.org/std/cell/struct.RefCell.html
 //! [`Borrow`]: https://doc.rust-lang.org/std/borrow/trait.Borrow.html
 //! [`AsRef`]: https://doc.rust-lang.org/std/convert/trait.AsRef.html
 //! [Crossbeam source]: https://github.com/aturon/crossbeam
-//! [Crossbeam docs]: http://aturon.github.io/crossbeam-doc/crossbeam/
+//! [Crossbeam docs]: https://aturon.github.io/crossbeam-doc/crossbeam/
 //! [Rayon source]: https://github.com/nikomatsakis/rayon
-//! [Rayon docs]: http://nikomatsakis.github.io/rayon/rayon/
+//! [Rayon docs]: https://nikomatsakis.github.io/rayon/rayon/
 //! [Unix philosophy]: https://en.wikipedia.org/wiki/Unix_philosophy
 //!
 //! Sponsors
@@ -118,11 +118,11 @@
 //!   - Vesa Kaihlavirta
 //!   - [William Roe]
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Pascal Hertleif]: https://pascalhertleif.de/
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

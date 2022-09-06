@@ -17,7 +17,7 @@
 //! - Sean's appearance on New Rustacean: [Interview 1]
 //!
 //! [ember-cli-typescript]: https://github.com/typed-ember/ember-cli-typescript
-//! [bike shed]: http://bikeshed.fm/118
+//! [bike shed]: https://bikeshed.fm/118
 //! [Interview 1]: https://www.newrustacean.com/show_notes/interview/_1/index.html
 //!
 //! Sponsors
@@ -84,10 +84,10 @@
 //! [Behnam Esfahbod]: https://github.com/behnam
 //! [Brent Vatne]: https://github.com/brentvatne
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Christopher Giffard]: http://blog.cgiffard.com
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Christopher Giffard]: https://blog.cgiffard.com
 //! [Daniel Collin]: https://twitter.com/daniel_collin
-//! [David W. Allen]: http://GitHub.com/DataRiot
+//! [David W. Allen]: https://GitHub.com/DataRiot
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Henri Sivonen]: https://hsivonen.fi/
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
@@ -100,10 +100,10 @@
 //! [Philipp Keller]: https://twitter.com/hansapla
 //! [Rob Tsuk]: https://github.com/rtsuk
 //! [Sebastián Ramírez Magrí]: https://www.twitter.com/sebasmagri
-//! [Stuart Hinson]: http://stuarth.github.io/
+//! [Stuart Hinson]: https://stuarth.github.io/
 //! [Tomaka Patreon]: https://www.patreon.com/tomaka/
-//! [arewegameyet.com]: http://arewegameyet.com/
-//! [William Roe]: http://willroe.me
+//! [arewegameyet.com]: https://arewegameyet.com/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

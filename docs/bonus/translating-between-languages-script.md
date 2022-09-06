@@ -2,9 +2,9 @@
 
 Hello, I’m Chris Krycho and this is New Rustacean: a show about the Rust Programming Language and the people who use it. This is a bonus episode on translating between programming languages.
 
-## Sponsor: [Manning Books/Rust in Motion](http://bit.ly/2OXnlEb)
+## Sponsor: [Manning Books/Rust in Motion](https://bit.ly/2OXnlEb)
 
-First up, a new sponsorship! I’m *really* excited to be partnering with Manning Books to bring you a discount on some *video content* they’ve put together. Even better because that video content is by Carol Nichols (whom I interviewed a couple years ago) and her husband Jake Goulding! I’ve been saying for years that we need more video content: it’s a huge way people learn. Manning’s Rust in Motion is one of the first major video courses for Rust I know of. You can get it for 40% off at [deals.manning.com/new-rustacean](http://bit.ly/2OXnlEb) – there’s a link in the show notes. That link actually gives you 40% off of *anything* at Manning, including their book *Rust in Action*, which is in early access preview. Thanks so much to Manning for sponsoring the show and building some great video content with Carol and Jake!
+First up, a new sponsorship! I’m *really* excited to be partnering with Manning Books to bring you a discount on some *video content* they’ve put together. Even better because that video content is by Carol Nichols (whom I interviewed a couple years ago) and her husband Jake Goulding! I’ve been saying for years that we need more video content: it’s a huge way people learn. Manning’s Rust in Motion is one of the first major video courses for Rust I know of. You can get it for 40% off at [deals.manning.com/new-rustacean](https://bit.ly/2OXnlEb) – there’s a link in the show notes. That link actually gives you 40% off of *anything* at Manning, including their book *Rust in Action*, which is in early access preview. Thanks so much to Manning for sponsoring the show and building some great video content with Carol and Jake!
 
 ## Translating from TypeScript
 

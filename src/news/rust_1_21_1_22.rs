@@ -33,11 +33,11 @@
 //! [rls]: https://www.ncameron.org/blog/when-will-the-rls-be-released/
 //! [1.22]: https://blog.rust-lang.org/2017/11/22/Rust-1.22.html
 //! [Rusty Spike]: https://rusty-spike.blubrry.net
-//! [Rust Fest]: http://www.rustfest.eu
-//! [Rust Belt Rust]: http://rust-belt-rust.com
+//! [Rust Fest]: https://www.rustfest.eu
+//! [Rust Belt Rust]: https://rust-belt-rust.com
 //! [YouTube Channel]: https://www.youtube.com/channel/UCptxtVyJkQAJZcFwBbIDZcg
-//! [script]: http://www.chriskrycho.com/2017/becoming-a-contributor.html
-//! [slides]: http://www.chriskrycho.com/talks/rust-belt-rust/
+//! [script]: https://www.chriskrycho.com/2017/becoming-a-contributor.html
+//! [slides]: https://www.chriskrycho.com/talks/rust-belt-rust/
 //! [the `Failure` crate]: https://github.com/withoutboats/failure
 //! [error-chain]: https://github.com/rust-lang-nursery/error-chain
 //! [wasm]: https://github.com/rust-lang/rust/pull/45905
@@ -123,9 +123,9 @@
 //! [Behnam Esfahbod]: https://github.com/behnam
 //! [Brent Vatne]: https://github.com/brentvatne
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: https://twitter.com/daniel_collin
-//! [David W. Allen]: http://GitHub.com/DataRiot
+//! [David W. Allen]: https://GitHub.com/DataRiot
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Henri Sivonen]: https://hsivonen.fi/
 //! [Ian Jones]: https://www.ianmjones.com/
@@ -134,16 +134,16 @@
 //! [Karl Hobley]: https://github.com/kaedroho/
 //! [Max Jacobson]: https://twitter.com/maxjacobson
 //! [Messense Lv]: https://github.com/messense
-//! [Nathan Sculli]: http://influential.co/
+//! [Nathan Sculli]: https://influential.co/
 //! [Nick Stevens]: https://github.com/nastevens
-//! [Oluseyi Sonaiya]: http://oluseyi.info
+//! [Oluseyi Sonaiya]: https://oluseyi.info
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Ryan Blecher]: http://notryanb.github.io/
+//! [Ryan Blecher]: https://notryanb.github.io/
 //! [Sebastián Ramírez Magrí]: https://www.twitter.com/sebasmagri
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

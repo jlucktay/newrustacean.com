@@ -4,7 +4,7 @@ Hello, I’m Chris Krycho and this is New Rustacean: a show about the Rust progr
 
 ## Sponsor: Manning
 
-Manning is back sponsoring the show this episode! Once again they have a discount on some Rust *video content* they’re producing with Carol Nichols || Goulding and Jake Goulding, Rust In Motion—the very same we talked about when I interviewed them back in 2018! I’ve been saying for years that we need more video content: it’s a huge way people learn. Manning’s Rust in Motion is one of the first major video *courses* for Rust I know of (though I’m happy to report other video content is starting to appear as well). You can get it for 40% off at [deals.manning.com/new-rustacean](http://bit.ly/2OXnlEb) – there’s a link in the show notes. That link actually gives you 40% off of *anything* at Manning, including their book *Rust in Action*, which is in early access preview. Thanks so much to Manning for sponsoring the show and building some great video content with Carol and Jake!
+Manning is back sponsoring the show this episode! Once again they have a discount on some Rust *video content* they’re producing with Carol Nichols || Goulding and Jake Goulding, Rust In Motion—the very same we talked about when I interviewed them back in 2018! I’ve been saying for years that we need more video content: it’s a huge way people learn. Manning’s Rust in Motion is one of the first major video *courses* for Rust I know of (though I’m happy to report other video content is starting to appear as well). You can get it for 40% off at [deals.manning.com/new-rustacean](https://bit.ly/2OXnlEb) – there’s a link in the show notes. That link actually gives you 40% off of *anything* at Manning, including their book *Rust in Action*, which is in early access preview. Thanks so much to Manning for sponsoring the show and building some great video content with Carol and Jake!
 
 ## C FFI
 
@@ -14,7 +14,7 @@ Now, let’s talk about Rust’s foreign function interface, or FFI, and specifi
 [API]: https://doc.rust-lang.org/1.33.0/std/keyword.extern.html
 [reference]: https://doc.rust-lang.org/1.33.0/reference/items/external-blocks.html
 [nomicon]: https://doc.rust-lang.org/beta/nomicon/ffi.html
-[Rust FFI Omnibus]: http://jakegoulding.com/rust-ffi-omnibus/
+[Rust FFI Omnibus]: https://jakegoulding.com/rust-ffi-omnibus/
 
 One of the key selling points for Rust is that you don’t have to just *replace* your existing code in other languages, including in C or C++, but can interoperate freely with them via C APIs—since nearly all modern languages have a C foreign function interface, or FFI. I’m actually going to talk a fair bit about that in the *next* teaching episode, both for extending other languages with Rust and for Rust calling into other languages. For today, though, we’re looking specifically at C and C++, because the interop for those other languages builds on what we have here.
 

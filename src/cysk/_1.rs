@@ -57,15 +57,15 @@
 //!   - [William Roe]
 //!   - Zaki
 //!
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Christopher Giffard]: http://blog.cgiffard.com
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Christopher Giffard]: https://blog.cgiffard.com
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
 //! [Jupp Müller]: https://de.linkedin.com/in/juppm
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

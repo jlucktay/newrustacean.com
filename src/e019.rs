@@ -81,16 +81,16 @@
 //! [underhanded.rs]: https://underhanded.rs/
 //! [`std::marker::Copy`]: https://doc.rust-lang.org/stable/std/marker/trait.Copy.html
 //! [copy-book]: https://doc.rust-lang.org/book/ownership.html#copy-types
-//! [copy-new-book]: http://rust-lang.github.io/book/ch04-01-what-is-ownership.html#stack-only-data-copy
+//! [copy-new-book]: https://rust-lang.github.io/book/ch04-01-what-is-ownership.html#stack-only-data-copy
 //! [7.2.0.2 Moved and copied types]: https://doc.rust-lang.org/reference.html#moved-and-copied-types
-//! [copy-traits-example-new-book]: http://rust-lang.github.io/book/ch10-02-traits.html#fixing-the-largest-function-with-trait-bounds
+//! [copy-traits-example-new-book]: https://rust-lang.github.io/book/ch10-02-traits.html#fixing-the-largest-function-with-trait-bounds
 //! [`std::clone::Clone`]: https://doc.rust-lang.org/stable/std/clone/trait.Clone.html
 //! [`std::borrow::Cow`]: https://doc.rust-lang.org/stable/std/borrow/enum.Cow.html
 //! [default-book]: https://doc.rust-lang.org/book/traits.html#default-methods
-//! [default-new-book]: http://rust-lang.github.io/book/ch10-02-traits.html#default-implementations
+//! [default-new-book]: https://rust-lang.github.io/book/ch10-02-traits.html#default-implementations
 //! [6.1.9 Traits]: https://doc.rust-lang.org/reference.html#traits
 //! [trait-inheritance]: https://doc.rust-lang.org/book/traits.html#inheritance
-//! [trait-inheritance-new-book]: http://rust-lang.github.io/book/ch19-00-advanced-features.html
+//! [trait-inheritance-new-book]: https://rust-lang.github.io/book/ch19-00-advanced-features.html
 //! [`std::marker`]: https://doc.rust-lang.org/stable/std/marker/
 //! [9 Special Traits]: https://doc.rust-lang.org/reference.html#special-traits
 //! [e008]: https://www.newrustacean.com/show_notes/e008/
@@ -135,8 +135,8 @@
 //!   - Zaki
 //!
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Christopher Giffard]: http://blog.cgiffard.com
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Christopher Giffard]: https://blog.cgiffard.com
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
@@ -144,8 +144,8 @@
 //! [Max Jacobson]: https://twitter.com/maxjacobson
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

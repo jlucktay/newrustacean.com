@@ -18,9 +18,9 @@
 //! - [Idris]
 //! - [Elixir]
 //!
-//! [JavaScript to Elm]: http://jstoelm.com
-//! [Idris]: http://www.idris-lang.org
-//! [Elixir]: http://www.elixir-lang.org
+//! [JavaScript to Elm]: https://jstoelm.com
+//! [Idris]: https://www.idris-lang.org
+//! [Elixir]: https://www.elixir-lang.org
 //!
 //! ### Shirts
 //!
@@ -38,17 +38,17 @@
 //!   </thead>
 //!   <tr style="text-align: center">
 //!     <td>hoodie</td>
-//!     <td colspan="2" ><img style="max-width: 50%" src="http://cdn.newrustacean.com/file/newrustacean/images/hoodie.jpg"></td>
+//!     <td colspan="2" ><img style="max-width: 50%" src="https://cdn.newrustacean.com/file/newrustacean/images/hoodie.jpg"></td>
 //!   </tr>
 //!   <tr>
 //!     <td>"heavy metal" shirt</td>
-//!     <td><img src="http://cdn.newrustacean.com/file/newrustacean/images/heavy-metal-women.jpg"></td>
-//!     <td><img src="http://cdn.newrustacean.com/file/newrustacean/images/heavy-metal-men.jpg"></td>
+//!     <td><img src="https://cdn.newrustacean.com/file/newrustacean/images/heavy-metal-women.jpg"></td>
+//!     <td><img src="https://cdn.newrustacean.com/file/newrustacean/images/heavy-metal-men.jpg"></td>
 //!   </tr>
 //!   <tr>
 //!     <td>"heather white" t-shirt</td>
-//!     <td><img src="http://cdn.newrustacean.com/file/newrustacean/images/heather-white-women.jpg"></td>
-//!     <td><img src="http://cdn.newrustacean.com/file/newrustacean/images/heather-white-men.jpg"></td>
+//!     <td><img src="https://cdn.newrustacean.com/file/newrustacean/images/heather-white-women.jpg"></td>
+//!     <td><img src="https://cdn.newrustacean.com/file/newrustacean/images/heather-white-men.jpg"></td>
 //!   </tr>
 //! </table>
 //!
@@ -62,8 +62,8 @@
 //!     </tr>
 //!   </thead>
 //!   <tr>
-//!     <td><img src="http://cdn.newrustacean.com/file/newrustacean/images/sticker-die-cut.png"></td>
-//!     <td><img src="http://cdn.newrustacean.com/file/newrustacean/images/sticker-circular.png"></td>
+//!     <td><img src="https://cdn.newrustacean.com/file/newrustacean/images/sticker-die-cut.png"></td>
+//!     <td><img src="https://cdn.newrustacean.com/file/newrustacean/images/sticker-circular.png"></td>
 //!   </tr>
 //! </table>
 //!
@@ -140,9 +140,9 @@
 //! [Behnam Esfahbod]: https://github.com/behnam
 //! [Brent Vatne]: https://github.com/brentvatne
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: https://twitter.com/daniel_collin
-//! [David W. Allen]: http://GitHub.com/DataRiot
+//! [David W. Allen]: https://GitHub.com/DataRiot
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Henri Sivonen]: https://hsivonen.fi/
 //! [Ian Jones]: https://www.ianmjones.com/
@@ -151,15 +151,15 @@
 //! [Karl Hobley]: https://github.com/kaedroho/
 //! [Max Jacobson]: https://twitter.com/maxjacobson
 //! [Messense Lv]: https://github.com/messense
-//! [Nathan Sculli]: http://influential.co/
+//! [Nathan Sculli]: https://influential.co/
 //! [Nick Stevens]: https://github.com/nastevens
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Ryan Blecher]: http://notryanb.github.io/
+//! [Ryan Blecher]: https://notryanb.github.io/
 //! [Sebastián Ramírez Magrí]: https://www.twitter.com/sebasmagri
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

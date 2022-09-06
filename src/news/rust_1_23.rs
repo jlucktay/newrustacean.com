@@ -41,7 +41,7 @@
 //! [the first news episode]: https://www.newrustacean.com/show_notes/news/_1/index.html
 //! [`impl` period announcement]: https://blog.rust-lang.org/2017/09/18/impl-future-for-rust.html
 //! [final newsletter]: https://internals.rust-lang.org/t/the-final-impl-period-newsletter/6408
-//! [diesel orm]: http://diesel.rs/
+//! [diesel orm]: https://diesel.rs/
 //! [firefox quantum]: https://www.mozilla.org/en-US/firefox/quantum/
 //! ["fearless concurrency in firefox quantum"]: https://blog.rust-lang.org/2017/11/14/Fearless-Concurrency-In-Firefox-Quantum.html
 //! [e015: not dumb pointers.]: https://www.newrustacean.com/show_notes/e015/index.html "Not dumb pointers"
@@ -53,7 +53,7 @@
 //! [Glimmer VM spike]: https://github.com/glimmerjs/glimmer-vm/pull/752
 //! ["rust and the case for webassembly in 2018"]: https://mgattozzi.com/rust-wasm
 //! ["new year’s rust: a call for community blogposts"]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
-//! [my other podcast, winning slowly]: http://www.winningslowly.org "Winning Slowly"
+//! [my other podcast, winning slowly]: https://www.winningslowly.org "Winning Slowly"
 //!
 //! Sponsors
 //! --------
@@ -134,29 +134,29 @@
 //! [Behnam Esfahbod]: https://github.com/behnam
 //! [Brent Vatne]: https://github.com/brentvatne
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Coleman McFarland]: http://github.com/anxiousmodernman
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Coleman McFarland]: https://github.com/anxiousmodernman
 //! [Daniel Collin]: https://twitter.com/daniel_collin
-//! [David W. Allen]: http://GitHub.com/DataRiot
+//! [David W. Allen]: https://GitHub.com/DataRiot
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Henri Sivonen]: https://hsivonen.fi/
 //! [Ian Jones]: https://www.ianmjones.com/
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
-//! [John Rudnick]: http://www.cindur.com/
+//! [John Rudnick]: https://www.cindur.com/
 //! [Jupp Müller]: https://de.linkedin.com/in/juppm
 //! [Karl Hobley]: https://github.com/kaedroho/
 //! [Max Jacobson]: https://twitter.com/maxjacobson
 //! [Messense Lv]: https://github.com/messense
-//! [Nathan Sculli]: http://influential.co/
+//! [Nathan Sculli]: https://influential.co/
 //! [Nick Stevens]: https://github.com/nastevens
-//! [Oluseyi Sonaiya]: http://oluseyi.info/
+//! [Oluseyi Sonaiya]: https://oluseyi.info/
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Ryan Blecher]: http://notryanb.github.io/
+//! [Ryan Blecher]: https://notryanb.github.io/
 //! [Sebastián Ramírez Magrí]: https://www.twitter.com/sebasmagri
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

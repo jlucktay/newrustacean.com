@@ -28,12 +28,12 @@
 //! [blog post]: https://blog.rust-lang.org/2017/08/31/Rust-1.20.html
 //! [changelog]: https://github.com/rust-lang/rust/blob/master/RELEASES.md#version-1200-2017-08-31
 //! [Associated items RFC]: https://github.com/rust-lang/rfcs/blob/master/text/0195-associated-items.md
-//! [RustConf 2017]: http://rustconf.com
-//! [RustFest 2017]: http://zurich.rustfest.eu
+//! [RustConf 2017]: https://rustconf.com
+//! [RustFest 2017]: https://zurich.rustfest.eu
 //! [rf-reg]: https://ti.to/asquera-event-ug/rustfest-zurich/
-//! [Rust Belt Rust 2017]: http://www.rust-belt-rust.com
+//! [Rust Belt Rust 2017]: https://www.rust-belt-rust.com
 //! [rbr-reg]: https://www.eventbrite.com/e/rust-belt-rust-conference-2017-registration-36237335847
-//! [rustrations.club]: http://rustrations.club
+//! [rustrations.club]: https://rustrations.club
 //!
 //! Sponsors
 //! --------
@@ -100,9 +100,9 @@
 //! [Behnam Esfahbod]: https://github.com/behnam
 //! [Brent Vatne]: https://github.com/brentvatne
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: https://twitter.com/daniel_collin
-//! [David W. Allen]: http://GitHub.com/DataRiot
+//! [David W. Allen]: https://GitHub.com/DataRiot
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Henri Sivonen]: https://hsivonen.fi/
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
@@ -110,14 +110,14 @@
 //! [Karl Hobley]: https://github.com/kaedroho/
 //! [Max Jacobson]: https://twitter.com/maxjacobson
 //! [Messense Lv]: https://github.com/messense
-//! [Nathan Sculli]: http://influential.co/
+//! [Nathan Sculli]: https://influential.co/
 //! [Nick Stevens]: https://github.com/nastevens
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
 //! [Sebastián Ramírez Magrí]: https://www.twitter.com/sebasmagri
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

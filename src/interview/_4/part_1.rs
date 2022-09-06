@@ -31,13 +31,13 @@
 //!
 //! [TI-99/4A]: https://en.wikipedia.org/wiki/Texas_Instruments_TI-99/4A
 //! [Commodore 64]: https://en.wikipedia.org/wiki/Commodore_64
-//! [Cray]: http://www.cray.com
-//! [Chapel]: http://chapel.cray.com
-//! [TypeScript]: http://www.typescriptlang.org
-//! [Yehuda Katz]: http://yehudakatz.com
+//! [Cray]: https://www.cray.com
+//! [Chapel]: https://chapel.cray.com
+//! [TypeScript]: https://www.typescriptlang.org
+//! [Yehuda Katz]: https://yehudakatz.com
 //! [ECMAScript Language Committee]: https://www.ecma-international.org/memento/TC39.htm
 //! [Data locality]: https://en.wikipedia.org/wiki/Locality_of_reference
-//! [CPPCast]: http://cppcast.com
+//! [CPPCast]: https://cppcast.com
 //! [BASIC]: https://en.wikipedia.org/wiki/BASIC
 //! [Pascal]: https://en.wikipedia.org/wiki/Pascal_(programming_language)
 //! [Ultima]: https://en.wikipedia.org/wiki/Ultima_%28series%29
@@ -53,9 +53,9 @@
 //!       + [error list issue]
 //!
 //! [design issue]: https://github.com/rust-lang/rust/issues/33240
-//! ["Helping with the Rust Errors"]: http://www.jonathanturner.org/2016/08/helping-out-with-rust-errors.html
+//! ["Helping with the Rust Errors"]: https://www.jonathanturner.org/2016/08/helping-out-with-rust-errors.html
 //! ["Shape of Errors to Come"]: https://blog.rust-lang.org/2016/08/10/Shape-of-errors-to-come.html
-//! [Elm]: http://elm-lang.org
+//! [Elm]: https://elm-lang.org
 //! [error list issue]: https://github.com/rust-lang/rust/issues/35233
 //!
 //! Sponsors
@@ -110,8 +110,8 @@
 //!
 //! [Anthony Deschamps]: https://github.com/adeschamps
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Christopher Giffard]: http://blog.cgiffard.com
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Christopher Giffard]: https://blog.cgiffard.com
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Henri Sivonen]: https://hsivonen.fi/
@@ -122,8 +122,8 @@
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

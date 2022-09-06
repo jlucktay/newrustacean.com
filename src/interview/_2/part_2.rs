@@ -34,15 +34,15 @@
 //!       + [Creating Ember JS - Part II]
 //!   - [Rust and Swift (xi): Hopes for the next generation of systems programming.][rust-swift-xi]
 //!
-//! [blog post]: http://blog.skylight.io/introducing-helix/
+//! [blog post]: https://blog.skylight.io/introducing-helix/
 //! [GitHub]: https://github.com/rustbridge/helix
 //! [Rust Bridge project]: https://github.com/rustbridge
 //! [original paper]: https://www.cs.rit.edu/usr/local/pub/jeh/courses/QUARTERS/FP/Labs/CedarRope/rope-paper.pdf
 //! [Rust implementation]: https://github.com/google/xi-editor/tree/master/rust/rope
 //! [C++ implementation]: https://github.com/ivmai/bdwgc/
-//! [Creating Ember JS - Part I]: http://www.codenewbie.org/podcast/creating-emberjs-part-i
-//! [Creating Ember JS - Part II]: http://www.codenewbie.org/podcast/creating-emberjs-part-ii
-//! [rust-swift-xi]: http://www.chriskrycho.com/2016/rust-and-swift-xi.html
+//! [Creating Ember JS - Part I]: https://www.codenewbie.org/podcast/creating-emberjs-part-i
+//! [Creating Ember JS - Part II]: https://www.codenewbie.org/podcast/creating-emberjs-part-ii
+//! [rust-swift-xi]: https://www.chriskrycho.com/2016/rust-and-swift-xi.html
 //!
 //! Sponsors
 //! --------
@@ -69,12 +69,12 @@
 //!   - Vesa Kaihlavirta
 //!   - [William Roe]
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
 //! [Pascal Hertleif]: https://pascalhertleif.de/
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

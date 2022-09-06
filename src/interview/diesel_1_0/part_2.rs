@@ -30,11 +30,11 @@
 //!   lattice rule]
 //!
 //! [Macros 2.0]: https://github.com/nrc/rfcs/blob/7dcb7374aee3281c261510ca5af53399a3df60f5/text/0000-macros.md
-//! [126: Speaking of Compilers...]: http://bikeshed.fm/126
-//! [135: A Series of Unfortunate Examples]: http://bikeshed.fm/135
+//! [126: Speaking of Compilers...]: https://bikeshed.fm/126
+//! [135: A Series of Unfortunate Examples]: https://bikeshed.fm/135
 //! [Generic associated types]: https://github.com/rust-lang/rfcs/blob/master/text/1598-generic_associated_types.md
 //! [multitenancy]: https://en.wikipedia.org/wiki/Multitenancy
-//! [lib]: http://tomasp.net/blog/2015/library-layers/index.html
+//! [lib]: https://tomasp.net/blog/2015/library-layers/index.html
 //! [blanket implementations]: https://doc.rust-lang.org/book/second-edition/ch10-02-traits.html#using-trait-bounds-to-conditionally-implement-methods
 //! [specialization]: https://github.com/rust-lang/rfcs/blob/master/text/1210-impl-specialization.md
 //! [coherence]: https://aturon.github.io/blog/2017/02/06/specialization-and-coherence/
@@ -123,31 +123,31 @@
 //! [Behnam Esfahbod]: https://github.com/behnam
 //! [Brent Vatne]: https://github.com/brentvatne
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Coleman McFarland]: http://github.com/anxiousmodernman
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Coleman McFarland]: https://github.com/anxiousmodernman
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Daniel P. Clark]: https://6ftdan.com/
-//! [David W. Allen]: http://GitHub.com/DataRiot
+//! [David W. Allen]: https://GitHub.com/DataRiot
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Fjällemark]: https://fjallemark.com/
 //! [Henri Sivonen]: https://hsivonen.fi/
 //! [Ian Jones]: https://www.ianmjones.com/
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
-//! [John Rudnick]: http://www.cindur.com/
+//! [John Rudnick]: https://www.cindur.com/
 //! [Jupp Müller]: https://de.linkedin.com/in/juppm
 //! [Karl Hobley]: https://github.com/kaedroho/
 //! [Max Jacobson]: https://twitter.com/maxjacobson
 //! [Messense Lv]: https://github.com/messense
-//! [Nathan Sculli]: http://influential.co/
+//! [Nathan Sculli]: https://influential.co/
 //! [Nick Stevens]: https://github.com/nastevens
-//! [Oluseyi Sonaiya]: http://oluseyi.info/
+//! [Oluseyi Sonaiya]: https://oluseyi.info/
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Ryan Blecher]: http://notryanb.github.io/
+//! [Ryan Blecher]: https://notryanb.github.io/
 //! [Sebastián Ramírez Magrí]: https://www.twitter.com/sebasmagri
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

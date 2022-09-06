@@ -28,7 +28,7 @@
 //!     namespaces and Rust modules.
 //!   - [The commit on Lightning inspired by this episode][lightning].
 //!
-//! [Learning Rust Modules]: http://walkercoderanger.com/blog/2015/08/learning-rust-modules/
+//! [Learning Rust Modules]: https://walkercoderanger.com/blog/2015/08/learning-rust-modules/
 //! [lightning]: https://github.com/chriskrycho/lightning-rs/commit/fac341d1c1b4872d62ec05253ee33f056e67d6ce
 //!
 //! Sponsors
@@ -77,8 +77,8 @@
 //!   - Zaki
 //!
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Christopher Giffard]: http://blog.cgiffard.com
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Christopher Giffard]: https://blog.cgiffard.com
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
@@ -88,8 +88,8 @@
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

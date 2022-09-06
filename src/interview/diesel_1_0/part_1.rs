@@ -40,14 +40,14 @@
 //! [Discord]: https://discordapp.com
 //! [The Diesel Gitter room]: https://gitter.im/diesel-rs/diesel
 //! [PostgreSQL]: https://www.postgresql.org
-//! [SQLite]: http://sqlite.org
-//! [MySQL]: http://mysql.com
-//! [endianness]: http://beej.us/guide/bgnet/html/multi/ipstructsdata.html#byteorder
+//! [SQLite]: https://sqlite.org
+//! [MySQL]: https://mysql.com
+//! [endianness]: https://beej.us/guide/bgnet/html/multi/ipstructsdata.html#byteorder
 //! [`byteorder` crate]: https://crates.io/crates/byteorder
 //! [object safety]: https://huonw.github.io/blog/2015/01/object-safety/
 //! [trait object]: https://doc.rust-lang.org/book/first-edition/trait-objects.html
 //! [Sean's RustConf talk]: https://www.youtube.com/watch?v=wxPehGkoNOw
-//! [monomorphization]: http://cglab.ca/~abeinges/blah/rust-reuse-and-recycle/#monomorphization
+//! [monomorphization]: https://cglab.ca/~abeinges/blah/rust-reuse-and-recycle/#monomorphization
 //! [Custom derive and procedural macros]: https://doc.rust-lang.org/book/first-edition/procedural-macros.html
 //!
 //! Sponsors
@@ -131,31 +131,31 @@
 //! [Behnam Esfahbod]: https://github.com/behnam
 //! [Brent Vatne]: https://github.com/brentvatne
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Coleman McFarland]: http://github.com/anxiousmodernman
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Coleman McFarland]: https://github.com/anxiousmodernman
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Daniel P. Clark]: https://6ftdan.com/
-//! [David W. Allen]: http://GitHub.com/DataRiot
+//! [David W. Allen]: https://GitHub.com/DataRiot
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Fjällemark]: https://fjallemark.com/
 //! [Henri Sivonen]: https://hsivonen.fi/
 //! [Ian Jones]: https://www.ianmjones.com/
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
-//! [John Rudnick]: http://www.cindur.com/
+//! [John Rudnick]: https://www.cindur.com/
 //! [Jupp Müller]: https://de.linkedin.com/in/juppm
 //! [Karl Hobley]: https://github.com/kaedroho/
 //! [Max Jacobson]: https://twitter.com/maxjacobson
 //! [Messense Lv]: https://github.com/messense
-//! [Nathan Sculli]: http://influential.co/
+//! [Nathan Sculli]: https://influential.co/
 //! [Nick Stevens]: https://github.com/nastevens
-//! [Oluseyi Sonaiya]: http://oluseyi.info/
+//! [Oluseyi Sonaiya]: https://oluseyi.info/
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Ryan Blecher]: http://notryanb.github.io/
+//! [Ryan Blecher]: https://notryanb.github.io/
 //! [Sebastián Ramírez Magrí]: https://www.twitter.com/sebasmagri
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

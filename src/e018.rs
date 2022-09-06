@@ -40,7 +40,7 @@
 //! [asref]: https://doc.rust-lang.org/stable/std/convert/trait.AsRef.html
 //! [deref]: https://doc.rust-lang.org/stable/std/ops/trait.Deref.html
 //! [pds]: https://en.wikipedia.org/wiki/Persistent_data_structure
-//! ["Rust and Rest"]: http://lucumr.pocoo.org/2016/7/10/rust-rest/
+//! ["Rust and Rest"]: https://lucumr.pocoo.org/2016/7/10/rust-rest/
 //! [sentry-cli]: https://github.com/getsentry/sentry-cli/
 //! [e008]: https://www.newrustacean.com/show_notes/e008/
 //! [e009]: https://www.newrustacean.com/show_notes/e009/
@@ -82,15 +82,15 @@
 //!   - [William Roe]
 //!   - Zaki
 //!
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Christopher Giffard]: http://blog.cgiffard.com
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Christopher Giffard]: https://blog.cgiffard.com
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Jakub "Limeth" Hlusička]: https://github.com/Limeth
 //! [Jupp Müller]: https://de.linkedin.com/in/juppm
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

@@ -54,13 +54,13 @@
 //!     I misspoke on the episode and said this was at rust-lang.org; it's not!
 //!     It's on GitHub, wtih the rest of the RFCs, of course.)
 //!
-//! [RustConf]: http://rustconf.com
-//! [Rust Belt Rust Conference]: http://www.rust-belt-rust.com
-//! [sessions]: http://www.rust-belt-rust.com/sessions/
+//! [RustConf]: https://rustconf.com
+//! [Rust Belt Rust Conference]: https://www.rust-belt-rust.com
+//! [sessions]: https://www.rust-belt-rust.com/sessions/
 //! [Rusty Radio]: https://soundcloud.com/posix4e/sets/rustyradio
-//! [feed]: http://feeds.soundcloud.com/users/soundcloud:users:1287419/sounds.rss
-//! [Rust Exercism track]: http://exercism.io/languages/rust
-//! [All exercism language tracks]: http://exercism.io/languages
+//! [feed]: https://feeds.soundcloud.com/users/soundcloud:users:1287419/sounds.rss
+//! [Rust Exercism track]: https://exercism.io/languages/rust
+//! [All exercism language tracks]: https://exercism.io/languages
 //! [RFC1636]: https://github.com/rust-lang/rfcs/pull/1636
 //! [The Stack and the Heap]: https://doc.rust-lang.org/book/the-stack-and-the-heap.html
 //! [Choosing Your Guarantees]: https://doc.rust-lang.org/book/choosing-your-guarantees.html
@@ -91,11 +91,11 @@
 //!   - Vesa Kaihlavirta
 //!   - [William Roe]
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Pascal Hertleif]: https://pascalhertleif.de/
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

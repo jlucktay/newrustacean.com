@@ -37,7 +37,7 @@ There are a few new targets to build against… most interestingly, including a
 It’s early, but it’s possible that this (along with a number of other efforts) will represent a sea change in the safety and reliability of systems programming… which we desperately need! If you’re interested in hearing more about WASI, I’ve linked to [an episode of the really excellent podcast The Bike Shed][bikeshed #195] in the show notes, where host Chris Toomey talked with Lin Clark and Till Schneidereit from Mozilla about a *bunch* of things, including WASI. And as of Rust 1.35, Rust can now target it natively (on nightly)! Now, there’s a lot missing in the standard library when targeting WASI, as you’d expect from something this early on—WASI itself is immature enough that everyone is figuring out the best way for the implementations to work! I find this incredibly cool nonetheless, and will be watching it very closely.
 
 [WASI]: https://github.com/CraneStation/wasmtime/blob/master/docs/WASI-intro.md
-[bikeshed #195]: http://bikeshed.fm/195
+[bikeshed #195]: https://bikeshed.fm/195
 
 In terms of language features and library stabilizations, there are a handful of nice improvements:
 

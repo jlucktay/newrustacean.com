@@ -54,12 +54,12 @@
 //! [Turbo Pascal]: https://en.wikipedia.org/wiki/Turbo_Pascal
 //! [Delphi]: https://en.wikipedia.org/wiki/Delphi_(programming_language)
 //! [C#]: https://docs.microsoft.com/en-us/dotnet/articles/csharp/
-//! [TypeScript]: http://www.typescriptlang.org
+//! [TypeScript]: https://www.typescriptlang.org
 //! [Serde]: https://serde.rs
 //! [Roadmap GitHub Project]: https://github.com/rust-lang-nursery/rls/projects/2
 //! [RLS reference VS Code plugin]: https://github.com/jonathandturner/rls_vscode
 //! [vscode-rust]: https://github.com/editor-rs/vscode-rust
-//! [langserver.org]: http://langserver.org
+//! [langserver.org]: https://langserver.org
 //! [The 2017 Rust Roadmap]: https://blog.rust-lang.org/2017/02/06/roadmap.html
 //! [Improved match ergonomics around references]: https://github.com/rust-lang/rust-roadmap/issues/24
 //! [const generics]: https://internals.rust-lang.org/t/lang-team-minutes-const-generics/5090
@@ -117,8 +117,8 @@
 //!
 //! [Anthony Deschamps]: https://github.com/adeschamps
 //! [Charlie Egan]: https://charlieegan3.com
-//! [Chris Palmer]: http://red-oxide.org/
-//! [Christopher Giffard]: http://blog.cgiffard.com
+//! [Chris Palmer]: https://red-oxide.org/
+//! [Christopher Giffard]: https://blog.cgiffard.com
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Henri Sivonen]: https://hsivonen.fi/
@@ -129,8 +129,8 @@
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [Patrick O'Doherty]: https://twitter.com/patrickod
 //! [Philipp Keller]: https://twitter.com/hansapla
-//! [Stuart Hinson]: http://stuarth.github.io/
-//! [William Roe]: http://willroe.me
+//! [Stuart Hinson]: https://stuarth.github.io/
+//! [William Roe]: https://willroe.me
 //!
 //! (Thanks to the couple people donating who opted out of the reward tier, as
 //! well. You know who you are!)

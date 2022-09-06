@@ -1,4 +1,4 @@
-//! Composing a Rustic tune
+//! # Composing a Rustic tune
 //!
 //!   - **Date:** 2016-01-09
 //!   - **Subject:** Getting into the nitty-gritty with Rust's traits.
@@ -10,24 +10,21 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e009.mp3">
 //! </audio>
 //!
-//! Notes
-//! -----
-//! Last time, we looked at generics and traits at a high level. This time, we
-//! dig deeper on traits, looking specifically at `std::iter::Iterator` as an
-//! example of a powerful trait that can be composed across types, and then at
-//! how we might compose multiple traits on a single type.
+//! ## Notes
 //!
-//! We also talk about the syntax for traits, the use of marker traits, some of
-//! the things you *can't* presently do with traits, and even just a smidge
-//! about the *future* of traits in Rust. All that in less than 20 minutes!
+//! Last time, we looked at generics and traits at a high level. This time, we dig deeper on traits, looking
+//! specifically at `std::iter::Iterator` as an example of a powerful trait that can be composed across types, and then
+//! at how we might compose multiple traits on a single type.
 //!
-//! You'll find today's [source example][src] fairly interesting, I think: it's
-//! just one type, but it uses almost every concept discussed on the show today!
+//! We also talk about the syntax for traits, the use of marker traits, some of the things you *can't* presently do
+//! with traits, and even just a smidge about the *future* of traits in Rust. All that in less than 20 minutes!
+//!
+//! You'll find today's [source example][src] fairly interesting, I think: it's just one type, but it uses almost every
+//! concept discussed on the show today!
 //!
 //! [src]: ../../src/show_notes/e009.rs.html
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //!   - Nick Cameron: ["Thoughts on Rust in 2016"][l1]
 //!   - ["Upcoming breakage starting in Rust 1.7, from RFCs 1214 and 136"][l2]
@@ -66,8 +63,7 @@
 //! [l17]: https://github.com/rust-lang/rfcs/pull/1210
 //! [l18]: https://aturon.github.io/blog/2015/09/18/reuse/
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Aleksey Pirogov
 //!   - Chris Palmer
@@ -89,8 +85,7 @@
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!
-//! Follow
-//! ------
+//! ## Follow
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)
@@ -105,9 +100,8 @@ use std::ops;
 
 /// Define a simple struct on which to implement `Iterator`... and more!
 ///
-/// Pull in the `Clone` and `Copy` traits so that we can create copies cheaply
-/// with `into_iter`. Derive `Debug` so error printing works. Derive `PartialEq`
-/// so items can be compared!
+/// Pull in the `Clone` and `Copy` traits so that we can create copies cheaply with `into_iter`. Derive `Debug` so
+/// error printing works. Derive `PartialEq` so items can be compared!
 ///
 /// Look at all those default implementations we get for free!
 #[derive(Clone, Copy, Debug, PartialEq)]
@@ -127,8 +121,8 @@ impl DoubleAndOne {
 
 /// Define a simple trait so we can see how it works.
 ///
-/// Note that its `a_default_print()` method becomes available automatically for
-/// `DoubleAndOne` when we `impl ASimpleTrait for DoubleAndOne` below.
+/// Note that its `a_default_print()` method becomes available automatically for `DoubleAndOne` when we `impl
+/// ASimpleTrait for DoubleAndOne` below.
 pub trait ASimpleTrait {
     /// Have the item return an integer.
     fn get_some_integer(&self) -> i64;

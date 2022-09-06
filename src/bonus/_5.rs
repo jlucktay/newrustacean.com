@@ -1,40 +1,35 @@
-//! Better than open source contributions
+//! # Better than open source contributions
 //!
 //!   - **Date:** May 9, 2016
-//!   - **Subject:** Some things matter more than contributing to open-source
-//!     software in your free time. A *lot* more.
+//!   - **Subject:** Some things matter more than contributing to open-source software in your free time. A *lot* more.
 //!   - [**Audio**][mp3]
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/5.mp3
 //!
-//! <audio style="width: 100%" title="Better than open source contributions" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/5.mp3"></audio>
+//! <audio style="width: 100%" title="Better than open source contributions" controls preload=metadata
+//! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/5.mp3"></audio>
 //!
-//! Notes
-//! -----
+//! ## Notes
 //!
-//! It's trendy to ask for open-source work as evidence of your interest in tech
-//! and commitment to software development. Trendy and *completely wrong*.
-//! Companies should not demand open-source contributions from their employees,
-//! and beyond that, should learn to recognize that *profit* is not the most
-//! valuable thing in the world. People are.
+//! It's trendy to ask for open-source work as evidence of your interest in tech and commitment to software
+//! development. Trendy and *completely wrong*. Companies should not demand open-source contributions from their
+//! employees, and beyond that, should learn to recognize that *profit* is not the most valuable thing in the world.
+//! People are.
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //!   - [Xi editor]
 //!   - [Rust survey]
 //!   - Expecting people to do open-source work
-//!       + [Python Testing 18: Testing in Startups and Hiring Software
-//!         Engineers with Joe Stump][podcast]
+//!       + [Python Testing 18: Testing in Startups and Hiring Software Engineers with Joe Stump][podcast]
 //!       + [Tweet about it by Joe Stump][tweet]
 //!
-//! [Xi editor]: https://github.com/google/xi-editor
-//! [Rust survey]: http://blog.rust-lang.org/2016/05/09/survey.html
-//! [podcast]: http://pythontesting.net/podcast/testing-in-startups-joe-stump-sprintly
+//! [Xi editor]: https://github.com/xi-editor/xi-editor
+//! [Rust survey]: https://blog.rust-lang.org/2016/05/09/survey.html
+//! [podcast]: https://pythontesting.net/podcast/testing-in-startups-joe-stump-sprintly
 //! [tweet]: https://twitter.com/joestump/status/723635220256190464
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Aleksey Pirogov
 //!   - [Chris Palmer]
@@ -53,14 +48,13 @@
 //!   - Vesa Kaihlavirta
 //!   - [William Roe]
 //!
-//! [Chris Palmer]: http://red-oxide.org/
+//! [Chris Palmer]: https://red-oxide.org/
 //! [Daniel Collin]: https://twitter.com/daniel_collin
 //! [Derek Morr]: https://twitter.com/derekmorr
 //! [Pascal Hertleif]: https://pascalhertleif.de/
-//! [William Roe]: http://willroe.me
+//! [William Roe]: https://willroe.me
 //!
-//! (Thanks to the couple people donating who opted out of the reward tier, as
-//! well. You know who you are!)
+//! (Thanks to the couple people donating who opted out of the reward tier, as well. You know who you are!)
 //!
 //! ### Become a sponsor
 //!
@@ -71,8 +65,7 @@
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
 //!
-//! Contact
-//! -------
+//! ## Contact
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

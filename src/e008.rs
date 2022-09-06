@@ -1,4 +1,4 @@
-//! Just like something else
+//! # Just like something else
 //!
 //!   - **Date:** 2015-12-27
 //!   - **Subject:** Generics, traits, and shared behavior in Rust.
@@ -6,38 +6,34 @@
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e008.mp3
 //!
-//! <audio style="width: 100%" title="Just like something else" controls preload=metadata src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e008.mp3"></audio>
+//! <audio style="width: 100%" title="Just like something else" controls preload=metadata
+//! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e008.mp3"></audio>
 //!
-//! Notes
-//! -----
-//! In this episode we cover---at a *very* high level---two more fundamental
-//! concepts in Rust programming: generics and traits.
+//! ## Notes
 //!
-//! Generics gives us the ability to write types and functions which can be
-//! used with more than one type. Traits give us the ability to specify behavior
-//! which can be implemented for more than one type. The combination gives us
+//! In this episode we cover---at a *very* high level---two more fundamental concepts in Rust programming: generics and
+//! traits.
+//!
+//! Generics gives us the ability to write types and functions which can be used with more than one type. Traits give
+//! us the ability to specify behavior which can be implemented for more than one type. The combination gives us
 //! powerful tools for higher-level programming constructs in Rust.
 //!
 //! ### Comments on source code
 //!
-//! Now that we have a handle on [how tests work][e007], we'll use them to
-//! validate the behavior of our code going forward. This is great: we can show
-//! that the tests do what we think.
+//! Now that we have a handle on [how tests work][e007], we'll use them to validate the behavior of our code going
+//! forward. This is great: we can show that the tests do what we think.
 //!
-//! To today's point, though: we actually know even apart from whether the tests
-//! *run* successfully that these generic functions and the associated traits
-//! are behaving as we want. Failure with generics is a *compile*-time error,
-//! not a runtime error.
+//! To today's point, though: we actually know even apart from whether the tests *run* successfully that these generic
+//! functions and the associated traits are behaving as we want. Failure with generics is a *compile*-time error, not a
+//! runtime error.
 //!
 //! [e007]: ../e007/index.html
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //!   - Rust Book
 //!       + [Generics][l1]
-//!       + [Traits][l2] ([advanced][l2a]) -- includes a discussion of *trait bounds* and *generic
-//!         *traits*
+//!       + [Traits][l2] ([advanced][l2a]) -- includes a discussion of *trait bounds* and *generic traits*
 //!   - Rust by Example
 //!       + [Generics][l3]
 //!       + [Traits][l4]
@@ -54,8 +50,7 @@
 //! [l6]: https://doc.rust-lang.org/rust-by-example/generics/bounds.html
 //! [l7]: https://github.com/diesel-rs/diesel/blob/master/diesel/src/sql_types/mod.rs
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Chris Palmer
 //!   - [Derek Morr][sponsors-2]
@@ -75,8 +70,7 @@
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!
-//! Follow
-//! ------
+//! ## Follow
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)
@@ -90,11 +84,10 @@ use std::fmt;
 
 /// Demonstrate a function *generic* over any type.
 ///
-/// This uses a cross-language convention for generics, where `T` represents the
-/// generic *type*. If we have more than one generic type, it's traditional to
-/// represent it with following letters, after `T`: `U`, `V`, `W`, etc. (If you
-/// have four *different* generic parameters, I'm probably going to look askance
-/// at your API design, though, to be honest.)
+/// This uses a cross-language convention for generics, where `T` represents the generic *type*. If we have more than
+/// one generic type, it's traditional to represent it with following letters, after `T`: `U`, `V`, `W`, etc. (If you
+/// have four *different* generic parameters, I'm probably going to look askance at your API design, though, to be
+/// honest.)
 #[allow(clippy::needless_pass_by_value)]
 pub fn a_generic<T>(_t: T) {
     println!("The function works, but I can't actually do anything with the `_t`.");
@@ -122,8 +115,7 @@ pub struct SimpleType {
 
 /// Define the display format for the `SimpleType`.
 ///
-/// Note that this works because `String` and `i32` both already have display
-/// types implemented themselves!
+/// Note that this works because `String` and `i32` both already have display types implemented themselves!
 impl fmt::Display for SimpleType {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         write!(f, "string: {} | integer: {}", self.a, self.b)
@@ -132,9 +124,8 @@ impl fmt::Display for SimpleType {
 
 /// This is just a container which can hold any two types.
 ///
-/// These types can even be the same, but they don't have to be. Moreover, they
-/// can be generic types themselves; as you can see in the tests below, you can
-/// use built-in or user-created generic types within this generic type.
+/// These types can even be the same, but they don't have to be. Moreover, they can be generic types themselves; as you
+/// can see in the tests below, you can use built-in or user-created generic types within this generic type.
 pub struct GenericContainer<T, U> {
     pub t: T,
     pub u: U,
@@ -195,20 +186,18 @@ mod tests {
     #[test]
     #[allow(clippy::no_effect_underscore_binding)]
     fn test_generic_enum() {
-        // `_nothing` must have its type specified because it can't be inferred
-        // from the context. Generics can be type-inferred (see below), but as
-        // with all types in Rust, when they can't be, you specify them.
+        // `_nothing` must have its type specified because it can't be inferred from the context. Generics can be
+        // type-inferred (see below), but as with all types in Rust, when they can't be, you specify them.
         let _nothing: Maybe<i32> = Maybe::Nothing;
         let _just_25 = Maybe::Just(25);
         let _just_str = Maybe::Just("whoa");
         let _just_slice = Maybe::Just([1, 2, 3]);
         // Here we have a generic enum, wrapping a generic container, `Vec<T>`!
         let _just_vec = Maybe::Just(vec![1, 2, 3]);
-        // Things could get complicated if we need to define a `Maybe::Nothing`
-        // for a `Vec`: we need to specify the `Vec` type as well:
+        // Things could get complicated if we need to define a `Maybe::Nothing` for a `Vec`: we need to specify the
+        // `Vec` type as well:
         let _no_vec: Maybe<Vec<i32>> = Maybe::Nothing;
-        // Normally that woudn't be a problem, because it would be inferred by
-        // the context, with a pattern match:
+        // Normally that wouldn't be a problem, because it would be inferred by the context, with a pattern match:
         let pattern = false;
         let _maybe_vec = if pattern {
             Maybe::Just(vec![1, 2, 3])
@@ -225,8 +214,7 @@ mod tests {
             t: 14.0,
             u: "alpha",
         };
-        // But it can also contain generic types, like `Vec<T>` or the `Maybe`
-        // type we defined above.
+        // But it can also contain generic types, like `Vec<T>` or the `Maybe` type we defined above.
         let _another = GenericContainer {
             t: vec![1, 2, 3],
             u: Maybe::Just("a string"),

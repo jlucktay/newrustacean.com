@@ -191,5 +191,5 @@
 //!     + GitHub: [chriskrycho](https://github.com/chriskrycho)
 //!     + Twitter: [@chriskrycho](https://www.twitter.com/chriskrycho)
 
-#[doc(include = "../docs/bonus/translating-between-languages-script.md")]
+#[doc = include_str!("../../docs/bonus/translating-between-languages-script.md")]
 pub struct Script;

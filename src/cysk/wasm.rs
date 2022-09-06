@@ -157,5 +157,5 @@
 //!     + GitHub: [chriskrycho](https://github.com/chriskrycho)
 //!     + Twitter: [@chriskrycho](https://www.twitter.com/chriskrycho)
 
-#[doc(include = "../docs/cysk/serde.md")]
+#[doc = include_str!("../../docs/cysk/serde.md")]
 pub struct Script;

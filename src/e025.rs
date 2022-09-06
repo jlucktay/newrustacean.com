@@ -257,5 +257,5 @@ pub fn distance_from_impl<'a, 'b: 'a>(offset: &'b Point) -> impl FnMut(&'a Point
     }
 }
 
-#[doc(include = "../docs/e025-script.md")]
+#[doc = include_str!("../docs/e025-script.md")]
 pub struct Script;

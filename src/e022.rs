@@ -143,7 +143,7 @@
 
 use std::thread;
 
-#[doc(include = "../docs/e022-script.md")]
+#[doc = include_str!("../docs/e022-script.md")]
 pub struct Script;
 
 /// How `Send` and `Sync` work

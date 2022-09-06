@@ -1,4 +1,4 @@
-//! Sean Griffin on Rust, ORMs, and Web Frameworks
+//! # Sean Griffin on Rust, ORMs, and Web Frameworks
 //!
 //!   - **Date:** February 15, 2016
 //!   - **Subject:** Rust, ORMs, and Web Frameworks
@@ -10,15 +10,12 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/1/part_1.mp3">
 //! </audio>
 //!
-//! Notes
-//! -----
+//! ## Notes
 //!
-//! Chris chats with Sean Griffin about his programming background and initial
-//! experience with Rust, Rust's appeal, and what he's doing with Diesel and
-//! some of his plans for a new web framework in Rust.
+//! Chris chats with Sean Griffin about his programming background and initial experience with Rust, Rust's appeal, and
+//! what he's doing with Diesel and some of his plans for a new web framework in Rust.
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //!   - [Ruby on Rails][l1]
 //!   - [Active Record][l2]
@@ -56,8 +53,7 @@
 //! [l16]: https://bikeshed.fm/23
 //! [l17]: https://thoughtbot.gumroad.com/l/maybe-haskell
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Aleksey Pirogov
 //!   - Chris Palmer
@@ -81,8 +77,7 @@
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!
-//! Follow
-//! ------
+//! ## Follow
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

@@ -1,8 +1,8 @@
-//! Sean Griffin on type systems and hopes for Rust's future
+//! # Sean Griffin on type systems and hopes for Rust's future
 //!
 //!   - **Date:** February 25, 2016
-//!   - **Subject:** Type system strengths and weaknesses, and the weird corners
-//!     of Rust (with some hopes for its future)
+//!   - **Subject:** Type system strengths and weaknesses, and the weird corners of Rust (with some hopes for its
+//!     future)
 //!   - [**Audio**][mp3]
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/1/part_2.mp3
@@ -11,32 +11,25 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/1/part_2.mp3">
 //! </audio>
 //!
-//! Notes
-//! -----
+//! ## Notes
 //!
-//! Chris chats with Sean Griffin about the tradeoffs between mental overhead
-//! and type safety, the expressiveness of different type systems, and some of
-//! the places where Rust currently falls down.
+//! Chris chats with Sean Griffin about the tradeoffs between mental overhead and type safety, the expressiveness of
+//! different type systems, and some of the places where Rust currently falls down.
 //!
 //! ### Corrigenda
 //!
-//! Sean noted he could be wrong about `IEnumerable<T>` not having a `Sum`
-//! method in C♯, and post-show research indicated that he was (it's possible it
-//! was added after he had stopped doing .NET work, of course). See the
-//! [documentation][c1] for details on how `IEnumerable<T>.Sum` it behaves in C♯
-//! if you're curious.
+//! Sean noted he could be wrong about `IEnumerable<T>` not having a `Sum` method in C♯, and post-show research
+//! indicated that he was (it's possible it was added after he had stopped doing .NET work, of course). See the
+//! [documentation][c1] for details on how `IEnumerable<T>.Sum` it behaves in C♯ if you're curious.
 //!
-//! As a related note, I (Chris) have done a little bit of digging on C♯ in the
-//! interval and it's fair to say that while a lot of the "ceremony" involved in
-//! writing C♯ is annoying, it's much more than just a "slightly nicer Java",
-//! and indeed is a much nicer language than my previous, limited exposure had
-//! led me to believe. It's no Rust or F♯, but its type system is substantially
-//! more capable than Java's.
+//! As a related note, I (Chris) have done a little bit of digging on C♯ in the interval and it's fair to say that
+//! while a lot of the "ceremony" involved in writing C♯ is annoying, it's much more than just a "slightly nicer Java",
+//! and indeed is a much nicer language than my previous, limited exposure had led me to believe. It's no Rust or F♯,
+//! but its type system is substantially more capable than Java's.
 //!
 //! [c1]: https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-6.0
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //!   - fmap
 //!       + [Discussion of `fmap` with `Optional` in Swift][l1]
@@ -54,8 +47,7 @@
 //! [l5]: https://github.com/rust-lang/rust/issues/31844
 //! [l6]: https://github.com/diesel-rs/diesel
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Aleksey Pirogov
 //!   - Chris Palmer
@@ -79,8 +71,7 @@
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!
-//! Follow
-//! ------
+//! ## Follow
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

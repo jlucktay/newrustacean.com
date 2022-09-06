@@ -138,7 +138,7 @@
 //! [Hans Fjällemark]: https://fjallemark.com/
 //! [Henri Sivonen]: https://hsivonen.fi/
 //! [Ian Jones]: https://www.ianmjones.com/
-//! [Joar Wandborg]: Joar Wandborg
+//! [Joar Wandborg]: https://github.com/joar
 //! [John Rudnick]: https://www.cindur.com/
 //! [Jupp Müller]: https://de.linkedin.com/in/juppm
 //! [Karl Hobley]: https://github.com/kaedroho/

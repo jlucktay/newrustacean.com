@@ -478,7 +478,7 @@ Note: And that's a good place to wrap things up! I hope you're feeling like _you
 
 ## More info
 
-* https://www.rust-lang.org/en-US/contribute.html
-* https://blog.rust-lang.org/2017/09/18-impl-future-for-rust.html
-* https://internals.rust-lang.org/
+* <https://www.rust-lang.org/en-US/contribute.html>
+* <https://blog.rust-lang.org/2017/09/18-impl-future-for-rust.html>
+* <https://internals.rust-lang.org>
 * `#rust`, `#rust-community`, `#rust-internals`, etc. on irc.mozilla.org

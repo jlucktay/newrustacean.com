@@ -1,4 +1,4 @@
-//! Macros rule!
+//! # Macros rule!
 //!
 //!   - **Date:** 2016-01-18
 //!   - **Subject:** Using Rust's macro system, its limitations, and its future.
@@ -10,24 +10,22 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e010.mp3">
 //! </audio>
 //!
-//! Notes
-//! -----
+//! ## Notes
 //!
-//! Because of the way macros are exported---before name resolution on crates
-//! occurs---the documentation for the macros defined in the source for this
-//! episode occurs in the [**Macros** section of the `show_notes` crate][n1]
-//! documentation, rather than within the documentation for this module. (See
-//! the Rust Book discussion of [documenting macros][n2] for details.) Even so,
-//! the [source][n3] is still in this module; see the [implementations][n4] for
+//! Because of the way macros are exported---before name resolution on crates occurs---the documentation for the macros
+//! defined in the source for this episode occurs in the [**Macros** section of the `show_notes` crate][n1]
+//! documentation, rather than within the documentation for this module. (See the Rust Book discussion of [documenting
+//! macros][n2] for details.) Even so, the [source][n3] is still in this module; see the [implementations][n4] for
 //! details.
 //!
 //! [n1]: https://www.newrustacean.com/show_notes/#macros
-//! [n2]: https://doc.rust-lang.org/stable/book/ch14-02-publishing-to-crates-io.html#making-useful-documentation-comments
+//! [n2]:
+//!     https://doc.rust-lang.org/stable/book/ch14-02-publishing-to-crates-io.html#making-useful-documentation-comments
 //! [n3]: https://www.newrustacean.com/src/show_notes/e009.rs.html
 //! [n4]: https://www.newrustacean.com/src/show_notes/e010.rs.html#101
 //!
-//! Links
-//! -----
+//! ## Links
+//!
 //!   - Julia Evans: ["Why I (Heart) Rust"][l1]
 //!   - Steve Klabnik: ["`IntermezzOS`"][l2] (a small teaching OS built in Rust)
 //!   - [Rust book: Macros][l3]
@@ -70,8 +68,7 @@
 //! [l18]: https://www.ncameron.org/blog/macro-plans-syntax/
 //! [l19]: https://www.ncameron.org/blog/procedural-macros-framework/
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Aleksey Pirogov
 //!   - Chris Palmer
@@ -93,8 +90,7 @@
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!
-//! Follow
-//! ------
+//! ## Follow
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)
@@ -106,9 +102,8 @@
 
 /// Define a macro like `try!` but which works in the context of `main()`.
 ///
-/// [`try!`][try] takes a `Result<T, E>` and, if it is `Ok<T>`, supplies the `T`
-/// value, or if it is `Err<E>` returns the error from the function. However,
-/// since `main` has a void tuple `()` return type, you cannot use `try!` in
+/// [`try!`][try] takes a `Result<T, E>` and, if it is `Ok<T>`, supplies the `T` value, or if it is `Err<E>` returns
+/// the error from the function. However, since `main` has a void tuple `()` return type, you cannot use `try!` in
 /// `main()`. This `main_try!` macro instead debug-prints the error and returns.
 ///
 /// [try]: https://doc.rust-lang.org/std/macro.try!.html
@@ -145,9 +140,8 @@ macro_rules! main_try {
 
 /// Define an ident macro to show how they can capture different *syntax*.
 ///
-/// Whereas `main_try!` captured *expressions*, `print_ident_name!` captures
-/// *identifiers*. If you try to pass in an expression, it simply won't work.
-/// So, if you tried to do any of these, it won't compile:
+/// Whereas `main_try!` captured *expressions*, `print_ident_name!` captures *identifiers*. If you try to pass in an
+/// expression, it simply won't work. So, if you tried to do any of these, it won't compile:
 ///
 /// ```rust,ignore
 /// # #[macro_use] extern crate show_notes;
@@ -158,8 +152,7 @@ macro_rules! main_try {
 /// # }
 /// ```
 ///
-/// Instead, it will complain that it expected an identifier, and you handed it
-/// something else.
+/// Instead, it will complain that it expected an identifier, and you handed it something else.
 ///
 /// On the other hand, this works just fine:
 ///
@@ -171,9 +164,8 @@ macro_rules! main_try {
 /// # }
 /// ```
 ///
-/// In this case, the implementation uses two other macros: `format!` and
-/// `stringify!`, to accomplish its work. This highlights the reality that
-/// macros can use any other language machinery, including other macros.
+/// In this case, the implementation uses two other macros: `format!` and `stringify!`, to accomplish its work. This
+/// highlights the reality that macros can use any other language machinery, including other macros.
 #[macro_export]
 macro_rules! print_ident_name {
     ($id:ident) => {
@@ -191,9 +183,8 @@ pub fn demonstrate_try(tr: TryResult) -> TryResult {
     // If the caller passes in an error, this returns that error.
     let val = tr?;
 
-    // Thus, if `tr` was `Err`, we'll never get here. If it's an `Ok`, `val` has
-    // the value, so we can return it slightly modified to show that that's what
-    // actually happened.
+    // Thus, if `tr` was `Err`, we'll never get here. If it's an `Ok`, `val` has the value, so we can return it
+    // slightly modified to show that that's what actually happened.
     Ok(val + 1)
 }
 

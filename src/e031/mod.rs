@@ -327,6 +327,7 @@ pub extern "C" fn concat_strings(first: *const c_char, second: *const c_char) ->
 }
 
 /// Free any string allocated by Rust.
+#[allow(unused_must_use)]
 #[no_mangle]
 pub extern "C" fn free_rust_string(to_free: *mut c_char) {
     // If the pointer is already `null`, we're done here. (Don't double `free`!)

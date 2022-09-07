@@ -1,4 +1,4 @@
-//! Raph Levien on Rust's current strengths and places it can improve
+//! # Raph Levien on Rust's current strengths and places it can improve
 //!
 //!   - **Date:** July 4, 2016
 //!   - **Subject:** Using Rust for prototyping and exploring computer science
@@ -11,15 +11,13 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/2/part_2.mp3">
 //! </audio>
 //!
-//! Notes
-//! -----
+//! ## Notes
 //!
 //! Chris chats with Raph Levien about what inspired him to build a text editor,
 //! as well as about where the rough edges in the Rust development story are
 //! today, and how we might improve them going forward.
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //!   - Rust/Ruby bridge: Helix
 //!       + [blog post]
@@ -44,8 +42,7 @@
 //! [Creating Ember JS - Part II]: https://www.codenewbie.org/podcast/creating-emberjs-part-ii
 //! [rust-swift-xi]: https://www.chriskrycho.com/2016/rust-and-swift-xi.html
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Aleksey Pirogov
 //!   - [Chris Palmer]
@@ -88,8 +85,7 @@
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
 //!
-//! Contact
-//! -------
+//! ## Contact
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

@@ -1,1 +1,10 @@
-doc-valid-idents = ["FriarTech", "HackerNews", "RustConf", "WebRender", ".."]
+doc-valid-idents = [
+  "FreeType",
+  "FriarTech",
+  "GhostScript",
+  "HackerNews",
+  "HarfBuzz",
+  "RustConf",
+  "WebRender",
+  "..",
+]

@@ -1,8 +1,8 @@
-//! Raph Levien on using Rust to build the Xi editor
+//! # Raph Levien on using Rust to build the Xi editor
 //!
 //!   - **Date:** June 24, 2016
-//!   - **Subject:** The Xi Editor project as a window into complex data
-//!     structures, memory management, and the Unix philosophy.
+//!   - **Subject:** The Xi Editor project as a window into complex data structures, memory management, and the Unix
+//!     philosophy.
 //!   - [**Audio**][mp3]
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/2/part_1.mp3
@@ -11,16 +11,13 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/2/part_1.mp3">
 //! </audio>
 //!
-//! Notes
-//! -----
+//! ## Notes
 //!
-//! Chris chats with Raph Levien about his background in software development,
-//! what attracted him to Rust, and how he's using Rust to build the Xi Editor,
-//! a project which aims to be the fastest text editor out there, with native
-//! user interfaces and a Rust text engine.
+//! Chris chats with Raph Levien about his background in software development, what attracted him to Rust, and how he's
+//! using Rust to build the Xi Editor, a project which aims to be the fastest text editor out there, with native user
+//! interfaces and a Rust text engine.
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //!   - Past work:
 //!
@@ -60,15 +57,14 @@
 //!       + [`AsRef`]
 //!   - Rust libraries
 //!
-//!       + Crossbeam: [source][Crossbeam source] | [docs][Crossbeam docs]
-//!       + Rayon: [source][Rayon source] | [docs][Rayon docs]
+//!       + Crossbeam: [source][Crossbeam source] | [docs][Crossbeam docs]   + Rayon: [source][Rayon source] |
+//!     [docs][Rayon docs]
 //!
 //!   - [Unix philosophy]
 //!
-//!     > The Unix philosophy emphasizes building simple, short, clear,
-//!     > modular, and extensible code that can be easily maintained and
-//!     > repurposed by developers other than its creators. The Unix philosophy
-//!     > favors composability as opposed to monolithic design.
+//!     > The Unix philosophy emphasizes building simple, short, clear, modular, and extensible code that can be easily
+//!     > maintained and repurposed by developers other than its creators. The Unix philosophy favors composability as
+//!     > opposed to monolithic design.
 //!
 //! [GIMP]: https://www.gimp.org
 //! [GTK]: https://gtk.org
@@ -96,8 +92,7 @@
 //! [Rayon docs]: https://nikomatsakis.github.io/rayon/rayon/
 //! [Unix philosophy]: https://en.wikipedia.org/wiki/Unix_philosophy
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Aleksey Pirogov
 //!   - [Chris Palmer]
@@ -124,8 +119,7 @@
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [William Roe]: https://willroe.me
 //!
-//! (Thanks to the couple people donating who opted out of the reward tier, as
-//! well. You know who you are!)
+//! (Thanks to the couple people donating who opted out of the reward tier, as well. You know who you are!)
 //!
 //! ### Become a sponsor
 //!
@@ -136,8 +130,7 @@
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
 //!
-//! Contact
-//! -------
+//! ## Contact
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

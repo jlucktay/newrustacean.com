@@ -1,4 +1,4 @@
-//! Hello, world!
+//! # Hello, world!
 //!
 //!   - **Date:** September 24, 2015
 //!   - **Subject:** The host, the language, and the show!

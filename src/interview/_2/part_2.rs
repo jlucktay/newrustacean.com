@@ -1,8 +1,8 @@
 //! # Raph Levien on Rust's current strengths and places it can improve
 //!
 //!   - **Date:** July 4, 2016
-//!   - **Subject:** Using Rust for prototyping and exploring computer science
-//!     problems, and places where Rust can improve going forward.
+//!   - **Subject:** Using Rust for prototyping and exploring computer science problems, and places where Rust can
+//!     improve going forward.
 //!   - [**Audio**][mp3]
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/interview/2/part_2.mp3
@@ -13,9 +13,8 @@
 //!
 //! ## Notes
 //!
-//! Chris chats with Raph Levien about what inspired him to build a text editor,
-//! as well as about where the rough edges in the Rust development story are
-//! today, and how we might improve them going forward.
+//! Chris chats with Raph Levien about what inspired him to build a text editor, as well as about where the rough edges
+//! in the Rust development story are today, and how we might improve them going forward.
 //!
 //! ## Links
 //!
@@ -73,8 +72,7 @@
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [William Roe]: https://willroe.me
 //!
-//! (Thanks to the couple people donating who opted out of the reward tier, as
-//! well. You know who you are!)
+//! (Thanks to the couple people donating who opted out of the reward tier, as well. You know who you are!)
 //!
 //! ### Become a sponsor
 //!

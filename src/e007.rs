@@ -1,4 +1,4 @@
-//! Testify
+//! # Testify
 //!
 //!   - **Date:** December 13, 2015
 //!   - **Subject:** Testing and benchmarking, and compiler attributes.
@@ -9,8 +9,7 @@
 //! <audio style="width: 100%" title="Testify" controls preload=metadata
 //! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e007.mp3"></audio>
 //!
-//! Notes
-//! -----
+//! ## Notes
 //!
 //! All about testing in Rust! In order, we take a look at:
 //!
@@ -34,8 +33,7 @@
 //! the `extern crate test` statement needs to be not in this module, but at the module (`lib.rs`) which defines the
 //! library/crate; in this case, `show_notes/lib.rs`.
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //! - Rust Book:
 //!     + [Testing][links-1]
@@ -52,8 +50,7 @@
 //! [links-5]: https://bikeshed.fm/31
 //! [links-6]: https://bikeshed.fm/32
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Chris Palmer
 //!   - [Derek Morr][sponsors-2]
@@ -73,8 +70,7 @@
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!
-//! Follow
-//! ------
+//! ## Follow
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

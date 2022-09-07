@@ -1,4 +1,4 @@
-//! Functionalized
+//! # Functionalized
 //!
 //!   - **Date:** October 29, 2015
 //!   - **Subject:** Functions, methods, closures, and function as arguments!
@@ -9,11 +9,11 @@
 //! <audio style="width: 100%" title="Functionalized" controls preload=metadata
 //! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e004.mp3"></audio>
 //!
-//! # Notes
+//! ## Notes
 //!
 //! This week's episode covers the basics of all sorts of functions: normal functions, methods, and closures.
 //!
-//! ## Closures
+//! ### Closures
 //!
 //!   - [An explanation (in Ruby) by Martin Fowler][notes-1]
 //!   - [Rust book][notes-2]
@@ -29,7 +29,7 @@
 //! [notes-4]: https://programmers.stackexchange.com/questions/40454/what-is-a-closure
 //! [notes-5]: https://stackoverflow.com/questions/36636/what-is-a-closure
 //!
-//! # Links
+//! ## Links
 //!
 //!  - [Exercism][link-1] (hat tip: [Lechindanier on GitHub][link-2])
 //!  - [Rust Learning][link-3]
@@ -40,7 +40,7 @@
 //! [link-3]: https://github.com/ctjhoa/rust-learning
 //! [link-4]: https://www.chriskrycho.com/2015/rust-and-swift-viii.html
 //!
-//! # Follow/Support
+//! ## Follow/Support
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)
@@ -172,8 +172,7 @@ pub fn demonstrate_function_arguments() {
     // You can pass a normally defined function.
     assert_eq!(apply_function_to_i64(double, 2), 4);
 
-    // You can also pass a closure, defined inline or standalone.
-    // Inline closure definition:
+    // You can also pass a closure, defined inline or standalone. Inline closure definition:
     assert_eq!(apply_function_to_i64(|n| n * n, 5), 25);
 
     // Standalone closure definition

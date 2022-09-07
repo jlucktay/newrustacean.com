@@ -1,8 +1,7 @@
-//! Once upon a type
+//! # Once upon a type
 //!
 //!   - **Date:** March 6, 2016
-//!   - **Subject:** Type systems: strong vs. weak, dynamic vs. static, and
-//!     degrees of expressivity.
+//!   - **Subject:** Type systems: strong vs. weak, dynamic vs. static, and degrees of expressivity.
 //!   - [**Audio**][mp3]
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e011.mp3
@@ -11,8 +10,7 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e011.mp3">
 //! </audio>
 //!
-//! Notes
-//! -----
+//! ## Notes
 //!
 //! Talking about type systems! A broad and wide-ranging discussion about type systems in general, with specific
 //! examples from languages like PHP, JavaScript, Python, C, C++, Java, C♯, Haskell, and Rust!
@@ -29,8 +27,7 @@
 //! nonsense (unless you're using this as a way of operating on memory addresses), but it's compileable nonsense. In a
 //! stricter and stronger type system, memory addresses and normal numbers shouldn't be addable!
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //!   - [Rust 1.7 released][l1]
 //!       + [`HashMap` changes][l2]
@@ -44,8 +41,7 @@
 //! [l4]: https://jadpole.github.io/rust/type-system
 //! [l5]: https://cglab.ca/~abeinges/blah/rust-reuse-and-recycle/
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Aleksey Pirogov
 //!   - Chris Palmer
@@ -72,8 +68,7 @@
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!
-//! Contact
-//! -------
+//! ## Contact
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)
@@ -174,11 +169,9 @@ impl TypeSystem {
 
 /// An incredibly contrived function which just shows enums at work.
 ///
-/// I wanted there to be *some* sample code this episode, you know? This one
-/// just assembles the types into a vector and prints them all. It does,
-/// however, let us refresh ourselves on a bunch of other concepts we've covered
-/// on the show---pretty much everything but generics makes an appearance in
-/// some way in this module.
+/// I wanted there to be *some* sample code this episode, you know? This one just assembles the types into a vector and
+/// prints them all. It does, however, let us refresh ourselves on a bunch of other concepts we've covered on the
+/// show---pretty much everything but generics makes an appearance in some way in this module.
 pub fn describe_type_systems() {
     let js = TypeSystem::builder(
         "ECMAScript",

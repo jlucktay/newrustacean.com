@@ -1,8 +1,7 @@
-//! Polyglot programming promises and perils
+//! # Polyglot programming promises and perils
 //!
 //!   - **Date:** November 25, 2015
-//!   - **Subject:** The delights and challenges of knowing (or even just
-//!     learning) lots of languages.
+//!   - **Subject:** The delights and challenges of knowing (or even just learning) lots of languages.
 //!   - [**Audio**](https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/bonus/1.mp3)
 //!
 //! <audio style="width: 100%" title="Polyglot programming promises and perils" controls preload=metadata
@@ -12,7 +11,7 @@
 //! behaving like it should... and then, prompted by the interviewer, you realize that you're not returning anything.
 //! Polyglot programming is beautiful, and wonderful, and sometimes it bites you when you aren't looking.
 //!
-//! # Links
+//! ## Links
 //!
 //!   - [Scala][links-1]
 //!   - [F♯][links-2]
@@ -22,21 +21,21 @@
 //! [links-2]: https://fsharp.org
 //! [links-3]: https://elixir-lang.org
 //!
-//! # Sponsors
+//! ## Sponsors
 //!
 //!   - reddraggone9
 //!   - [Chris Patti][sponsors-1]
 //!
 //! [sponsors-1]: https://podcastinit.com
 //!
-//! ## Become a sponsor
+//! ### Become a sponsor
 //!
 //!   - <a href="https://www.patreon.com/newrustacean" rel="payment">Patreon</a>
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!
-//! # Follow
+//! ## Follow
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

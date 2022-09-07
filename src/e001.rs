@@ -1,8 +1,7 @@
-//! Document all the things!
+//! # Document all the things!
 //!
 //!   - **Date:** October 3, 2015
-//!   - **Subject:** Documentation in general, and `rustdoc` and `cargo doc` in
-//!     particular.
+//!   - **Subject:** Documentation in general, and `rustdoc` and `cargo doc` in particular.
 //!   - [**Audio**][mp3]
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e001.mp3
@@ -10,11 +9,11 @@
 //! <audio style="width: 100%" title="Document all the things!" controls preload=metadata
 //! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e001.mp3"></audio>
 //!
-//! # Notes
+//! ## Notes
 //!
 //! This is a mostly-empty module, and it is intended as such. Why? Well, because *almost* all the sample code exists
-//! in these comments, which serve as the show notes. If you listen to the episode or take a look at the
-//! [source files][src], you'll see how it works!
+//! in these comments, which serve as the show notes. If you listen to the episode or take a look at the [source
+//! files][src], you'll see how it works!
 //!
 //! [src]: ../../src/show_notes/e001.rs.html
 //!
@@ -29,7 +28,7 @@
 //!
 //! [1]: https://github.com/rust-lang/rfcs/blob/master/text/0505-api-comment-conventions.md
 //!
-//! # Links
+//! ## Links
 //!   - [Rust and MSVC tracking issue][2]
 //!   - Other documentation tools:
 //!       + Predecessors:
@@ -62,9 +61,10 @@
 //! [13]: https://github.com/brson/taskcluster-crater
 //! [14]: https://semver.org
 //! [15]: https://blog.rust-lang.org/2014/10/30/Stability.html
-//! [16]: https://doc.rust-lang.org/book/second-edition/ch14-02-publishing-to-crates-io.html#making-useful-documentation-comments
+//! [16]:
+//!     https://doc.rust-lang.org/book/second-edition/ch14-02-publishing-to-crates-io.html#making-useful-documentation-comments
 //!
-//! # Follow/Support
+//! ## Follow/Support
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

@@ -1,8 +1,7 @@
-//! No. more. nulls.
+//! # No. more. nulls.
 //!
 //!   - **Date:** October 21, 2015
-//!   - **Subject:** Enumerated (`enum`) types, pattern matching, and meaningful
-//!     return values.
+//!   - **Subject:** Enumerated (`enum`) types, pattern matching, and meaningful return values.
 //!   - [**Audio**][mp3]
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e003.mp3
@@ -10,7 +9,7 @@
 //! <audio style="width: 100%" title="No. more. nulls." controls preload=metadata
 //! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e003.mp3"></audio>
 //!
-//! # Notes
+//! ## Notes
 //!
 //! Today's episode discusses, in order:
 //!
@@ -21,7 +20,7 @@
 //!   - Using the `Option` and `Result` enumerated types with pattern matching to provide meaningful returns from
 //!     functions safely.
 //!
-//! ## Order
+//! ### Order
 //!
 //! There is a specific order to the examples below, and it is *not* the automatically-alphabetized order rendered by
 //! `rustdoc`. Instead, you should work through in the sequence they appear in the [source]:
@@ -58,7 +57,7 @@
 //! [link-4]: https://github.com/carols10cents/rustlings
 //! [link-5]: https://jakegoulding.com/rust-ffi-omnibus/basics/
 //!
-//! # Follow/Support
+//! ## Follow/Support
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

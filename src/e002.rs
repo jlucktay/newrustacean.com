@@ -1,8 +1,8 @@
-//! Something borrowed, something... moved?
+//! # Something borrowed, something... moved?
 //!
 //!   - **Date:** October 12, 2015
-//!   - **Subject:** The `struct` data type constructor, and the basics of
-//!     Rust's "ownership" concept and "borrowing" and "moving".
+//!   - **Subject:** The `struct` data type constructor, and the basics of Rust's "ownership" concept and "borrowing"
+//!     and "moving".
 //!   - [**Audio**][mp3]
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e002.mp3
@@ -10,7 +10,7 @@
 //! <audio style="width: 100%" title="Something borrowed, something... moved?" controls preload=metadata
 //! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e002.mp3"></audio>
 //!
-//! # Notes
+//! ## Notes
 //!
 //! Today's episode discusses, and the associated source code demonstrates, a few basic behaviors of structs...
 //! including borrowing!
@@ -24,7 +24,7 @@
 //!
 //! [`src`]: ../../src/show_notes/e002.rs.html
 //!
-//! # Links
+//! ## Links
 //!
 //!   - `rustfmt` -- a tool for formatting Rust code
 //!       + [repo][1]
@@ -40,7 +40,7 @@
 //! [4]: https://github.com/nikomatsakis/rfcs/blob/incremental-compilation/text/0000-incremental-compilation.md
 //! [5]: https://github.com/rust-lang/rfcs/pull/1298
 //!
-//! # Follow/Support
+//! ## Follow/Support
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)
@@ -72,8 +72,9 @@ pub fn demonstrate_ownership() {
     borrow(&immutable);
 
     // You can't borrow an immutable type mutably.
-    // borrow_mut(&mut immutable);
-
+    //
+    //     borrow_mut(&mut immutable);
+    //
     // You can borrow a mutable type immutably, *or* mutably.
     borrow(&mutable);
     borrow_mut(&mut mutable);
@@ -87,8 +88,8 @@ pub fn demonstrate_ownership() {
     // not accessible after this because it actually gets dropped, i.e. de-allocated.
     move_circle(immutable);
     move_circle(mutable);
-    // println!("Immutable: {:?}", immutable);
-    // println!("Mutable: {:?}", mutable);
+    println!("Immutable: {:?}", immutable);
+    println!("Mutable: {:?}", mutable);
 }
 
 /// Demonstrates general borrowing of an immutable reference.
@@ -100,10 +101,12 @@ pub fn borrow(ref_to_circle: &Circle) {
     );
 
     // You can uncomment this to see the compiler error if you try to *change* the contents.
-    // ref_to_circle.r *= 2.0;
-
+    //
+    //     ref_to_circle.r *= 2.0;
+    //
     // Similarly, if you try to reassign the reference itself, it will fail:
-    // *ref_to_circle = Circle::new()
+    //
+    //     *ref_to_circle = Circle::new()
 }
 
 /// Demonstrates general borrowing of a mutable reference.
@@ -123,10 +126,12 @@ pub fn move_circle(moved_circle: Circle) {
     println!("Moved a circle: {:?}", moved_circle);
 
     // Note that this is an immutable type: this won't compile.
-    // moved_circle.r *= 2.0;
-
+    //
+    //     moved_circle.r *= 2.0;
+    //
     // We own the object, but it's still immutable, so we can't reassign the name as we like.
-    // moved_circle = Circle::new(4.5, 9.0, 18.0);
+    //
+    //     moved_circle = Circle::new(4.5, 9.0, 18.0);
 }
 
 /// Implement some methods on the `Circle`.

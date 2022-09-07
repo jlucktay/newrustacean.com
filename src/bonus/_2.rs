@@ -1,4 +1,4 @@
-//! Legacy code
+//! # Legacy code
 //!
 //!   - **Date:** December 6, 2015
 //!   - **Subject:** Paying off technical debt, refactoring, and cleaning up old code.
@@ -13,7 +13,7 @@
 //! with legacy code? When should you rip out the old and rewrite it, and when should you opt for smaller clean-up jobs
 //! because, however ugly, what is already present *works*?
 //!
-//! # Sponsors
+//! ## Sponsors
 //!
 //!   - Chris Palmer
 //!   - [Derek Morr][sponsors-2]
@@ -26,14 +26,14 @@
 //! [sponsors-2]: https://twitter.com/derekmorr
 //! [sponsors-7]: https://willroe.me
 //!
-//! ## Become a sponsor
+//! ### Become a sponsor
 //!
 //!   - <a href="https://www.patreon.com/newrustacean" rel="payment">Patreon</a>
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!
-//! # Follow
+//! ## Follow
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

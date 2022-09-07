@@ -1,8 +1,8 @@
-//! Allocate it where?
+//! # Allocate it where?
 //!
 //!   - **Date:** November 8, 2015
-//!   - **Subject:** Returning functions from other functions, and thinking
-//!     about the stack, the heap, and reference types.
+//!   - **Subject:** Returning functions from other functions, and thinking about the stack, the heap, and reference
+//!     types.
 //!   - [**Audio**][mp3]
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e005.mp3
@@ -10,7 +10,7 @@
 //! <audio style="width: 100%" title="Allocate it where?" controls preload=metadata
 //! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e005.mp3"></audio>
 //!
-//! # Notes
+//! ## Notes
 //!
 //! This episode, we look at returning functions from other functions, and as part of that discuss some basics about
 //! the stack and the heap---and why we need to care about them for returning functions.
@@ -20,7 +20,7 @@
 //! instead at the documentation for each (or just read the [source][notes-1]!), because that's where the meat of the
 //! discussion in this week's code is.
 //!
-//! ## Corrigenda
+//! ### Corrigenda
 //!
 //!   - Steve Klabnik [pointed out][notes-2] that my description of `Vector` types as totally heap-allocated was
 //!     misleading. It's better to say that the *contents* of the `Vector` -- its data -- is heap-allocated, while the
@@ -35,10 +35,11 @@
 //! Thanks to Steve and Chad for their helpful feedback!
 //!
 //! [notes-1]: ../../src/show_notes/e005.rs.html
-//! [notes-2]: https://users.rust-lang.org/t/new-rustacean-podcast-e005-allocate-it-where-2015-11-08/3153/13?u=chriskrycho
+//! [notes-2]:
+//!     https://users.rust-lang.org/t/new-rustacean-podcast-e005-allocate-it-where-2015-11-08/3153/13?u=chriskrycho
 //! [notes-3]: https://github.com/chriskrycho/newrustacean.com/issues/7
 //!
-//! # Links
+//! ## Links
 //!
 //!   - [Rust 1.4 release announcement][links-1]
 //!   - ["Clarify (and improve) rules for projections and well-formedness"][links-2]
@@ -52,21 +53,21 @@
 //! [links-4]: https://github.com/brson/rust/blob/relnotes/RELEASES.md
 //! [links-5]: https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap
 //!
-//! # Sponsors
+//! ## Sponsors
 //!
 //!   - reddraggone9
 //!   - [Chris Patti][sponsors-1]
 //!
 //! [sponsors-1]: https://podcastinit.com
 //!
-//! ## Become a sponsor
+//! ### Become a sponsor
 //!
 //!   - <a href="https://www.patreon.com/newrustacean" rel="payment">Patreon</a>
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!
-//! # Follow
+//! ## Follow
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

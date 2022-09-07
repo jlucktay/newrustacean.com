@@ -1,4 +1,4 @@
-//! Modularize this!
+//! # Modularize this!
 //!
 //!   - **Date:** November 16, 2015
 //!   - **Subject:** Designing APIs, and using packages ("crates") and modules
@@ -9,7 +9,7 @@
 //! <audio style="width: 100%" title="Modularize this!" controls preload=metadata
 //! src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e006.mp3"></audio>
 //!
-//! # Notes
+//! ## Notes
 //!
 //! Today, we are talking about modules, packages, and APIs in Rust. Taking a bit of a breather after some pretty hard
 //! material the last few weeks.
@@ -20,14 +20,14 @@
 //! [notes-2]: https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html
 //! [notes-3]: https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html
 //!
-//! ## Corrigenda
+//! ### Corrigenda
 //!
 //! I accidentally called this episode 5, instead of episode 6. *Whoops.*
 //!
 //! Just before the 15:00 mark, while discussing libraries, I referred to "e006.md" when I meant to say "e006.rs".
 //! Slips of the tongue inspired by the fact that Rust (delightfully) uses Markdown for its documentation.
 //!
-//! # Links
+//! ## Links
 //!
 //!   - [Roguelike in Rust][links-1]
 //!   - [Yehuda Katz on Ruby FFI][links-2]
@@ -35,28 +35,28 @@
 //! [links-1]: https://jaredonline.svbtle.com/roguelike-tutorial-table-of-contents
 //! [links-2]: https://engineering.intercom.io/yehuda-on-rust-with-ruby/
 //!
-//! # Module Docs!
+//! ## Module Docs!
 //!
 //! As you've no doubt noted if you've actually looked at the show notes along the way, these are in fact module docs!
 //! Because we're inside a module marked off by being a file, we *have* to use the `//!` style of documentation
 //! comments to mark them off. However, as you'll see below, if we structure or declare modules in other ways, we will
 //! not have the same restriction.
 //!
-//! # Sponsors
+//! ## Sponsors
 //!
 //!   - reddraggone9
 //!   - [Chris Patti][sponsors-1]
 //!
 //! [sponsors-1]: https://podcastinit.com
 //!
-//! ## Become a sponsor
+//! ### Become a sponsor
 //!
 //!   - <a href="https://www.patreon.com/newrustacean" rel="payment">Patreon</a>
 //!   - [Venmo](https://venmo.com/chriskrycho)
 //!   - [Dwolla](https://www.dwolla.com/hub/chriskrycho)
 //!   - [Cash.me](https://cash.me/$chriskrycho)
 //!
-//! # Follow
+//! ## Follow
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)

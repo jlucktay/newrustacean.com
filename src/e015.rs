@@ -1,8 +1,7 @@
-//! Not dumb pointers.
+//! # Not dumb pointers
 //!
 //!   - **Date:** June 17, 2016
-//!   - **Subject:** `Box`, `String`, `Vec`, `Rc`, and `Arc` have this in
-//!     common: they're not dumb.
+//!   - **Subject:** `Box`, `String`, `Vec`, `Rc`, and `Arc` have this in common: they're not dumb.
 //!   - [**Audio**][mp3]
 //!
 //! [mp3]: https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e015.mp3
@@ -11,37 +10,32 @@
 //!   <source src="https://www.podtrac.com/pts/redirect.mp3/cdn.newrustacean.com/file/newrustacean/e015.mp3">
 //! </audio>
 //!
-//! Notes
-//! -----
+//! ## Notes
 //!
-//! This episode, we take a close look at smart pointer types---from a few we've
-//! already talked about, like `Box`, `Vec`, and `String`, to some new ones,
-//! like `Rc` and `Arc`.
+//! This episode, we take a close look at smart pointer types---from a few we've already talked about, like `Box`,
+//! `Vec`, and `String`, to some new ones, like `Rc` and `Arc`.
 //!
 //!   - What smart pointers are, and what makes them 'smart'.
 //!   - Why we want or need smart pointers.
 //!   - A bit about `Box`.
 //!   - A lot more about `Rc` and `Arc`.
 //!
-//! ***Note:*** The examples below are in-progress: the `Rc` example is complete
-//! but not fully documented, and there's no examples yet for `Arc`---but there
-//! will be! I expect to finish them over the course of this weekend, but I
+//! ***Note:*** The examples below are in-progress: the `Rc` example is complete but not fully documented, and there's
+//! no examples yet for `Arc`---but there will be! I expect to finish them over the course of this weekend, but I
 //! wanted to go ahead and get the episode out!
 //!
 //! ### Further reading
 //!
 //!   - _The Rust Programming Language_:
 //!       + [The Stack and the Heap]
-//!       + [Choosing Your Guarantees] -- see especially the sections on
-//!         `Rc` and `Arc`.
+//!       + [Choosing Your Guarantees] -- see especially the sections on `Rc` and `Arc`.
 //!   - Rust by Example: [17.1: Box, stack, and heap][rbe]
 //!   - API docs:
 //!       + [`std::boxed`]
 //!       + [`std::rc`]
 //!       + [`stc::sync::Arc`]
 //!
-//! Links
-//! -----
+//! ## Links
 //!
 //!   - [RustConf]
 //!   - [Rust Belt Rust Conference]
@@ -50,9 +44,8 @@
 //!       + [feed]
 //!   - [Rust Exercism track]
 //!       + [All exercism language tracks]
-//!   - [RFC 1636: Require documentation for all new features.][RFC1636] (Note:
-//!     I misspoke on the episode and said this was at rust-lang.org; it's not!
-//!     It's on GitHub, wtih the rest of the RFCs, of course.)
+//!   - [RFC 1636: Require documentation for all new features.][RFC1636] (Note: I misspoke on the episode and said this
+//!     was at rust-lang.org; it's not! It's on GitHub, with the rest of the RFCs, of course.)
 //!
 //! [RustConf]: https://rustconf.com
 //! [Rust Belt Rust Conference]: https://www.rust-belt-rust.com
@@ -69,8 +62,7 @@
 //! [`std::rc`]: https://doc.rust-lang.org/std/rc/index.html
 //! [`stc::sync::Arc`]: https://doc.rust-lang.org/std/sync/struct.Arc.html
 //!
-//! Sponsors
-//! --------
+//! ## Sponsors
 //!
 //!   - Aleksey Pirogov
 //!   - [Chris Palmer]
@@ -97,8 +89,7 @@
 //! [Pascal Hertleif]: https://pascalhertleif.de/
 //! [William Roe]: https://willroe.me
 //!
-//! (Thanks to the couple people donating who opted out of the reward tier, as
-//! well. You know who you are!)
+//! (Thanks to the couple people donating who opted out of the reward tier, as well. You know who you are!)
 //!
 //! ### Become a sponsor
 //!
@@ -109,8 +100,7 @@
 //!   - [Flattr](https://flattr.com/profile/chriskrycho)
 //!   - [PayPal.me](https://paypal.me/chriskrycho)
 //!
-//! Contact
-//! -------
+//! ## Contact
 //!
 //!   - New Rustacean:
 //!     + Twitter: [@newrustacean](https://www.twitter.com/newrustacean)
@@ -119,35 +109,29 @@
 //!     + GitHub: [chriskrycho](https://github.com/chriskrycho)
 //!     + Twitter: [@chriskrycho](https://www.twitter.com/chriskrycho)
 //!
-//! Examples
-//! --------
+//! ## Examples
 //!
-//! The most basic examples of smart pointers involve the `Box` type, which
-//! we've talked about before. Assume we had a type `Foo` which took a string in
-//! its constructor, and that we wanted to box it up. We would just write:
+//! The most basic examples of smart pointers involve the `Box` type, which we've talked about before. Assume we had a
+//! type `Foo` which took a string in its constructor, and that we wanted to box it up. We would just write:
 //!
 //! ```rust,ignore
 //! let someFoo = Box::new(Foo::new("bar"));
 //! ```
 //!
-//! It's also worth comparing the Rust code above with similar code in C++.
-//! Assume we have a `class` with the same name; using a smart pointer (in this
-//! case, `unique_ptr`, returned from `make_unique`) would give us this code:
+//! It's also worth comparing the Rust code above with similar code in C++. Assume we have a `class` with the same
+//! name; using a smart pointer (in this case, `unique_ptr`, returned from `make_unique`) would give us this code:
 //!
 //! ```cpp
 //! const auto someFoo = std::make_unique<const Foo>("bar");
 //! ```
 //!
-//! Both examples declare a smart pointer named `someFoo` that points to an
-//! immutable/constant `Foo` and where the pointer itself is immutable/constant.
-//! However, note that the Rust code is briefer and (at least in my opinion)
-//! substantially clearer than the corresponding C++ code to express the same
-//! semantic content.
+//! Both examples declare a smart pointer named `someFoo` that points to an immutable/constant `Foo` and where the
+//! pointer itself is immutable/constant. However, note that the Rust code is briefer and (at least in my opinion)
+//! substantially clearer than the corresponding C++ code to express the same semantic content.
 //!
-//! I'm not including further comments on `Box` here in the docs, because we've
-//! covered it before and it's fairly straightforward. The rest of these
-//! materials focus entirely on `Rc` and `Arc`, as those are the most
-//! interesting bits from today's episode.
+//! I'm not including further comments on `Box` here in the docs, because we've covered it before and it's fairly
+//! straightforward. The rest of these materials focus entirely on `Rc` and `Arc`, as those are the most interesting
+//! bits from today's episode.
 
 use std::rc::{Rc, Weak};
 // use std::sync::Arc;  // TODO
@@ -158,8 +142,9 @@ pub struct FileData {
 }
 
 impl FileData {
-    pub fn new(contents: &str) -> FileData {
-        FileData {
+    #[must_use]
+    pub fn new(contents: &str) -> Self {
+        Self {
             contents: contents.to_string(),
         }
     }
@@ -169,7 +154,7 @@ pub struct ASendableType {}
 
 /// Note that this function is *generic*: it will work for any type.
 pub fn print_rc_count<T>(t: &Rc<T>) {
-    println!("Reference count: {:}", Rc::strong_count(&t));
+    println!("Reference count: {:}", Rc::strong_count(t));
 }
 
 /// Note that this function is not generic because it assumes `FileData`.
@@ -201,31 +186,32 @@ pub fn demonstrate_rc() {
     // Most explicit form:
     let a_weak_ref: Weak<FileData> = Rc::downgrade(&added_another_ref);
     // clone the weak ref.
-    let _another_weak_ref = a_weak_ref.clone();
+    let _another_weak_ref = a_weak_ref;
     print_rc_count(&added_another_ref); // still 1.
 
     // Now we *move* the reference into the other function.
-    let empty_weak = get_empty_weak(added_another_ref);
+    let empty_weak = get_empty_weak(&added_another_ref);
 
-    match empty_weak.upgrade() {
-        Some(fd) => println!("{:}", fd.contents),
-        None => println!("Nothing to see here. We're done."),
-    }
+    empty_weak.upgrade().map_or_else(
+        || println!("Nothing to see here. We're done."),
+        |fd| println!("{:}", fd.contents),
+    );
 }
 
 /// Note that this takes ownership of the data.
-pub fn get_empty_weak(fd: Rc<FileData>) -> Weak<FileData> {
-    Rc::downgrade(&fd)
+#[must_use]
+pub fn get_empty_weak(fd: &Rc<FileData>) -> Weak<FileData> {
+    Rc::downgrade(fd)
 }
 
+#[must_use]
 pub fn get_wrapped_file_data() -> Rc<FileData> {
     let plain_data = FileData::new("This would really read from a file. And not be terrible.");
-    // Both of these now have "strong" references to the type. Neither "trumps"
-    // the other; whichever goes out of scope first will be deallocated, but
-    // *without* affecting the other.
+    // Both of these now have "strong" references to the type. Neither "trumps" the other; whichever goes out of scope
+    // first will be deallocated, but *without* affecting the other.
     let wrapped = Rc::new(plain_data);
     print_rc_count(&wrapped);
-    let a_reference_to_it = wrapped.clone();
+    let a_reference_to_it = wrapped;
     print_rc_count(&a_reference_to_it);
 
     a_reference_to_it
